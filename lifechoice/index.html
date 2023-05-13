@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Game of Lifes - v0.1</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Game of Lifes - v0.1</h1>
+        <div id="score-box">Score: 0</div>
+        <div id="round-box">Round: 1</div>
+        <div id="turn-box">Turn: 0/10</div>
+        <div id="sky-image"></div>
+        <div id="options-container">
+            <button class="game-button" id="take-photo">Take a photo</button>
+            <button class="game-button" id="check-email">Check your email</button>
+            <button class="game-button" id="meditate">Meditate</button>
+            <button class="game-button" id="eat-ice-cream">Eat ice cream</button>
+        </div>
+        <button id="next-round" style="display: none;">Next Round</button>
+        <button id="end-game">End Game</button>
+    </div>
+    <div id="game-summary">
+        <h2>About the Game</h2>
+        <p>This game presents the player with a series of choices in each round, changing the emoji in the center to reflect different life events. The player can increase their score and advance through rounds by making different choices.</p>
+        <h2>Prompts</h2>
+        <table>
+    <tr>
+        <th>Prompt</th>
+    </tr>
+    <tr>
+        <td>Design a game for me using HTML, CSS, and JavaScript. The game has a central box with a random image of a sky in it. There are boxes on each side of that central box you can click to make a choice each turn. The boxes say "take a photo", "check your email", "meditate", "eat ice cream". There is a score box at the top right of the screen. Each time you click a box the score goes up by one. On the left hand side of the screen there is a box that keeps track of what round of the game you are on. There are 10 turns in a round. At the end of each round you can click a button to play another round and your score resets and the round counter goes up by 1. You can also click a button to end the game and the game will thank you and give you the option of playing again.</td>
+    </tr>
+    <tr>
+        <td>Change this so the next round option only shows up at the end of the round. Also create a photo of a sunset to put in the center box.</td>
+    </tr>
+    <tr>
+        <td>Instead of an image in the central block, replace it with a random emoji each round. The emojis should be representing life things, like nature, family, and work, with a mix of positive and negative life events.</td>
+    </tr>
+    <tr>
+        <td>The emojis are showing up as weird characters.</td>
+    </tr>
+    <tr>
+        <td>Change the code so each turn the emoji changes.</td>
+    </tr>
+    <tr>
+        <td>Change the HTML so that if you scroll down the page you get a short couple sentence summary of the game and a table listing the full prompts used in this session with no code.</td>
+    </tr>
+    <tr>
+        <td>Include a turn counter showing the user where they are in the game. Don't truncate the prompts in the prompt table.</td>
+    </tr>
+    <tr>
+        <td>Keep going.</td>
+    </tr>
+    <tr>
+        <td>Make the turn counter give you the turn and the total numbers of turns. So if you are on turn 2 it will say 2/10.</td>
+    </tr>
+    <tr>
+        <td>Give it the title "Game of Lifes" and the version number .1.</td>
+    </tr>
+</table>
+
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
