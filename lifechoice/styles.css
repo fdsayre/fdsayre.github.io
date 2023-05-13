@@ -1,0 +1,58 @@
+/* styles.css */
+
+#game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+#score-box, #round-box {
+    position: absolute;
+    top: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#score-box {
+    right: 10px;
+}
+
+#round-box {
+    left: 10px;
+}
+
+#sky-image {
+    width: 200px;
+    height: 200px;
+    background: url('https://example.com/randomSkyImage.jpg');
+    background-size: cover;
+}
+
+#options-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.game-button {
+    margin: 0 10px;
+}
+
+#next-round, #end-game {
+    margin-top: 20px;
+}
+
+/* styles.css */
+
+/* ... previous styles ... */
+
+#sky-image {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
