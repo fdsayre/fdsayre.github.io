@@ -1,5 +1,26 @@
 /* styles.css */
 
+body {
+    transition: background-color 0.5s, color 0.5s;
+}
+
+body.light-mode {
+    background-color: white;
+    color: black;
+}
+
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+#button-container {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: 10%;
+}
+
 #game-container {
     display: flex;
     flex-direction: column;
