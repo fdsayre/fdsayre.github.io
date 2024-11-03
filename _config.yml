@@ -103,11 +103,11 @@ defaults:
   - scope:
       path: ""
       type: apar2024
-    values:
-      layout: single
-      author_profile: false
-      share: true
-      toc: true
+      values:
+        layout: single
+        author_profile: false
+        share: true
+        toc: true
    # _projects
   - scope:
       path: ""
