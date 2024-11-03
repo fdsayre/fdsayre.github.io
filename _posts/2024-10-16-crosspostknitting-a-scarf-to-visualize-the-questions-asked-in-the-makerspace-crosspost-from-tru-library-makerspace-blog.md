@@ -1,5 +1,4 @@
 ---
-layout: post
 title: CrosspostKnitting a Scarf to Visualize the Questions Asked in the Makerspace
   (Crosspost from TRU Library Makerspace Blog)
 description: None
@@ -17,6 +16,7 @@ tags:
 - projects
 - textiles
 ---
+
 Note: this post is cross-posted to the TRU Library Makerspace Blog and the original was posted here: [Knitting a Scarf to Visualize the Questions Asked in the Makerspace – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2024/09/23/knitting-a-scarf-to-visualize-the-questions-asked-in-the-makerspace/)
 
 We recently added a king size Addi circular knitting machine to the Makerspace, and inspired by [Making Research Tactile: Critical Making and Data Physicalization in Digital Humanities](https://dhandlib.org/2024/04/29/making-research-tactile/) I decided to make a scarf that would visualize the number of questions we’ve answered in the Makerspace since we opened in March, 2022.
