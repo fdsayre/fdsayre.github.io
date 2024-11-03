@@ -101,7 +101,7 @@ defaults:
       author_profile: true
   # _apar2024
   - scope:
-      path: ""
+      path: "_apar2024"
       type: apar2024
       values:
         layout: single
