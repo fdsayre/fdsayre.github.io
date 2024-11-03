@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: "Professional Role: Makerspace Librarian"
 toc: true
 ---
