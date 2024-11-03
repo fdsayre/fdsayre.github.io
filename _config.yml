@@ -13,15 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
+title: Franklin Sayre
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Academic Librarian at Thompson Rivers University 
 twitter_username: username
 github_username: username
-minimal_mistakes_skin: default
+minimal_mistakes_skin: dirt
 search: true
 
 # Build settings
@@ -58,34 +56,24 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Franklin Sayre"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "I’m the Makerspace Librarian at Thompson Rivers University and also Co-Chair the Librarians’ Department. These days I am particularly interested in creating active learning spaces that foster belonging and encouraging sustainability and critical thinking about technology and information."
   links:
-    - label: "Website"
+    - label: "TRU Library Makerspace"
       icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://makerspace.trubox.ca/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-
+      url: "https://instagram.com/fdsayre"
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+    - label: "TRU Library Makerspace"
+      icon: "fas fa-fw fa-link"
+      url: "https://makerspace.trubox.ca/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/fdsayre"
 
 defaults:
   # _posts
@@ -106,6 +94,22 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _apar2024
+  - scope:
+      path: ""
+      type: apar2024
+    values:
+      layout: single
+      author_profile: false
+      share: true
+   # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: false
+      share: true
 
 category_archive:
   type: liquid
@@ -113,3 +117,11 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+collections:
+  apar2024:
+    output: true
+    permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
