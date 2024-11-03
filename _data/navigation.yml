@@ -9,3 +9,5 @@ main:
     url: /about/
   - title: "Pages"
     url: /pages/
+  - title: "APAR 2024"
+    url: /apar2024/
