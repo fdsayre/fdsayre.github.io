@@ -21,6 +21,11 @@ twitter_username: username
 github_username: username
 minimal_mistakes_skin: dirt
 search: true
+repository: "fdsayre/fdsayre.github.io"
+locale: "en-US"
+
+
+
 
 # Build settings
 markdown: kramdown
