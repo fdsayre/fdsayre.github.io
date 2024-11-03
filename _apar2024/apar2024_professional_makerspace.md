@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Professional Role: Makerspace Librarian"
+toc: true
 ---
 
 # Summary
