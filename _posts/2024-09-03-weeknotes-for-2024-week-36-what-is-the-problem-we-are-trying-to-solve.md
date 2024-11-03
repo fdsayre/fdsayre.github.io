@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'WeekNotes for 2024 Week 36: What is the problem we are trying to solve?'
 description: None
 date: 2024-09-03 13:50:28 -0000

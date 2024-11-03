@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'WeekNotes for 2024 Week 19: The emotional impacts of working in a space built
   for change'
 description: None

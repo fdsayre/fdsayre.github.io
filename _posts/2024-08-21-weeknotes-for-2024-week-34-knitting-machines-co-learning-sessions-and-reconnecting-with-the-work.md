@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'WeekNotes for 2024 Week 34: Knitting Machines, Co-Learning Sessions, and Reconnecting
   with the Work'
 description: None

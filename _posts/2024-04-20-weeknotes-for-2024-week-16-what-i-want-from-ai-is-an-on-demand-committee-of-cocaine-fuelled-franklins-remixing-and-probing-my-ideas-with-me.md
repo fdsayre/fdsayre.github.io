@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'WeekNotes for 2024 Week 16: What I want from AI is an on-demand committee
   of cocaine-fuelled Franklins remixing and probing my ideas with me'
 description: None

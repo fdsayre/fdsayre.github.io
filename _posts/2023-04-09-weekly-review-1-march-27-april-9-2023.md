@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Weekly Review 1: March 27-April 9, 2023'
 description: None
 date: 2023-04-09 16:51:18 -0000

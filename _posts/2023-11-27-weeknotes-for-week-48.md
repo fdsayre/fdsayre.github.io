@@ -1,5 +1,4 @@
 ---
-layout: post
 title: WeekNotes for Week 48
 description: None
 date: 2023-11-27 15:12:59 -0000

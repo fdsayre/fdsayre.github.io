@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Weeknotes for 2024-06: February 5'
 description: None
 date: 2024-02-05 17:12:50 -0000

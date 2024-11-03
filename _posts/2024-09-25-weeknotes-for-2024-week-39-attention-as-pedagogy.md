@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'WeekNotes for 2024 Week 39: Attention as Pedagogy'
 description: None
 date: 2024-09-25 12:44:47 -0000

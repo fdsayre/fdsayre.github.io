@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Letter to the Thompson Rivers University Senate about the Proposed Elimination
   of the Visual Arts Program (09/19/2023)
 description: None

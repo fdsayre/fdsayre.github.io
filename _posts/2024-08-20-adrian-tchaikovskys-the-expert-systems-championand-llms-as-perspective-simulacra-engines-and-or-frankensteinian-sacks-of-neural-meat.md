@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Adrian Tchaikovsky's "The Expert System's Champion"and LLMs as Perspective
   Simulacra Engines and/or Frankensteinian Sacks of Neural Meat
 description: None

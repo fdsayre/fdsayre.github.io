@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Three Challenges for Makerspace Users
 description: None
 date: 2023-10-17 21:01:56 -0000

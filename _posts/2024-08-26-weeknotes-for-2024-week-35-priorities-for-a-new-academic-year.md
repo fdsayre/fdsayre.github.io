@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'WeekNotes for 2024 Week 35: Priorities for a new academic year'
 description: None
 date: 2024-08-26 15:38:17 -0000

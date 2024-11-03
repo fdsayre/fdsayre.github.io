@@ -1,5 +1,4 @@
 ---
-layout: post
 title: WeekNotes for 2024 Week 14
 description: None
 date: 2024-04-06 16:30:08 -0000

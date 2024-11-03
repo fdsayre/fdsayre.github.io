@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Weekly Reviews 3 and 4 - April 17 - 30, 2023
 description: None
 date: 2023-05-03 16:00:24 -0000

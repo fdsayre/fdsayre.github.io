@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'WeekNotes for 2024 Week 17: "I''m Okay, You''re Okay" Reports and Iridescent
   Circle of Clouds'
 description: None
