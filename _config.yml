@@ -101,14 +101,14 @@ defaults:
       author_profile: true
   # _apar2024
   - scope:
-      path: "_apar2024"
+      path: ""
       type: apar2024
     values:
       layout: single
       author_profile: false
       share: true
       toc: true
-   # _projects
+  # _projects
   - scope:
       path: ""
       type: projects
