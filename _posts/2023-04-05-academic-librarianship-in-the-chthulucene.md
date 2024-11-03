@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Academic Librarianship in the Chthulucene
 description: None
 date: 2023-04-05 18:07:44 -0000

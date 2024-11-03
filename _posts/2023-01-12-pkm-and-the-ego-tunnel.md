@@ -1,5 +1,4 @@
 ---
-layout: post
 title: '#PKM and the Ego Tunnel'
 description: None
 date: 2023-01-12 16:15:39 -0000

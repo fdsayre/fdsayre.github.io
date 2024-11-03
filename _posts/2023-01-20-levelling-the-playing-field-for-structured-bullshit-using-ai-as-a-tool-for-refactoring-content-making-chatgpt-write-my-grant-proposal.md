@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Levelling the Playing Field for Structured Bullshit: Using AI as a Tool for
   Refactoring Content (Making ChatGPT write my grant proposal)'
 description: None

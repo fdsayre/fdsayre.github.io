@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Links/Sprouts February 19 - March 26, 2023
 description: None
 date: 2023-03-26 20:29:45 -0000

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Links: Jan 17-Feb 18, 2023'
 description: None
 date: 2023-02-18 18:31:22 -0000

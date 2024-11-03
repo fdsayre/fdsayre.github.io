@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Academic Services as Theatre Productions
 description: None
 date: 2023-01-13 17:23:01 -0000

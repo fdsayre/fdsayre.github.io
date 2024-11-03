@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Minimalist Making
 description: None
 date: 2023-02-05 17:32:45 -0000
