@@ -1,8 +1,5 @@
 ---
-layout: default
 title: "Professional Role: Librarians' Department Co-Chair"
-layout: single
-toc: true
 ---
 
 ## Librarians' Department Co-Chair
