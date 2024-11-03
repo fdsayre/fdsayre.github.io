@@ -1,5 +1,6 @@
 ---
 title: "Goals"
+order: 5
 ---
 
 # Goals

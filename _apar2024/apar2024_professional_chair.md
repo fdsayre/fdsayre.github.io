@@ -1,5 +1,6 @@
 ---
 title: "Professional Role: Librarians' Department Co-Chair"
+order: 2
 ---
 
 ## Librarians' Department Co-Chair
