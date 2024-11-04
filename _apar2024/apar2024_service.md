@@ -58,7 +58,7 @@ In 2023 and 2024 I made a number of significant contributions to the EnviroColla
 
 See Attachment:
 
-- EnviroCollab ISP thank you letter from Kara Lefevre 2024.pdf
+- [EnviroCollab ISP thank you letter from Kara Lefevre 2024.pdf](https://drive.google.com/file/d/10fVYCALE-Huxl9-qutOyzYKM3-g3D2bB/view?usp=share_link)
 
 #### Creativity Breakfast Session
 
@@ -68,8 +68,8 @@ As part of this session, we created an activity called the Academic Exquisite Co
 
 Attachments:
 
-- Enviro-Collab Breakfast & Brainstorm FINAL MY COPY.pdf
-- The Academic Exquisite Corpse Game.pdf
+- [Enviro-Collab Breakfast & Brainstorm FINAL MY COPY.pdf](https://drive.google.com/file/d/1-0yKG4Rt62lu0Pl9Up_AXaBV3AejsdpI/view?usp=share_link)
+- [The Academic Exquisite Corpse Game.pdf](https://drive.google.com/file/d/1-et_JktgRnvp1qrqMC0pSYkop98stCOW/view?usp=share_link)
 
 #### Field School Mutations: An EnviroCollab Hackathon
 
@@ -81,7 +81,7 @@ Although there are no immediate plans to implement these ideas, the data provide
 
 Attachments:
 
-- Field School Mutations Summary of Findings and data.pdf
+- [Field School Mutations Summary of Findings and data.pdf](https://drive.google.com/file/d/10807lVrtBiv3TukwmIWcUi55kf-ciwfV/view?usp=share_link)
 
 ### Proposal for Honours College Course (2024 - Unsuccessful)
 
@@ -89,7 +89,7 @@ In early 2024, I collaborated with Dr. Cheryl Gladu from the Bob Gaglardi Schoo
 
 Attachments: 
 
-- DesigningPlacesBelonging_Proposal.pdf
+- [DesigningPlacesBelonging_Proposal.pdf](https://drive.google.com/file/d/1-UAZrd4UDdmSkqfd5sk4iV5oxfjKgIvJ/view?usp=share_link)
 
 ### Letter to Senate about the Proposed Elimination of the Visual Arts Program at TRU
 
@@ -97,7 +97,7 @@ In my letter to the Senate of Thompson Rivers University on September 20, 2023, 
 
 Attachments:
 
-- Letter to Senate re BRD 8-4 and Visual Arts Sept 20 2023.pdf
+- [Letter to Senate re BRD 8-4 and Visual Arts Sept 20 2023.pdf](https://drive.google.com/file/d/10Id0uYHb-TaBkHQExk8eeLtsxLN8sdId/view?usp=share_link)
 
 ### Board of Governers Election (Unsuccessful) ( 2023)
 
@@ -113,7 +113,7 @@ In addition to addressing financial governance issues, I actively participated i
 
 Attachment:
 
-- TRUFA Treasurer Report for AGM.pdf
+- [TRUFA Treasurer Report for AGM.pdf](https://drive.google.com/file/d/1-tWvTpxCvyh19wcB-HRQh2rZ3Z3znSkA/view?usp=share_link)
 
 ## External Service
 

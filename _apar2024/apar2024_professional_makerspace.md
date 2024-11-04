@@ -44,8 +44,8 @@ Attachments:
 
 
 
-- [[TRU Library Makerspace Program Description FINAL FOR ULDC.pdf]]
-- [[TRU Library Makerspace Code of Conduct FINAL FOR ULDC.pdf]]
+- [TRU Library Makerspace Program Description FINAL FOR ULDC.pdf](https://drive.google.com/file/d/10iK3aEApEaK8PzL8BLhY4eueQgq8P588/view?usp=share_link)
+- [TRU Library Makerspace Code of Conduct FINAL FOR ULDC.pdf](https://drive.google.com/file/d/1-ZxfzR6HiLiZDWbKWqfBaGaEZavuMpDC/view?usp=share_link)
 
 #### Developing a Student Ambassador Program
 
@@ -92,8 +92,8 @@ I continue to refine the program by focusing on helping Ambassadors understand t
 
 Attachments:
 
-- Student Makerspace Ambassador Charter 2024.pdf
-- Makerspace Ambassador FAQ 2024.pdf
+- [Student Makerspace Ambassador Charter 2024.pdf](https://drive.google.com/file/d/1-hu9Turea4ihrmknTpjoQyKDVKHSMGQQ/view?usp=share_link)
+- [Makerspace Ambassador FAQ 2024.pdf](https://drive.google.com/file/d/10-YBUC2fkROAA1AzRekFPf-fDBOaUsBu/view?usp=share_link)
 
 Links:
 
@@ -149,8 +149,8 @@ I also changed how we track prints on our whiteboards after watching Valentine, 
 
 Attachments:
 
-- 3d printing rules.pdf
-- 3d printing guidelines.pdf
+- [3d printing rules.pdf](https://drive.google.com/file/d/1-fZBU9hJ3OXlQ4zyyPrc_M2a3urn5RU1/view?usp=share_link)
+- [3d printing guidelines.pdf](https://drive.google.com/file/d/1-StbPoX2qydG38hncWqv9rufmDhYY0Az/view?usp=share_link)
 - New 3D Printing Rules and Guidelines – TRU Library Makerspace (C7elelkstén’).pdf
 
 Whiteboard used to assign printers and share details about the current 3D print
@@ -211,7 +211,7 @@ In fall 2022, I worked with staff to create a "Makerspace Bingo" game to encoura
 
 Attachments:
 
-- [[Print this one! MS bingo.png]]
+- [Print this one! MS bingo.png](https://drive.google.com/file/d/10MR-fGQFlTctNnv81kCp4gZWGHemjES6/view?usp=share_link)
 
 ### Welcoming Users to the Makerspace: Classes, Tours, Events, Outreach
 
@@ -303,10 +303,6 @@ Initially, I hesitated to offer workshops, believing they didn't align with our 
 
 - I regularly meet with faculty to discuss integrating making and active learning projects into their classes.
 - I helped supervise a student's directed study project with faculty member Naowarat Cheeptham, which involved using 3D printers to create models of historical chemistry labs, now displayed in the Kamloops Art Gallery's "Gear Up" exhibition.
-
-See Attachment: 
-
-- 2023 gear up poster by Cheeptham for geordie directed study project.pdf
 
 ### Indigenization
 
@@ -404,9 +400,9 @@ The Tool Library and Fabric Stash give us new ways to talk about repair and reus
 
 Attachments: 
 
-- Grant Proposal: Makerspace Sustainability Grant 2023 Proposal FINAL.pdf
-- Makerspace Sustainability Grant Final Report – TRU Library Makerspace (C7elelkstén’).pdf
-- 2024 poster community fabric stash.jpg
+- [Grant Proposal: Makerspace Sustainability Grant 2023 Proposal FINAL.pdf](https://drive.google.com/file/d/1-_I7Im0EbzGMaTXGkdYEeTKytYN5jSf4/view?usp=share_link)
+- [Makerspace Sustainability Grant Final Report – TRU Library Makerspace (C7elelkstén’).pdf](https://drive.google.com/file/d/1-RIDMF_S6EitXbItgdH3Vw2wdkNuG_Wd/view?usp=share_link)
+- [2024 poster community fabric stash.jpg](https://drive.google.com/file/d/10eiffx9ysqcRnMyce4VefHW5O4Qyvm-8/view?usp=share_link)
 
 Links:
 
@@ -502,10 +498,10 @@ Each term, I write a report capturing what's happening in the space. These repor
 
 Attachments:
 
-- Winter 2024 Makerspace Librarian’s Report – TRU Library Makerspace (C7elelkstén’).pdf
-- Winter 2023 TRU Library Makerspace Librarian’s Report – TRU Library Makerspace (C7elelkstén’).pdf
-- Summer and Fall 2023 Makerspace Librarian’s Report – TRU Library Makerspace (C7elelkstén’).pdf
-- Fall 2022 TRU Library Makerspace Report – TRU Library Makerspace (C7elelkstén’).pdf
+- [Winter 2024 Makerspace Librarian’s Report – TRU Library Makerspace (C7elelkstén’).pdf](https://drive.google.com/file/d/1-YJBFfvkrS_MlkKNrm4zUqDleOmsuWEN/view?usp=share_link)
+- [Winter 2023 TRU Library Makerspace Librarian’s Report – TRU Library Makerspace (C7elelkstén’).pdf](https://drive.google.com/file/d/10YXiv2uf7niwvHXktQhKBL4EAngmG__v/view?usp=share_link)
+- [Summer and Fall 2023 Makerspace Librarian’s Report – TRU Library Makerspace (C7elelkstén’).pdf](https://drive.google.com/file/d/1-VoBBsMloYJsVl8OsS2voaQSnCcZYyz1/view?usp=share_link)
+- [Fall 2022 TRU Library Makerspace Report – TRU Library Makerspace (C7elelkstén’).pdf](https://drive.google.com/file/d/109ctV91AP3a0OlUZFmM-dYiU1Gc5cTZm/view?usp=share_link)
 
 #### Social Media
 
@@ -536,7 +532,7 @@ Links:
 Links: 
 
 - [[Developing and Assessing a Culture of Change at the TRU Library Makerspace – TRU Library Makerspace (C7elelkstén’)]] (May 2024)
-- [[New 3D Printing Rules and Guidelines – TRU Library Makerspace (C7elelkstén’)]] (November 2023)
+- [New 3D Printing Rules and Guidelines – TRU Library Makerspace (C7elelkstén’)](https://drive.google.com/file/d/1-cH1T5pMnNRjVfF1NISgh4tU-unHqkDb/view?usp=share_link)
 
 Attachments:
 
@@ -577,7 +573,7 @@ One thing that made this research and presentation special was including all our
 
 Attachments:
 
-- SayreFranklin_DevelopingandAssessingaCultureofChangeattheTRULibraryMakerspace_WILU2014_NOTES.pdf
+- [SayreFranklin_DevelopingandAssessingaCultureofChangeattheTRULibraryMakerspace_WILU2014_NOTES.pdf](https://drive.google.com/file/d/1-Q7QQ0DVPkH_HlMhui7qDPITLU-lTl-j/view?usp=share_link)
 
 Links:
 
@@ -732,7 +728,7 @@ In spring/summer 2023, I led the development of our Makerspace team charter. The
 
 Attachment: 
 
-- TRU Library Makerspace Team Charter Final.pdf
+- [TRU Library Makerspace Team Charter Final.pdf](https://drive.google.com/file/d/1-9UYECJxWAhZ95aDT09pXNCw-_cTOXXN/view?usp=share_link)
 
 Silly posters I made for each of our values. These posters now hang in the Makerspace Staff office, as well as in my office
 
@@ -761,7 +757,7 @@ In the summer of 2023, with a better understanding of the space and a solid foun
 
 Attachments: 
 
-- Summer 2023 PD Planning.pdf
+- [Summer 2023 PD Planning.pdf](https://drive.google.com/file/d/10Ygs2OLXDa3ydKruRXQspKjyCCie4_L1/view?usp=share_link)
 
 ##### List of All Staff Team Development Events
 
