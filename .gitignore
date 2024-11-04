@@ -4,3 +4,5 @@ _site
 Gemfile.lock
 .DS_Store
 assets/.DS_Store
+_apar2024/.DS_Store
+.DS_Store
