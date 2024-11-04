@@ -25,7 +25,7 @@ The projects below show how I've worked to develop the Makerspace as an academic
 
 Signage created by Makerspace staff encouraging users to explore and use equipment and supplies
 
-![](assets/b32d696783be4627cce89b7bb5cffe14.jpg)
+![](/assets/b32d696783be4627cce89b7bb5cffe14.jpg)
 
 #### Defining Our Values and Pedagogies: Program Description and Code of Conduct
 
