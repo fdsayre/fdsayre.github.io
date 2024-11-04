@@ -25,7 +25,7 @@ The projects below show how I've worked to develop the Makerspace as an academic
 
 Signage created by Makerspace staff encouraging users to explore and use equipment and supplies
 
-![](/assets/b32d696783be4627cce89b7bb5cffe14.jpg)
+![](/assets/images/b32d696783be4627cce89b7bb5cffe14.jpg)
 
 #### Defining Our Values and Pedagogies: Program Description and Code of Conduct
 
@@ -103,7 +103,7 @@ Links:
 
 Makerspace Ambassador Adrian Romeo
 
-![](assets/185c7932f7b03add3d5f01686056d626.jpg)
+![](/assets/images/185c7932f7b03add3d5f01686056d626.jpg)
 
 #### CELT Faculty Makerspace Grants 2022-2024
 
@@ -130,7 +130,7 @@ Links:
 
 A 3D print of campus made with a drone and photogammetry that was part of faculty member Twyla Exner's Makerspace Grant
 
-![](assets/4f7e0589ef51c07af70663f90b639646.jpg)
+![](/assets/images/4f7e0589ef51c07af70663f90b639646.jpg)
 
 #### Encouraging Learning and Meaningful Projects: 3D Printing Guidelines
 
@@ -152,7 +152,7 @@ Attachments:
 
 Whiteboard used to assign printers and share details about the current 3D print
 
-![](assets/573ca564d46f649eaf79a59f46b9c84c.jpg)
+![](/assets/images/573ca564d46f649eaf79a59f46b9c84c.jpg)
 
 #### Identity Token Wall (2023)
 
@@ -162,7 +162,7 @@ As part of the project outlined above, I had an idea: what if their first print 
 
 Photo of the Identity Token wall when it first went up
 
-![](assets/16f5a23c1d71a66b9d443feeeabac479.jpg)
+![](/assets/images/16f5a23c1d71a66b9d443feeeabac479.jpg)
 
 #### Artwork Installation (2024)
 
@@ -192,7 +192,7 @@ Links:
 
 I worked with staff to create a simple "Take a Button! Leave a Button!" board to encourage belonging and community engagement after the idea was suggested by a faculty collaborator. Simple, even silly, projects like this are central to our space and their impact feels disproportionately positive to the effort they require.
 
-![](assets/a83a36bd2951ac2ac4f41c93511834dd.jpg)
+![](/assets/images/a83a36bd2951ac2ac4f41c93511834dd.jpg)
 
 #### Community Bulletin Board (2023)
 
@@ -277,11 +277,11 @@ I've given versions of this welcome to over 800 students through more than 40 in
 
 Speaking to a Masters of Education class
 
-![](assets/a80eb301abee459997a35e101b75ba4e.jpg)
+![](/assets/images/a80eb301abee459997a35e101b75ba4e.jpg)
 
 Helping Visual Arts students scan their 3D sculptures
 
-![](assets/fa9d3431b3beae5a073c8c55a452027c.jpg)
+![](/assets/images/fa9d3431b3beae5a073c8c55a452027c.jpg)
 
 #### 3D Printing Workshops
 
@@ -414,15 +414,15 @@ Links:
 
 Whiteboard survey:
 
-![](assets/e84e321dc0607520175a86da34ecb2d1.jpg)
+![](/assets/images/e84e321dc0607520175a86da34ecb2d1.jpg)
 
 A very small selection of the tools we have available: 
 
-![](assets/f56d31fd25489a8ca3c91ea3d941b96b.jpg)
+![](/assets/images/f56d31fd25489a8ca3c91ea3d941b96b.jpg)
 
 Facilitator faculty member Cheryl Gladu leading a session at the TRUSU Open House for Clubs event
 
-![](assets/8cad01299c067a2318a638085742680d.jpg)
+![](/assets/images/8cad01299c067a2318a638085742680d.jpg)
 
 #### Repair Cafe Events (2023 - 2024)
 
@@ -434,15 +434,15 @@ Over the past two years, I collaborated with the Kamloops Repair Café and TRU S
 
 Repair Event in March 2023
 
-![](assets/645ee40f13c12a3bfff0b1430dc973b3.jpg)
+![](/assets/images/645ee40f13c12a3bfff0b1430dc973b3.jpg)
 
 Repair Event in November, 2023
 
-![](assets/6985bc91ff8aa6d08480b13d97bc4152.jpg)
+![](/assets/images/6985bc91ff8aa6d08480b13d97bc4152.jpg)
 
 Repair event and clothing exchange in January, 2023
 
-![](assets/ada2e263d0a037304a304b5454dfe6cb.jpg)
+![](/assets/images/ada2e263d0a037304a304b5454dfe6cb.jpg)
 
 #### Plant Day for Earth Day (2024)
 
@@ -450,13 +450,13 @@ To celebrate Earth Day on April 22, 2024, I collaborated with the TRU Sustainabi
 
 Plant Day 2023
 
-![](assets/254a1451386c5f8eaed38064332eea40.jpg)
+![](/assets/images/254a1451386c5f8eaed38064332eea40.jpg)
 
 #### Filament Recycling (2023)
 
 - Collaborated with the Sustainability Office to introduce a filament recycling program as part of our 3D printing services.
 
-![](assets/0082a0957a071b254b4b8faa1511d370.jpg)
+![](/assets/images/0082a0957a071b254b4b8faa1511d370.jpg)
 
 #### Sustainability Community of Practice Talk (2024)
 
@@ -474,7 +474,7 @@ In April 2024, I gave a talk for the TRU Sustainability Community of Practice ti
 
 Reception and workshop during the Liveable Cities, Collaborative Communities Conference: 
 
-![](assets/1203e76b3b9a44a46e6d35eb37b4ce73.jpg)
+![](/assets/images/1203e76b3b9a44a46e6d35eb37b4ce73.jpg)
 
 ### Communication
 
@@ -491,7 +491,7 @@ The Makerspace Website had dozens of pages and over 60 blog posts. Our Instagram
 
 Photo of card sorting activity I did with Makerspace Staff as part of a mini-redesign in 2023 
 
-![](assets/6b04a6f2a0b1bcced1ad8d40df1a8f91.jpg)
+![](/assets/images/6b04a6f2a0b1bcced1ad8d40df1a8f91.jpg)
 
 #### Makerspace Librarian Reports
 
@@ -520,13 +520,13 @@ Links:
 
 Post Developed by Makerspace Technician Sarah Porter to celebrate The Makerspace's first birthday
 
-![](assets/1e53d6062a5fbcaa8dca3c3f5ba418d9.jpg)
+![](/assets/images/1e53d6062a5fbcaa8dca3c3f5ba418d9.jpg)
 
 Links:
 
 - [TRU Library Makerspace | Third year biology student Manuel Duque explaining the NSERC-funded research supervised by Dr. Eric Bottos. Hear about the implications of... | Instagram](https://www.instagram.com/reel/C5EDo0PLv1T/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==) Interview and Video by Franklin Sayre (2024)
 
-![](assets/aca3724f9cfff24c3f6d121088681156.jpg)
+![](/assets/images/aca3724f9cfff24c3f6d121088681156.jpg)
 
 #### Blog Posts by Me Not Included Elsewhere
 
@@ -556,11 +556,11 @@ I also provide an overview of our statistics at the end of every term in my Libr
 
 Combined Stats: Trends from 2021-2024 
 
-![](assets/463222540713ae1fd4911fb6eb698189.svg)
+![](/assets/images/463222540713ae1fd4911fb6eb698189.svg)
 
 Reference Questions
 
-![](assets/6ad4cb3644f86ee4134aa86b71ce9ebd.png)
+![](/assets/images/6ad4cb3644f86ee4134aa86b71ce9ebd.png)
 
 #### Makerspace Assessment Project and WILU 2024 Presentation
 
@@ -617,7 +617,7 @@ During PD Week in February 2023, I developed and facilitated two 2-hour workshop
 
 PD Week 2023: Having each person teach the next how to use the button maker 
 
-![](assets/03a706f502f251fd63aa927802339a89.jpg)
+![](/assets/images/03a706f502f251fd63aa927802339a89.jpg)
 
 #### Events and PD for Internal Library Staff:
 
@@ -733,7 +733,7 @@ Attachment:
 
 Silly posters I made for each of our values. These posters now hang in the Makerspace Staff office, as well as in my office
 
-![](assets/935cd98d40d60cb0d5f1ef265315d67c.jpg)
+![](/assets/images/935cd98d40d60cb0d5f1ef265315d67c.jpg)
 
 #### Makerspace Team Development Days
 
@@ -810,7 +810,7 @@ These measures have successfully prevented further incidents while maintaining t
 
 The 3D print room following a break-in in December, 2022. 
 
-![](assets/da75895004222f66cedff21dd3c4b7ae.jpg)
+![](/assets/images/da75895004222f66cedff21dd3c4b7ae.jpg)
 
 #### Managing the Makerspace Budget and Purchasing
 
@@ -841,7 +841,7 @@ From 2022 to 2024, I led cataloging projects to make our tools and technologies 
 
 Lending stats for items
 
-![](assets/0fa4d03417cb19875e43faecb40d9a90.png)
+![](/assets/images/0fa4d03417cb19875e43faecb40d9a90.png)
 
 #### Developing Loan Policies
 
