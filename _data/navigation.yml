@@ -11,5 +11,5 @@ main:
     url: /pages/
   - title: "APAR 2024"
     url: /apar2024/
-  - title: "APARs Collection"
-    url: /apars.html
+#  - title: "APARs Collection"
+#    url: /apars.html
