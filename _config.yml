@@ -26,6 +26,11 @@ locale: "en-US"
 url: https://fdsayre.github.io/
 
 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-1H15HLBEVC"
+    anonymize_ip: false # default
 
 # Build settings
 markdown: kramdown
