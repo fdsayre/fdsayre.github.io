@@ -3,7 +3,7 @@ title: "About"
 permalink: /about/
 ---
 
-![image of me]9(/assets/images/bio-photo.jpg)
+![image of me](/assets/images/bio-photo.jpg)
 
 Hi there,
 
