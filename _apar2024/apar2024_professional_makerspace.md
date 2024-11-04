@@ -41,6 +41,9 @@ The Code of Conduct, initially developed by my colleague Erin May for our 2020 P
 
 Attachments: 
 
+
+
+
 - [[TRU Library Makerspace Program Description FINAL FOR ULDC.pdf]]
 - [[TRU Library Makerspace Code of Conduct FINAL FOR ULDC.pdf]]
 
@@ -537,8 +540,8 @@ Links:
 
 Attachments:
 
-- Minimalist Making – TRU Library Makerspace (C7elelkstén’).pdf (February 2023)
-- A Tail of 2 Failed 3D Prints/ Printing Complex Objects – TRU Library Makerspace (C7elelkstén’).pdf (October 2023)
+- [Minimalist Making – TRU Library Makerspace (C7elelkstén’).pdf](https://drive.google.com/file/d/10Gh9VjeP7M1LsJvR1wCtVFoqTKo73vsk/view?usp=share_link)
+- [A Tail of 2 Failed 3D Prints/ Printing Complex Objects – TRU Library Makerspace (C7elelkstén’).pdf (October 2023)](https://drive.google.com/file/d/1-PcHk1ZhlZSzPZRhuhNgkSFWMmcuyWBD/view?usp=share_link)
 
 #### Blog Posts by Students and Staff Overseen by Me Not Included Elsewhere
 
