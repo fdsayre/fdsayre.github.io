@@ -1,5 +1,5 @@
 ---
-title: "Weeknotes for 2024 Week 46: One month left in the semester panic"
+title: "Weeknotes for 2024 Week 46: One month left in the semester panic / / Pomodoro Fuckboy Rabbit Hole"
 categories:
 - weekNotes
 tags:
