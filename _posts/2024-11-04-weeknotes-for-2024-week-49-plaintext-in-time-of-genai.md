@@ -1,5 +1,5 @@
 ---
-title: "Weeknotes for 2024 Week 49: Plaintext in time of GenAI"
+title: "Weeknotes for 2024 Week 45: Plaintext in time of GenAI"
 categories:
 - weekNotes
 ---

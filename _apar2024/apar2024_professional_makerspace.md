@@ -9,7 +9,7 @@ order: 1
 
 ## TRU Library Makerspace Librarian
 
-My primary role is overseeing the TRU Library Makerspace, which I proposed in 2019 and launched in spring 2022. Over the past two years, the Makerspace has grown from an experimental space into a vibrant community hub where students, staff, and faculty come together to learn, create, and support each other. I am ridiculously proud of the positive little space and so I hope dear reader you will forgive the length of the following sections. 
+My primary role is overseeing the TRU Library Makerspace, which I proposed in 2019 and launched in spring 2022. Over the past two years the Makerspace has grown from an experimental space into a vibrant community where students, staff, and faculty come together to learn, create, and support each other. I am ridiculously proud of the positive little space and so I hope dear reader you will forgive the length of the following sections. 
 
 Throughout this APAR, I often use "we/us" instead of "I/me" because the Makerspace has always been an intentionally collaborative project. From the beginning, I knew this space would only work if everyone - our amazing Library Technicians, student workers, Library Administration, and faculty collaborators - had meaningful opportunities to contribute. While I set the vision and values that guide our work, many of the accomplishments described here reflect our collective efforts. I use "we" when projects truly were collaborative, but I'm careful to use "I" when describing my specific contributions and leadership. When some else wrote something under my direction I name them. 
 
