@@ -2,9 +2,11 @@
 title: "Weeknotes for 2024 Week 46: One month left in the semester panic"
 categories:
 - weekNotes
+tags:
+- projects
+- aiCamera
+- pomodorofuckboy
 ---
-
-## WeekNotes for 2024 Week 46
 
 ```
 Weeknotes are a habit I'm cultivating where I share what I'm working on or thinking about, primarily in my professional life, without worrying too much about the ideas being fully formed.
