@@ -8,9 +8,7 @@ tags:
 - pomodorofuckboy
 ---
 
-```
-Weeknotes are a habit I'm cultivating where I share what I'm working on or thinking about, primarily in my professional life, without worrying too much about the ideas being fully formed.
-```
+> Weeknotes are where I share what I'm working on / thinking about this week and a few things to share without worrying too much about the ideas being fully formed.
 
 We were in Ottawa visiting friends from Wednesday until Sunday. We ate a lot of snacks and went to see the Broadway production of the Lion King and held a cute 3-month-old baby a lot. It was really nice. On Sunday we our flight was at 6am flight so we were up at 3:30am and then flew west, so that was basically midnight our time, so even after 8 hours in airports and planes we still got home before 11am yesterday, so yesterday was weird. There is a month left of classes and ton to do and a lot happening. One day I will find a way to get through a semester without it feeling like a panic in the last month, but not this year. 
 
@@ -31,4 +29,3 @@ Venkatesh Rao on [Superhistory, Not Superintelligence](https://studio.ribbonfarm
 > Every scientific or technological revolution tears down yet another anthropocentric conceit. This one is tearing down the conceit that our lives are significant in informational terms. That every life story is full of unique richness worth the narration.
   The humbling thing about the rise of machine learning is not that it shows us how stupid we are in “intelligence” terms, but how *empty* our lives are, in terms of their information content.
   This moment in history is like the moment when the structure of the atom was deciphered and we realized that seemingly solid matter was better understood as mostly empty space shaped by fields.
-
