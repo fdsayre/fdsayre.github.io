@@ -9,27 +9,27 @@ order: 1
 
 ## TRU Library Makerspace Librarian
 
-My primary role is overseeing the TRU Library Makerspace, which I proposed in 2019 and launched in spring 2022. Over the past two years the Makerspace has grown from an experimental space into a vibrant community where students, staff, and faculty come together to learn, create, and support each other. I am ridiculously proud of the positive little space and so I hope dear reader you will forgive the length of the following sections. 
+My primary role is overseeing the TRU Library Makerspace, a learning space and service I proposed in 2019 and formally launched in the spring of 2022. Over the past two years the Makerspace has grown into a vibrant community where students, staff, and faculty come together to learn, create, and support each other. I am ridiculously proud of this positive little space and so I hope dear reader you will forgive the length of the following sections. 
 
-Throughout this APAR, I often use "we/us" instead of "I/me" because the Makerspace has always been an intentionally collaborative project. From the beginning, I knew this space would only work if everyone - our amazing Library Technicians, student workers, Library Administration, and faculty collaborators - had meaningful opportunities to contribute. While I set the vision and values that guide our work, many of the accomplishments described here reflect our collective efforts. I use "we" when projects truly were collaborative, but I'm careful to use "I" when describing my specific contributions and leadership. When some else wrote something under my direction I name them. 
+Throughout this APAR, I often use "we/us" instead of "I/me" because the Makerspace has always been an intentionally collaborative project. From the beginning, I knew this space would only work if everyone - our amazing Library Technicians, student workers, Library Administration, and faculty collaborators - had meaningful opportunities to contribute. While I set the vision and values that guide our work, many of the accomplishments described here reflect our collective efforts. I use "we" when projects truly were collaborative, but I'm careful to use "I" when describing my specific contributions and leadership. When some else wrote something under my direction I name them specifically or otherwise make it clear. 
 
-Rather than organize this chronologically, I've grouped activities thematically to better show how different initiatives connect to support our core mission of creating an inclusive, experimental learning space. Specific dates are noted in parentheses or in the text.
+Rather than organize this chronologically, I've grouped activities thematically to better show how different initiatives connect to support our core mission. Specific dates are noted in parentheses or in the text.
 
 ### Development of the Makerspace as an Academic Program: Aligning Vision with Practice and Placemaking
 
-In our first months after opening, I quickly learned that maintaining our vision meant being thoughtful about both practice and placemaking. I saw how easy it would be to drift from our core pedagogies - for example, by over-helping users in the name of good service, or by letting the space become just another computer lab or print shop. 
+In our first months after opening, I quickly learned that maintaining our vision meant being thoughtful about both practice and placemaking. I saw how easy it would be to drift from our core pedagogies - for example, by providing too much help to users in the name of good service, or by letting the space become just another computer lab or print shop. 
 
-As we got busier, we faced key moments that required balancing practical needs with our values. One came early, before we had established processes for 3D printing. Another emerged in fall 2023, when staff and I noticed concerning shifts in how some users approached the space - less respect for materials, more frustration with equipment, and a tendency to discard the direction of staff. Each time, I worked with our team to find solutions that addressed immediate needs while staying true to our vision.
+As we got busier, we faced key moments that required balancing practical needs with our values. One came early, before we had established processes for 3D printing. Another emerged in fall 2023, when staff and I noticed concerning shifts in how some users approached the space - less respect for materials, more frustration with equipment, and a tendency to disregard the direction of staff. Each time, I worked with our team to find solutions that addressed immediate needs while staying true to our vision.
 
-The projects below show how I've worked to develop the Makerspace as an academic program with clear pedagogies and values. Increasingly, I find belonging woven into every aspect of my teaching practice and philosophy. Belonging provides the safety learners need to try new things, work on personally meaningful projects, and learn from mistakes. This section also includes projects related to placemaking. 
+The projects below show how I've worked to develop the Makerspace as an academic program with clear pedagogies and values. Increasingly, I find belonging woven into every aspect of my teaching practice and philosophy. Belonging provides the safety learners need to try new things, work on personally meaningful projects, and learn from mistakes. Therefore, this section also includes projects related to placemaking. 
 
 Signage created by Makerspace staff encouraging users to explore and use equipment and supplies
 
-![](/assets/images/b32d696783be4627cce89b7bb5cffe14.jpg)
+![(/assets/images/b32d696783be4627cce89b7bb5cffe14.jpg)]
 
 #### Defining Our Values and Pedagogies: Program Description and Code of Conduct
 
-In April 2024, after extensive consultation and revision, I successfully led the approval of our Code of Conduct and Program Description through the University Libraries Divisional Council (ULDC). I'm genuinely proud of these governance documents, which reflect over two years of learning what works and what doesn't, and over a year of consultation and revision with Makerspace staff, students, Indigenous faculty, and colleagues in the Department and on ULDC.
+In April 2024, after extensive consultations, I successfully led the approval of our Code of Conduct and Program Description through the University Libraries Divisional Council (ULDC). I'm genuinely proud of these governance documents, which reflect over two years of learning what works and what doesn't, and over a year of consultation and revision with Makerspace staff, students, Indigenous faculty, and colleagues in the Department and on ULDC.
 
 The Program Description defines our core values (equitable access, belonging, community, Indigenization, sustainability, and critical making) and provides specific language about how these values guide our work. For example, our Indigenization statement, shaped by feedback from Indigenous faculty, states:
 
@@ -37,11 +37,9 @@ The Program Description defines our core values (equitable access, belonging, co
 
 Our pedagogical approaches - Active Learning, Self-Directed Learning, Interest-Based Learning and Autonomy, and Experimentation and Play - emerged from two years of watching what works (and what doesn't) in the space. These approaches define our unique position on campus and guide our programming, workshops, community building, and partnerships.
 
-The Code of Conduct, initially developed by my colleague Erin May for our 2020 Pilot Makerspace, sets behavior expectations to create a safe learning environment that supports our pedagogies and values. This document has been revised based on experience and feedback to ensure it protects everyone from discrimination and clarifies roles for staff and users.
+The Code of Conduct, initially developed by my colleague Erin May for our 2020 Pilot Makerspace, sets expectations for behaviour to create a safe learning environment that supports our pedagogies and values. This document has been revised based on experience and feedback to ensure it protects everyone from discrimination and clarifies roles for staff and users.
 
 Attachments: 
-
-
 
 
 - [TRU Library Makerspace Program Description FINAL FOR ULDC.pdf](https://drive.google.com/file/d/10iK3aEApEaK8PzL8BLhY4eueQgq8P588/view?usp=share_link)
@@ -61,32 +59,32 @@ Makerspace Ambassadors:
 	- Setting new users up with the 3D token tutorial.
 	- Assisting users with VR setup and tutorials.
 	- Helping users find information, tutorials, and guides on the website.
-- Keep statistics using the stats sheet.
-- Assist Makerspace staff as requested.
+- Keep statistics.
+- Assist Makerspace staff.
 - Maintain awareness of people entering the space and greet them promptly.
 - Represent TRU, the Library, and the Makerspace professionally, following the Code of Conduct.
 - Avoid working on personal projects, homework, or taking phone calls during shifts.
 - Ensure equal treatment for all users, without preferential treatment for friends.
 - Follow all Makerspace rules during personal time in the space. 
 
-As of June 2024, the program has become integral to how we operate and I honestly can't picture the Makerspace without our Student Ambassadors. They bring fresh energy, challenge my assumptions, connect us with new students, and make our space more welcoming and inclusive. I regularly see how some students gravitate towards an Ambassador and find support their they wouldn't have found elsewhere because they feel safer with that person.  
+As of June 2024, the program has become integral to how we operate and I honestly can't picture the Makerspace without our Student Ambassadors. They bring fresh energy, challenge my assumptions, connect us with new students, and make our space more welcoming and inclusive. I regularly see how some students gravitate towards an Ambassador to find support they wouldn't have found elsewhere because they feel safer or more comfortable with that person.  
 
-Most Ambassadors return each semester until they graduate, which has created natural mentorship opportunities and deepened our impact and relationships with them. Several have gone on to become research assistants for faculty working on active learning or technology projects. Even after graduating, former Ambassadors often drop by to share their successes or work on new projects.
+Most Ambassadors have returned each semester until they graduate, which has created natural mentorship opportunities and deepened our impact and relationships with them. Several have gone on to become research assistants for faculty working on active learning or technology projects. Even after graduating, former Ambassadors often drop by to share their successes or work on new projects.
 
 My responsibilities include:
 
 - Recruiting, interviewing, and selecting candidates
-- Creating schedules that balance their academic commitments with our needs
+- Creating schedules that balance their academic and work commitments with our needs
 - Providing ongoing mentorship
 - Assigning special projects based on their experience and interests, for example, I have assigned projects related to outreach, social media, 3D design, textiles, Indigenization, etc. 
 - Working with Makerspace staff to resolve any issues that arise with Ambassadors
 - Supporting their professional development
 
-Key developments during this APAR:
+Key developments during this APAR period:
 
 - Started with establishing basic program structure and learning how Ambassadors could effectively engage with users. This first year revealed issues with Ambassadors needing more work experience and clearer guidance about their responsibilities (2022)
 - Created formal Ambassador charter and FAQ to clarify roles and emphasize creating a welcoming atmosphere and supporting our pedagogies. (2023)
-- Refined recruitment to focus on finding students passionate about supporting hands-on learning (through communications and blog posts), to make the process more accessible (by providing questions ahead of time), and adjust for an increased use in AI by students (through communications and adjustments to interview questions). 
+- Refined recruitment to focus on finding students passionate about supporting hands-on learning (through communications and blog posts), to make the process more accessible (by providing questions ahead of time and offering them online), and adjust for an increased use in AI by students (through communications about expectations and adjustments to interview questions). 
 
 I continue to refine the program by focusing on helping Ambassadors understand their role in relation to our pedagogies and values, encouraging peer mentorship, and supporting their growth as independent learners. These improvements are included in my goals for next year.
 
@@ -97,32 +95,30 @@ Attachments:
 
 Links:
 
-- [Our Team – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/about/our-team/) We keep the bios of old team members, including Ambassadors, on our website Team page, to continue to recognize their contributions to the Makerspace and help them have professional materials that can be found on the Internet. 
-- Article by my Research Assistant Kirsten Glass introducing the new program in November, 2022: [[New School Year, New Ambassador Program! – TRU Library Makerspace (C7elelkstén’)]]
+- [Our Team – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/about/our-team/) We keep the bios of old team members, including Ambassadors, on our website Team page, to continue to recognize their contributions to the Makerspace and so they have professional materials that can be found on the Internet. 
+- Article by my Research Assistant Kirsten Glass introducing the new program in November, 2022: [New School Year, New Ambassador Program! – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2022/11/25/new-school-year-new-ambassador-program/)
 - Blog posts announcing new positions
-	- [[Become a Makerspace Student Ambassador! (CLOSED) – TRU Library Makerspace (C7elelkstén’)]] January, 2024
-	- [[We’re Hiring Makerspace Student Ambassadors for September, 2024! (CLOSED) – TRU Library Makerspace (C7elelkstén’)]] April, 2024
-	- [[Become a Makerspace Student Ambassador! (Now Closed) – TRU Library Makerspace (C7elelkstén’)]] July, 2022
+	- [Become a Makerspace Student Ambassador! (CLOSED) – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2024/01/02/become-a-makerspace-student-ambassador-2/) January, 2024
+	- [We’re Hiring Makerspace Student Ambassadors for September, 2024! (CLOSED) – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2024/04/15/were-hiring-makerspace-student-ambassadors-for-september-2024/) April, 2024
+	- [Become a Makerspace Student Ambassador! (Now Closed) – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2022/07/21/become-a-makerspace-student-ambassador/) July, 2022
 
 Makerspace Ambassador Adrian Romeo
 
-![](/assets/images/185c7932f7b03add3d5f01686056d626.jpg)
+![(/assets/images/185c7932f7b03add3d5f01686056d626.jpg)]
 
 #### CELT Faculty Makerspace Grants 2022-2024
 
-In fall 2022, I partnered with Diane Janes from CELT to create grants of up to $2000 to help faculty integrate making and hands-on learning into their curriculum. This wasn't just about getting more classes into the Makerspace. I wanted to support faculty in reimagining their teaching through active learning and experimentation.
+In fall 2022, I partnered with Diane Janes from CELT to create grants of up to $2000 to help faculty integrate making and hands-on learning into their curriculum. This wasn't just about getting more classes into the Makerspace; I wanted to support faculty in reimagining their teaching through active learning and experimentation.
 
-The resulting five awards to faculty from Social Work, Fine Arts, and the Faculty of Student Development have been fascinating. Visual Arts faculty member Twyla Exner had her students use our 3D scanners to explore questions about public art and monuments. They scanned their sculptures, experimented with placing them in virtual reality, and thought deeply about how technology changes our relationship with art. Career and Experiential Learning faculty Harshita Dhiman and Katelin Pietrusinski brought together students from different disciplines to prototype networking tools, turning what could have been a theoretical discussion into hands-on learning about teamwork and professional communication.
+This has resulted in five awards to faculty from Social Work, Fine Arts, and the Faculty of Student Development. Examples include Visual Arts faculty member Twyla Exner had her students use our 3D scanners to explore questions about public art and monuments. They scanned their sculptures, experimented with placing them in virtual reality, and thought deeply about how technology changes our relationship with art. Career and Experiential Learning faculty Harshita Dhiman and Katelin Pietrusinski brought together students from different disciplines to prototype networking tools, turning what could have been a theoretical discussion into hands-on learning about teamwork and professional communication.
 
 My role:
 
-- Worked with Dr. Janes to develop grant criteria that encouraged innovation while staying true to our unique pedagogical model and values
+- Worked with Dr. Janes to develop grant criteria
 - Consulted with interested faculty
 - Participated in selecting grant recipients
 - Provided ongoing support and mentorship to faculty as they developed their projects
-- Collaborated closely with grant recipients:
-	- Helped Harshita and Katelin think through how makerspace pedagogies could enhance their project goals and supported them in hiring and mentoring a research assistant. Then attended student presentations to provide feedback.
-	- Helped Twyla find a research assistant, provided her class with tutorials on 3D scanning, and helped with VR implementation. 
+- Collaborated closely with grant recipients by helping them think through how makerspace pedagogies could enhance their project goals and supported them in hiring and mentoring a research assistants
 
 Links:
 
@@ -133,39 +129,39 @@ Links:
 
 A 3D print of campus made with a drone and photogammetry that was part of faculty member Twyla Exner's Makerspace Grant
 
-![](/assets/images/4f7e0589ef51c07af70663f90b639646.jpg)
+![(/assets/images/4f7e0589ef51c07af70663f90b639646.jpg)]
 
 #### Encouraging Learning and Meaningful Projects: 3D Printing Guidelines
 
-I oversee the creation of all the instructional material that we have in the Makerspace, though we try not to create too many new things and instead find existing material to point to online. Here I want to focus on a specific project. 
+I oversee the creation of all the instructional material that we have in the Makerspace, but for this I want to focus on one specific project. 
 
-In October 2023, I revised our 3D printing guidelines to better align with our pedagogies and to encourage sustainability while still maintaining equitable access. I had noticed that while many users transitioned from printing online designs to creating their own objects, a few were repeatedly printing low-value items, which not only created waste but meant fewer opportunities for others to use the printers. 
+In October 2023, I revised our 3D printing guidelines to better align with our pedagogies and to encourage sustainability while still maintaining equitable access. I had noticed that while many users quickly transitioned from printing online designs to creating their own objects, a few were repeatedly printing low-value items, which not only created waste but meant fewer opportunities for others to use the printers. Furthermore, many of these students were not engaging with the process of printing, and were therefore not learning much. 
 
-To address these issues, I developed new guidelines with input from staff and students, focusing on maintaining access while encouraging learning and experimentation. The updated rules reduced the maximum print time for ready-made designs, while increasing the print time for objects people designed or modified. This encouraged experimentation with design and settings while still allowing ready-made objects to be printed, since they are a gateway to 3D printing for most new users and increase the diversity and equity of our space. 
+To address these issues, I developed new guidelines with input from staff and students, focusing on maintaining access while encouraging learning and experimentation. The updated rules reduced the maximum print time for ready-made designs, while increasing the print time for objects people designed or modified. This encouraged experimentation with design and settings while still allowing ready-made objects to be printed, since they are a gateway to 3D printing for most new users and increase the diversity and equity of our space. To ensure this we tested various prints to ensure 4 hours would still work for many fun and engaging projects. 
 
-I also established a print failure reporting process to facilitate learning through trial and error and to encourage users to see the entire printing process as part of their learning. 
+I then changed how we track prints on our whiteboards after watching Valentine Bilton, one of our Library Technicians, include details like print time and support material when troubleshooting failed prints. Now everyone records these details, which helps users to engage with printing details and reinforces their learning. 
 
-I also changed how we track prints on our whiteboards after watching Valentine, one of our technicians, include details like print time and support material when troubleshooting failed prints. Now everyone records these details, which helps users to engage with printing details and reinforces their learning. 
+I also established a print failure reporting process to facilitate learning through trial and error and to encourage users to see the entire printing process as part of their learning (and responsibility). 
 
 Attachments:
 
 - [3d printing rules.pdf](https://drive.google.com/file/d/1-fZBU9hJ3OXlQ4zyyPrc_M2a3urn5RU1/view?usp=share_link)
 - [3d printing guidelines.pdf](https://drive.google.com/file/d/1-StbPoX2qydG38hncWqv9rufmDhYY0Az/view?usp=share_link)
-- New 3D Printing Rules and Guidelines – TRU Library Makerspace (C7elelkstén’).pdf
+- [New 3D Printing Rules and Guidelines – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2023/11/24/new-3d-printing-rules-and-guidelines/)
 
 Whiteboard used to assign printers and share details about the current 3D print
 
-![](/assets/images/573ca564d46f649eaf79a59f46b9c84c.jpg)
+![(/assets/images/573ca564d46f649eaf79a59f46b9c84c.jpg)]
 
 #### Identity Token Wall (2023)
 
 Sometimes the most meaningful changes happen by accident. We've always used a simple 3D printed "identity token" as a tutorial for new users - it's adapted from local elementary curriculum and provides a friendly entry point to 3D printing. Initially, users would take their tokens home or, more often, leave them behind to be recycled. 
 
-As part of the project outlined above, I had an idea: what if their first print could be a gift to our community instead? Now, users' first tokens go up on our wall, with the option to print a second one to keep. This small change is one of the many we made to encourage belonging and community. It also connects with the third challenge I give during my "Welcome to the Makerspace" talk - that the first thing you make should be a gift for someone else. 
+As part of the project outlined above, I had an idea: what if their first print could be a gift to our community instead? Now, users' first tokens go up on our wall as a marker of their impact on the space, with the option to print a second one to keep. This small change is one of the many we made to encourage belonging. It also connects with the third challenge I give during my "Welcome to the Makerspace" talk - that the first thing you make should be a gift for someone else. Almost every day I see users stop to look at the tokens or point theirs out to a friend. 
 
-Photo of the Identity Token wall when it first went up
+Photo of the Identity Token wall:
 
-![](/assets/images/16f5a23c1d71a66b9d443feeeabac479.jpg)
+![(/assets/images/16f5a23c1d71a66b9d443feeeabac479.jpg)]
 
 #### Artwork Installation (2024)
 
@@ -185,7 +181,7 @@ Paintings in the TRU Library Makerspace
 
 Shortly after we opened, I started writing weekly questions on our whiteboard for users to answer. Staff quickly took over choosing questions, and their creativity has far surpassed mine. The questions are silly ("Draw your favorite dinosaur!"), thoughtful ("What are you proud of making?"), or somewhere in between. 
 
-I include this in my APAR because it exemplifies my leadership approach: set up simple structures that support our values, then get out of the way and let others make them better. The whiteboard has become a constantly changing record of our community - full of inside jokes, mutual encouragement, and shared creativity. It shows how small, consistent practices can help create the kind of welcoming, playful space we want to be.
+I include this in my APAR because it exemplifies my approach to overseeing this space: set up simple structures that support our values, then get out of the way and let others make them better. The whiteboard has become a constantly changing record of our community - full of inside jokes, mutual encouragement, and shared creativity. It shows how small, consistent practices can help create the kind of welcoming, playful space we want to be.
 
 Links:
 
@@ -195,7 +191,7 @@ Links:
 
 I worked with staff to create a simple "Take a Button! Leave a Button!" board to encourage belonging and community engagement after the idea was suggested by a faculty collaborator. Simple, even silly, projects like this are central to our space and their impact feels disproportionately positive to the effort they require.
 
-![](/assets/images/a83a36bd2951ac2ac4f41c93511834dd.jpg)
+![(/assets/images/a83a36bd2951ac2ac4f41c93511834dd.jpg)]
 
 #### Community Bulletin Board (2023)
 
@@ -221,15 +217,13 @@ Total teaching I've led during this APAR period:
 - 2023: 26 events, 485 participants.
 - 2024 (to June 30) 8 events with 156 attendees
 
-Since opening, I've been developing a "Welcome to the Makerspace" talk to communicate our core values and pedagogical approach to everyone, from first-year students to the most tenured of faculty. 
-
-I start with a land acknowledgement that connects to the legacy of making and stewardship in this place and prompts people to think about how their own making will become part of that story. Then I ask people to reflect on technologies they already use confidently - cooking, art, fixing bikes. This helps communicate that everyone brings valuable prior-learning to the Makerspace. The rest of the talk emphasizes that the space is for everyone, and invites them to follow their interests and passions, another way of connecting learning with their lived experiences. 
+As the faculty member who oversees the space, I lead any class tour, orientation, or talk in the space. Since opening, I've been developing a "Welcome to the Makerspace" talk to communicate our core values and pedagogical approach to everyone, from first-year students to the most tenured of faculty. I start with a land acknowledgement that connects to the legacy of making and stewardship in this place and prompts people to think about how their own making will become part of that story. Then I ask people to reflect on technologies they already use confidently - cooking, art, fixing bikes - to communicate that everyone brings valuable prior-learning to the Makerspace. The rest of the talk emphasizes that the space is for everyone, and invites them to follow their interests and passions, another way of connecting learning with their lived experiences. 
 
 I conclude the talk with three challenges: 
 
-1. Make something personally meaningful.
-2. Create an object that tells a story rather than just making a thing.
-3. Make your first project a gift for someone else, connects to Indigenous ways of learning, bringing us full circle to the land acknowledgement. 
+1. Make something personally meaningful (because you'll learn more if you care about the outcome)
+2. Create an object that tells a story rather than just making a thing (because you'll be more ambitious if you're not worried about getting the thing perfect).
+3. Make your first project a gift for someone else (because it connects with Indigenous ways of learning, bringing us full circle to the land acknowledgement, and also a gift is inherently meaningful and a story) 
 
 I've given versions of this welcome to over 800 students through more than 40 instructional sessions, adapting it for groups from Engineering to Business to Arts. What excites me is seeing how different disciplines connect with our core ideas - like the biology student who combined their GIS knowledge with our 3D printers to model watersheds, or the Education students exploring how active learning could transform their future classrooms.
 
@@ -280,11 +274,11 @@ I've given versions of this welcome to over 800 students through more than 40 in
 
 Speaking to a Masters of Education class
 
-![](/assets/images/a80eb301abee459997a35e101b75ba4e.jpg)
+![(/assets/images/a80eb301abee459997a35e101b75ba4e.jpg)]
 
 Helping Visual Arts students scan their 3D sculptures
 
-![](/assets/images/fa9d3431b3beae5a073c8c55a452027c.jpg)
+![(/assets/images/fa9d3431b3beae5a073c8c55a452027c.jpg)]
 
 #### 3D Printing Workshops
 
@@ -315,20 +309,20 @@ Our Program Description states: "Makerspace supports Indigenization by facilitat
 In practice this has meant:
 
 - Making the space welcoming to Indigenous students by hiring Indigenous student staff, incorporating Indigenous content, and going to events like Cplul'kw'ten's soup circle
-- Give land acknowledgments whenever I give talk or welcome any group to the space
+- Give a specific and direct land acknowledgments whenever I give talk or welcome any group to the space
 - Whenever possible provide space and resources for Indigenous faculty and students to run programming
-- Ensuring Indigenous people have control over their culture. 
+- Ensuring Indigenous instrutors in the space have control over their materials and representation of their culture. 
 - Being flexible with our space and schedules, including staying late to host evening workshops
 - Limiting social media promotion of these events to respect privacy and avoid preformative allyship
-- Working with Indigenous Education and Cplul'kw'ten to make sure we are working with partners. 
+- Working with Indigenous Education and Cplul'kw'ten to make sure we are always working with Indigenous partners. 
 
 Since July, 2022 I have: 
 
 - Incorporated Indigenization as a core value in our Program Description (2023).
 - Secured a Coyote Grant in 2023, funding outreach and programming. This included two welcome events for Indigenous students, organized with my Makerspace Sustainability Ambassadors, and workshops on moccasin and medicine bag making with Indigenous Education Cultural Coordinator Wynona Edwards. Additionally, we hosted two Feather Work workshops with CELT faculty member Laura Grizzlypaws and two beading workshops taught by Secwépemc Visual Arts student Charlayna Napoleon. (2023)
-- Collaborated with Interim Associate University Librarian Julia Wells to develop HL161 into a permanent on-demand smudging room. (2022)
+- Collaborated with Interim Associate University Librarian Julia Wells to develop one of our rooms into a permanent on-demand smudging room. (2022)
 - Established a process for sharing HL161 with Indigenous Education and faculty from the Faculty of Student Development.
-- Obtained a Sustainability Grant to fund a lunch for Indigenous faculty, where we discussed the current state of the Makerspace and explored further Indigenization opportunities. (2023)
+- Obtained a Sustainability Grant to fund outreach to Indigenous students and faculty, where we discussed the current state of the Makerspace and explored further Indigenization opportunities. (2023)
 - Hosted half-day visits for grades 5/6 and 7/8 students and teachers from the Chief Atahm School, allowing them to explore the Makerspace and engage in activities like 3D printing, sticker making, Virtual Reality, and media recording. (2024)
 - Recruited 5 Indigenous students into paid roles as Makerspace Ambassadors or Research Assistants during the period covered by this APAR. (Ongoing)
 
@@ -341,7 +335,7 @@ In fall 2023, I received a $6,000 Coyote Grant to fund Indigenous programming an
 - Two feather-work workshops with CELT faculty member Laura Grizzlypaws
 - Two Beading workshops with Secwépemc Visual Arts student Charlayna Napoleon, that were open to the whole TRU Community and had seats specifically reserved for Library Staff. 
 
-#### List of Indigenous Events (2022 - 2024)
+#### List of all Indigenous Events (2022 - 2024)
 
 - 2024-05-08: Visit from Chief Atahm School (10 attendees)
 - 2024-05-22: Visit from Chief Atahm School grade (10 attendees)
@@ -406,26 +400,26 @@ Attachments:
 
 Links:
 
-- [[Makerspace Sustainability Grant Final Report – TRU Library Makerspace (C7elelkstén’)]] April 2024
-- [[Sustainability Grant Update Tool Library Launches! Community Fabric Stash Coming Soon! – TRU Library Makerspace (C7elelkstén’)]] February, 2024
-- [[Makerspace Sustainability Incubator Funded! – TRU Library Makerspace (C7elelkstén’)]] by Franklin Sayre, March 2023
+- [Makerspace Sustainability Grant Final Report – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2024/04/10/makerspace-sustainability-grant-final-report/) April 2024
+- [Sustainability Grant Update Tool Library Launches! Community Fabric Stash Coming Soon! – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2024/02/09/sustainability-grant-update-tool-library-launches-community-fabric-stash-coming-soon/) February, 2024
+- [Makerspace Sustainability Incubator Funded! – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2023/03/31/makerspace-sustainability-incubator-funded/) by Franklin Sayre, March 2023
 - [Makerspace is Hiring TWO Makerspace Student Sustainability Champions! (UPDATE: HIRING CLOSED) – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2023/04/11/the-makerspace-is-hiring-two-makerspace-student-sustainability-champions/) (April 2023)
 
 Whiteboard survey:
 
-![](/assets/images/e84e321dc0607520175a86da34ecb2d1.jpg)
+![(/assets/images/e84e321dc0607520175a86da34ecb2d1.jpg)]
 
 A very small selection of the tools we have available: 
 
-![](/assets/images/f56d31fd25489a8ca3c91ea3d941b96b.jpg)
+![(/assets/images/f56d31fd25489a8ca3c91ea3d941b96b.jpg)]
 
 Facilitator faculty member Cheryl Gladu leading a session at the TRUSU Open House for Clubs event
 
-![](/assets/images/8cad01299c067a2318a638085742680d.jpg)
+![(/assets/images/8cad01299c067a2318a638085742680d.jpg)]
 
 #### Repair Cafe Events (2023 - 2024)
 
-Over the past two years, I collaborated with the Kamloops Repair Café and TRU Sustainability to host Repair Café events at the TRU Library Makerspace, promoting sustainability and community engagement. These events attracted over 300 participants and offered repair services for bicycles, electronics, and textiles, successfully reducing waste and empowering individuals with practical skills.
+Over the past two years, I collaborated with the Kamloops Repair Café and the TRU Sustainability Office to host Repair Café events at the TRU Library Makerspace, promoting sustainability and community engagement. These events attracted over 300 participants and offered repair services for bicycles, electronics, and textiles, successfully reducing waste and empowering individuals with practical skills.
 
 - Clothing Swap and Repair event with the TRUSU Eco Club in January 2023
 - Repair Cafe open to Kamloops Community in November 2023
@@ -433,15 +427,15 @@ Over the past two years, I collaborated with the Kamloops Repair Café and TRU S
 
 Repair Event in March 2023
 
-![](/assets/images/645ee40f13c12a3bfff0b1430dc973b3.jpg)
+![(/assets/images/645ee40f13c12a3bfff0b1430dc973b3.jpg)]
 
 Repair Event in November, 2023
 
-![](/assets/images/6985bc91ff8aa6d08480b13d97bc4152.jpg)
+![(/assets/images/6985bc91ff8aa6d08480b13d97bc4152.jpg)]
 
 Repair event and clothing exchange in January, 2023
 
-![](/assets/images/ada2e263d0a037304a304b5454dfe6cb.jpg)
+![(/assets/images/ada2e263d0a037304a304b5454dfe6cb.jpg)]
 
 #### Plant Day for Earth Day (2024)
 
@@ -449,13 +443,13 @@ To celebrate Earth Day on April 22, 2024, I collaborated with the TRU Sustainabi
 
 Plant Day 2023
 
-![](/assets/images/254a1451386c5f8eaed38064332eea40.jpg)
+![(/assets/images/254a1451386c5f8eaed38064332eea40.jpg)]
 
 #### Filament Recycling (2023)
 
 - Collaborated with the Sustainability Office to introduce a filament recycling program as part of our 3D printing services.
 
-![](/assets/images/0082a0957a071b254b4b8faa1511d370.jpg)
+![(/assets/images/0082a0957a071b254b4b8faa1511d370.jpg)]
 
 #### Sustainability Community of Practice Talk (2024)
 
@@ -473,13 +467,13 @@ In April 2024, I gave a talk for the TRU Sustainability Community of Practice ti
 
 Reception and workshop during the Liveable Cities, Collaborative Communities Conference: 
 
-![](/assets/images/1203e76b3b9a44a46e6d35eb37b4ce73.jpg)
+![(/assets/images/1203e76b3b9a44a46e6d35eb37b4ce73.jpg)]
 
 ### Communication
 
-Communication and outreach are an extension of our academic programming. Everything we post or publish tries to reinforce our values around belonging, community, and experiential learning.
+Communication and outreach are an extension of our academic programming as they reinforce our values around belonging, community, and experiential learning.
 
-The Makerspace Website had dozens of pages and over 60 blog posts. Our Instagram has had hundreds of posts over the last two years. These are a mix of things created by myself and staff/students. I am not going to try to include everything. Here I am including things not listed elsewhere. 
+The Makerspace Website had dozens of pages and over 60 blog posts. Our Instagram has had hundreds of posts over the last two years. These are a mix of things created by myself as well as staff/students. I am not going to try to include everything. Here I am including things not listed elsewhere. 
 
 #### Website Updates
 
@@ -490,7 +484,7 @@ The Makerspace Website had dozens of pages and over 60 blog posts. Our Instagram
 
 Photo of card sorting activity I did with Makerspace Staff as part of a mini-redesign in 2023 
 
-![](/assets/images/6b04a6f2a0b1bcced1ad8d40df1a8f91.jpg)
+![(/assets/images/6b04a6f2a0b1bcced1ad8d40df1a8f91.jpg)]
 
 #### Makerspace Librarian Reports
 
@@ -519,13 +513,13 @@ Links:
 
 Post Developed by Makerspace Technician Sarah Porter to celebrate The Makerspace's first birthday
 
-![](/assets/images/1e53d6062a5fbcaa8dca3c3f5ba418d9.jpg)
+![(/assets/images/1e53d6062a5fbcaa8dca3c3f5ba418d9.jpg)]
 
 Links:
 
 - [TRU Library Makerspace | Third year biology student Manuel Duque explaining the NSERC-funded research supervised by Dr. Eric Bottos. Hear about the implications of... | Instagram](https://www.instagram.com/reel/C5EDo0PLv1T/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==) Interview and Video by Franklin Sayre (2024)
 
-![](/assets/images/aca3724f9cfff24c3f6d121088681156.jpg)
+![(/assets/images/aca3724f9cfff24c3f6d121088681156.jpg)]
 
 #### Blog Posts by Me Not Included Elsewhere
 
@@ -541,7 +535,7 @@ Attachments:
 
 #### Blog Posts by Students and Staff Overseen by Me Not Included Elsewhere
 
-- [[Artwork added to Makerspace! – TRU Library Makerspace (C7elelkstén’)]] by Makerspace Library Technician Sarah Porter 
+- [Artwork added to Makerspace! – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2024/03/08/artwork-added-to-makerspace/) by Makerspace Library Technician Sarah Porter 
 - [Exploring Educational Learning Outcomes in a Makerspace – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2022/07/28/exploring-educational-learning-outcomes-in-a-makerspace/) (July 2023) by Makerspace Research Assistant and Bachlor of Education student Dalton Hargreaves
 - [Makerspace Team Grows! – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2023/10/25/makerspace-team-grows/) by Sarah Porter
 
@@ -555,11 +549,11 @@ I also provide an overview of our statistics at the end of every term in my Libr
 
 Combined Stats: Trends from 2021-2024 
 
-![](/assets/images/463222540713ae1fd4911fb6eb698189.svg)
+![(/assets/images/463222540713ae1fd4911fb6eb698189.svg)]
 
 Reference Questions
 
-![](/assets/images/6ad4cb3644f86ee4134aa86b71ce9ebd.png)
+![(/assets/images/6ad4cb3644f86ee4134aa86b71ce9ebd.png)]
 
 #### Makerspace Assessment Project and WILU 2024 Presentation
 
@@ -604,7 +598,7 @@ Outreach Events:
 
 #### Women in Engineering Highschool Girls Robotics Workshop (2022 - 2024)
 
-I co-host 2 Women in Engineering Robotics Event for high school girls each year in collaboration with Engineering Faculty. These events bring high school girls to TRU to spend a half day in the Makerspace and a half day learning about robotics and opportunities for women in engineering. 
+I co-host 2 Women in Engineering Robotics Event for high school girls each academic year in collaboration with Engineering Faculty. These events bring high school girls to TRU to spend a half day in the Makerspace and a half day learning about robotics and opportunities for women in engineering. 
 
 #### Makerspace Family Day (2023)
 
@@ -616,11 +610,11 @@ During PD Week in February 2023, I developed and facilitated two 2-hour workshop
 
 PD Week 2023: Having each person teach the next how to use the button maker 
 
-![](/assets/images/03a706f502f251fd63aa927802339a89.jpg)
+![(/assets/images/03a706f502f251fd63aa927802339a89.jpg)]
 
 #### Events and PD for Internal Library Staff:
 
-These are events for Library Staff. These have mostly been overseen by Makerspace staff, with me helping determine scope and mentor staff on organizing events. 
+These are events for Library Staff. These have mostly been overseen by Makerspace staff, with my role being to help determine scope and mentor staff on organizing events as needed. 
 
 - 2023-05-30: LCSA Book Binding (7 attendees)
 - 2023-06-06 Presentation about Makerspace to Library Staff 
@@ -685,7 +679,7 @@ In an effort to enhance the utilization of the TRU Makerspace by campus groups, 
 
 ### Overseeing Staff and the Operations Team
 
-I lead the Makerspace Operations Team, which includes four library technicians and a faculty librarian who provides backup support for me at 5% of their assigned workload. We work as a collegial team, meeting weekly to discuss common issues as a group and using consensus to make decisions whenever possible. My leadership approach mirrors the Makerspace's pedagogical philosophy of self-directed, experiential learning.
+I lead the Makerspace Operations Team, which includes four library technicians and another faculty librarian who provides backup support for me at 5% of their assigned workload. We work as a collegial team, meeting weekly to discuss common issues as a group and using consensus to make decisions whenever possible. My leadership approach mirrors the Makerspace's pedagogical philosophy of self-directed, experiential learning.
 
 This means:
 
@@ -698,7 +692,7 @@ This means:
 This model has proven effective through multiple staffing changes and has enabled greater innovation than would have been possible with a more traditional approach. It has also been a lot more fun. 
 
 - Worked with Library Administration to ensure adequate staffing throughout the year 
-- Managed staffing changes, including having 3 staff members move onto better positions or post-secondary institutions
+- Managed staffing changes, including having 3 staff members move onto better positions within our organization or to do additional post-secondary education
 - Trained new staff as needed, including 5 during the period covered by this APAR
 - Developed and oversee team infrastructure, including the use of Teams for communication, a shared email address, calendars, etc.
 - Developed a shared chairing model for our operations team, where we all share chairing meetings.
@@ -732,7 +726,7 @@ Attachment:
 
 Silly posters I made for each of our values. These posters now hang in the Makerspace Staff office, as well as in my office
 
-![](/assets/images/935cd98d40d60cb0d5f1ef265315d67c.jpg)
+![(/assets/images/935cd98d40d60cb0d5f1ef265315d67c.jpg)]
 
 #### Makerspace Team Development Days
 
@@ -809,7 +803,7 @@ These measures have successfully prevented further incidents while maintaining t
 
 The 3D print room following a break-in in December, 2022. 
 
-![](/assets/images/da75895004222f66cedff21dd3c4b7ae.jpg)
+![(/assets/images/da75895004222f66cedff21dd3c4b7ae.jpg)]
 
 #### Managing the Makerspace Budget and Purchasing
 
@@ -824,7 +818,7 @@ I also successfully applied for grants which I oversee the budgets of, including
 
 #### Collection Development
 
- I have developed a small library of physical books that supports our users with a focus is on technical manuals and books about the cultural and historical contexts of technology. I also try to collect books on things like interview skills and budgeting, that students might discover by chance and we know from experience they could use. 
+I have developed a small library of physical books that supports our users with a focus is on technical manuals and books about the cultural and historical contexts of technology. I also try to collect books on things like interview skills and budgeting, that students might discover by chance and we know from experience they could use. 
 
 Recently, I've focused on acquiring books about sustainability, nature, rewilding, and alternative technologies or critical making.
 
@@ -840,7 +834,7 @@ From 2022 to 2024, I led cataloging projects to make our tools and technologies 
 
 Lending stats for items
 
-![](/assets/images/0fa4d03417cb19875e43faecb40d9a90.png)
+![(/assets/images/0fa4d03417cb19875e43faecb40d9a90.png)]
 
 #### Developing Loan Policies
 
