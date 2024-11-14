@@ -5,6 +5,9 @@ permalink: /about/
 
 ![image of me](/assets/images/IMG_7026.jpeg){: .img-left}
 
+<img src="/assets/images/IMG_7026.jpeg" alt="its me" width="150"/>
+
+
 
 hi there,
 
