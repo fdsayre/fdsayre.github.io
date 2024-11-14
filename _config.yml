@@ -72,8 +72,8 @@ include:
 
 # Plugins (previously gems:)
 plugins:
-  # - jekyll-paginate
-  - jekyll-paginate-v2]
+  - jekyll-paginate
+  #- jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -139,7 +139,7 @@ defaults:
       author_profile: true
   # _apar2024
   - scope:
-      path: "_apar2024"
+      path: ""
       type: apar2024
     values:
       toc: true
@@ -161,6 +161,7 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
 
 collections:
   apar2024:
