@@ -2,9 +2,6 @@
 title: "About"
 permalink: /about/
 ---
-
-![image of me](/assets/images/IMG_7026.jpeg){: .img-left}
-
 hi there,
 
 I'm an academic librarian at Thompson Rivers University where I run the [TRU Library Makerspace](https://makerspace.trubox.ca). I also Co-Chair the Librarians' Department. These days I am particularly interested in creating active learning spaces that foster belonging, sustainability, and ecological thinking.
