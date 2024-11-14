@@ -1,6 +1,7 @@
 ---
 title: "Service"
 order: 4
+excerpt: In my service role, I have contributed across multiple areas within the department and university. As a member of the Program Review Team and Chair of the ULDC, I focus on advancing departmental priorities, fostering effective governance, and supporting Indigenization and Decolonization efforts. My involvement extends to university-wide initiatives, such as participating in TRU Chairs Group and contributing to projects like the EnviroCollab ISP, which emphasizes interdisciplinary environmental studies. I have also served as the Treasurer of TRUFA, where I worked to enhance financial governance and transparency, and contributed to University processes and governance through running for positions and providing feedback. 
 ---
 
 
