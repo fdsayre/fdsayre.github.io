@@ -3,8 +3,6 @@ title: "Professional Role: Librarians' Department Co-Chair"
 order: 2
 ---
 
-## Librarians' Department Co-Chair
-
 My second professional role is as Co-Chair of the Librarians' Department. In this role I have aimed to support my colleagues in the Department and fulfill the responsibilities of the position as laid out in the Collective Agreement. Throughout this period, I have focused on refining our workload distribution, fostering a collegial environment, and advancing the department's strategic priorities.
 
 - Chair regular departmental meetings.

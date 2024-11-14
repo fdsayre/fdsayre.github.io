@@ -3,13 +3,7 @@ title: "Professional Role: Makerspace Librarian"
 order: 1
 ---
 
-
-
-# Teaching and Professional Role
-
-## TRU Library Makerspace Librarian
-
-My primary role is overseeing the TRU Library Makerspace, a learning space and service I proposed in 2019 and formally launched in the spring of 2022. Over the past two years the Makerspace has grown into a vibrant community where students, staff, and faculty come together to learn, create, and support each other. I am ridiculously proud of this positive little space and so I hope dear reader you will forgive the length of the following sections. 
+My primary professional role is overseeing the TRU Library Makerspace, an active learning space and service I proposed in 2019 and formally launched in the spring of 2022. Over the two years covered by this APAR, the Makerspace has grown into a vibrant community where students, staff, and faculty come together to learn, create, and support one another. This section provides an overview of my role in those developments, including defining our pedagogies and values; overseeing the operational team and Student Ambassadors who work in the space; implementing sustainability initiatives, such as the Tool Library and Community Fabric Stash; advancing Indigenization efforts that support Indigenous-led workshops and programming; teaching classes, leading workshops, and collaborating with other faculty to integrate curriculum into the space; communication and outreach; and more. I am incredibly proud of this positive little space and hope, dear reader, that you’ll forgive the length of this section.
 
 Throughout this APAR, I often use "we/us" instead of "I/me" because the Makerspace has always been an intentionally collaborative project. From the beginning, I knew this space would only work if everyone - our amazing Library Technicians, student workers, Library Administration, and faculty collaborators - had meaningful opportunities to contribute. While I set the vision and values that guide our work, many of the accomplishments described here reflect our collective efforts. I use "we" when projects truly were collaborative, but I'm careful to use "I" when describing my specific contributions and leadership. When some else wrote something under my direction I name them specifically or otherwise make it clear. 
 
