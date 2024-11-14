@@ -137,7 +137,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      toc: true
   # _apar2024
   - scope:
       path: "_apar2024"
