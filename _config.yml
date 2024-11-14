@@ -139,7 +139,7 @@ defaults:
       author_profile: true
   # _apar2024
   - scope:
-      path: "_apar2024"
+      path: ""
       type: apar2024
     values:
       toc: true
@@ -148,7 +148,7 @@ defaults:
       share: true
   # _projects
   - scope:
-      path: "projects"
+      path: ""
       type: projects
     values:
       layout: single
