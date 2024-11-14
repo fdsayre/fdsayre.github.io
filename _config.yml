@@ -148,7 +148,7 @@ defaults:
       share: true
   # _projects
   - scope:
-      path: ""
+      path: "projects"
       type: projects
     values:
       layout: single
