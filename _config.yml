@@ -167,6 +167,4 @@ collections:
   apar2024:
     output: true
     permalink: /:collection/:path/
-  projects:
-    output: true
-    permalink: /:collection/:path/
+
