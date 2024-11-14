@@ -162,6 +162,7 @@ tag_archive:
   type: liquid
   path: /tags/
 
+
 collections:
   apar2024:
     output: true
@@ -169,4 +170,3 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
-  collections_dir: _collections
