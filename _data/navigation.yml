@@ -1,4 +1,6 @@
 main:
+  - title: "Home"
+    url: /
   - title: "About"
     url: /about/
   - title: "Posts"
@@ -7,8 +9,8 @@ main:
     url: /categories/
   - title: "Tags"
     url: /tags/
-  - title: "Pages"
-    url: /pages/
+  # - title: "Pages"
+  #   url: /pages/
   - title: "APAR 2024"
     url: /apar2024/
 #  - title: "APARs Collection"
