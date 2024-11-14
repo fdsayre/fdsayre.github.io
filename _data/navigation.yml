@@ -9,8 +9,8 @@ main:
     url: /categories/
   - title: "Tags"
     url: /tags/
-  - title: "Projects"
-    url: /projects/
+  # - title: "Projects"
+  #   url: /projects/
   - title: "APAR 2024"
     url: /apar2024/
 #  - title: "APARs Collection"
