@@ -169,3 +169,4 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
+  collections_dir: _collections
