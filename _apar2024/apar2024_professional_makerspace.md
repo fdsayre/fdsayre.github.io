@@ -42,8 +42,8 @@ The Code of Conduct, initially developed by my colleague Erin May for our 2020 P
 Attachments: 
 
 
-- [TRU Library Makerspace Program Description FINAL FOR ULDC.pdf](https://drive.google.com/file/d/10iK3aEApEaK8PzL8BLhY4eueQgq8P588/view?usp=share_link)
-- [TRU Library Makerspace Code of Conduct FINAL FOR ULDC.pdf](https://drive.google.com/file/d/1-ZxfzR6HiLiZDWbKWqfBaGaEZavuMpDC/view?usp=share_link)
+- [TRU Library Makerspace Program Description FINAL FOR ULDC.pdf](https://drive.google.com/file/d/10iK3aEApEaK8PzL8BLhY4eueQgq8P588/view?usp=share_link){:target="_blank"}
+- [TRU Library Makerspace Code of Conduct FINAL FOR ULDC.pdf](https://drive.google.com/file/d/1-ZxfzR6HiLiZDWbKWqfBaGaEZavuMpDC/view?usp=share_link){:target="_blank"}
 
 #### Developing a Student Ambassador Program
 
@@ -91,20 +91,20 @@ I continue to refine the program by focusing on helping Ambassadors understand t
 Attachments:
 
 - [Student Makerspace Ambassador Charter 2024.pdf](https://drive.google.com/file/d/1-hu9Turea4ihrmknTpjoQyKDVKHSMGQQ/view?usp=share_link){:target="_blank"}
-- [Makerspace Ambassador FAQ 2024.pdf](https://drive.google.com/file/d/10-YBUC2fkROAA1AzRekFPf-fDBOaUsBu/view?usp=share_link)
+- [Makerspace Ambassador FAQ 2024.pdf](https://drive.google.com/file/d/10-YBUC2fkROAA1AzRekFPf-fDBOaUsBu/view?usp=share_link){:target="_blank"}
 
 Links:
 
-- [Our Team – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/about/our-team/) We keep the bios of old team members, including Ambassadors, on our website Team page, to continue to recognize their contributions to the Makerspace and so they have professional materials that can be found on the Internet. 
-- Article by my Research Assistant Kirsten Glass introducing the new program in November, 2022: [New School Year, New Ambassador Program! – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2022/11/25/new-school-year-new-ambassador-program/)
+- [Our Team – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/about/our-team/){:target="_blank"} We keep the bios of old team members, including Ambassadors, on our website Team page, to continue to recognize their contributions to the Makerspace and so they have professional materials that can be found on the Internet. 
+- Article by my Research Assistant Kirsten Glass introducing the new program in November, 2022: [New School Year, New Ambassador Program! – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2022/11/25/new-school-year-new-ambassador-program/){:target="_blank"}
 - Blog posts announcing new positions
-	- [Become a Makerspace Student Ambassador! (CLOSED) – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2024/01/02/become-a-makerspace-student-ambassador-2/) January, 2024
-	- [We’re Hiring Makerspace Student Ambassadors for September, 2024! (CLOSED) – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2024/04/15/were-hiring-makerspace-student-ambassadors-for-september-2024/) April, 2024
-	- [Become a Makerspace Student Ambassador! (Now Closed) – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2022/07/21/become-a-makerspace-student-ambassador/) July, 2022
+	- [Become a Makerspace Student Ambassador! (CLOSED) – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2024/01/02/become-a-makerspace-student-ambassador-2/){:target="_blank"} January, 2024
+	- [We’re Hiring Makerspace Student Ambassadors for September, 2024! (CLOSED) – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2024/04/15/were-hiring-makerspace-student-ambassadors-for-september-2024/){:target="_blank"} April, 2024
+	- [Become a Makerspace Student Ambassador! (Now Closed) – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2022/07/21/become-a-makerspace-student-ambassador/){:target="_blank"} July, 2022
 
 Makerspace Ambassador Adrian Romeo
 
-![(/assets/images/185c7932f7b03add3d5f01686056d626.jpg)]
+![](/assets/images/185c7932f7b03add3d5f01686056d626.jpg)
 
 #### CELT Faculty Makerspace Grants 2022-2024
 
@@ -122,14 +122,14 @@ My role:
 
 Links:
 
-- [The Makerspace Grant: Adding Innovation into the Classroom by Harshita Dhiman and Katelin Pietrusinsk, Department of Career and Experiential Learning – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2023/12/11/the-makerspace-grant-adding-innovation-into-the-classroom-by-harshita-dhiman-and-katelin-pietrusinsk-department-of-career-and-experiential-learning/) by Harshita Dhiman and Katelin Pietrusinsk, faculty members in the Department of Career and Experiential Learning as part of their Makerspace CELT Grant (December 2023) 
-- [Unmade Monuments: Exploring Public Space Through Prototyping Monuments and Public Sculptures by Twyla Exner, Assistant Teaching Professor, Department of Communication & Visual Arts – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2023/08/08/unmade-monuments-exploring-public-space-through-prototyping-monuments-and-public-sculptures-by-twyla-exner-assistant-teaching-professor-department-of-communication-visual-arts/) (August 2023) by Visual Arts faculty member Twyla Exner as part of their CELT Faculty Grant 
-- [2023 CELT Faculty Makerspace Grant Awardees – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2023/04/28/2023-celt-faculty-makerspace-grant-awardees/) By Franklin Sayre, April 28, 2023
-- [The Makerspace Faculty Grant – Supporting learning through making – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2023/02/08/the-makerspace-faculty-grant-supporting-learning-through-making/) by Kirsten Glass , February 2023
+- [The Makerspace Grant: Adding Innovation into the Classroom by Harshita Dhiman and Katelin Pietrusinsk, Department of Career and Experiential Learning – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2023/12/11/the-makerspace-grant-adding-innovation-into-the-classroom-by-harshita-dhiman-and-katelin-pietrusinsk-department-of-career-and-experiential-learning/){:target="_blank"} by Harshita Dhiman and Katelin Pietrusinsk, faculty members in the Department of Career and Experiential Learning as part of their Makerspace CELT Grant (December 2023) 
+- [Unmade Monuments: Exploring Public Space Through Prototyping Monuments and Public Sculptures by Twyla Exner, Assistant Teaching Professor, Department of Communication & Visual Arts – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2023/08/08/unmade-monuments-exploring-public-space-through-prototyping-monuments-and-public-sculptures-by-twyla-exner-assistant-teaching-professor-department-of-communication-visual-arts/){:target="_blank"} (August 2023) by Visual Arts faculty member Twyla Exner as part of their CELT Faculty Grant 
+- [2023 CELT Faculty Makerspace Grant Awardees – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2023/04/28/2023-celt-faculty-makerspace-grant-awardees/){:target="_blank"} By Franklin Sayre, April 28, 2023
+- [The Makerspace Faculty Grant – Supporting learning through making – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2023/02/08/the-makerspace-faculty-grant-supporting-learning-through-making/){:target="_blank"} by Kirsten Glass , February 2023
 
 A 3D print of campus made with a drone and photogammetry that was part of faculty member Twyla Exner's Makerspace Grant
 
-![(/assets/images/4f7e0589ef51c07af70663f90b639646.jpg)]
+![](/assets/images/4f7e0589ef51c07af70663f90b639646.jpg)
 
 #### Encouraging Learning and Meaningful Projects: 3D Printing Guidelines
 
@@ -145,13 +145,13 @@ I also established a print failure reporting process to facilitate learning thro
 
 Attachments:
 
-- [3d printing rules.pdf](https://drive.google.com/file/d/1-fZBU9hJ3OXlQ4zyyPrc_M2a3urn5RU1/view?usp=share_link)
-- [3d printing guidelines.pdf](https://drive.google.com/file/d/1-StbPoX2qydG38hncWqv9rufmDhYY0Az/view?usp=share_link)
-- [New 3D Printing Rules and Guidelines – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2023/11/24/new-3d-printing-rules-and-guidelines/)
+- [3d printing rules.pdf](https://drive.google.com/file/d/1-fZBU9hJ3OXlQ4zyyPrc_M2a3urn5RU1/view?usp=share_link){:target="_blank"}
+- [3d printing guidelines.pdf](https://drive.google.com/file/d/1-StbPoX2qydG38hncWqv9rufmDhYY0Az/view?usp=share_link){:target="_blank"}
+- [New 3D Printing Rules and Guidelines – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2023/11/24/new-3d-printing-rules-and-guidelines/){:target="_blank"}
 
 Whiteboard used to assign printers and share details about the current 3D print
 
-![(/assets/images/573ca564d46f649eaf79a59f46b9c84c.jpg)]
+![](/assets/images/573ca564d46f649eaf79a59f46b9c84c.jpg)
 
 #### Identity Token Wall (2023)
 
@@ -161,7 +161,7 @@ As part of the project outlined above, I had an idea: what if their first print 
 
 Photo of the Identity Token wall:
 
-![(/assets/images/16f5a23c1d71a66b9d443feeeabac479.jpg)]
+![](/assets/images/16f5a23c1d71a66b9d443feeeabac479.jpg)
 
 #### Artwork Installation (2024)
 
@@ -169,7 +169,7 @@ In spring 2024, working with faculty member Terryl Atkins from the Faculty of Ar
 
 Links:
 
-- [Artwork added to Makerspace! – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2024/03/08/artwork-added-to-makerspace/) by Sarah Porter (March, 2024)
+- [Artwork added to Makerspace! – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2024/03/08/artwork-added-to-makerspace/){:target="_blank"} by Sarah Porter (March, 2024)
 
 Paintings in the TRU Library Makerspace
 
@@ -185,13 +185,13 @@ I include this in my APAR because it exemplifies my approach to overseeing this 
 
 Links:
 
-- [2022-2023 White Board Questions of the Week – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2023/11/14/2022-2023-white-board-questions-of-the-week/) Blog post by Makerspace Staff Olivia Strodl featuring a year of pictures of our whiteboard questions. 
+- [2022-2023 White Board Questions of the Week – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2023/11/14/2022-2023-white-board-questions-of-the-week/){:target="_blank"} Blog post by Makerspace Staff Olivia Strodl featuring a year of pictures of our whiteboard questions. 
 
 #### Created a "take a Button, Leave a Button Board" (2023)
 
 I worked with staff to create a simple "Take a Button! Leave a Button!" board to encourage belonging and community engagement after the idea was suggested by a faculty collaborator. Simple, even silly, projects like this are central to our space and their impact feels disproportionately positive to the effort they require.
 
-![(/assets/images/a83a36bd2951ac2ac4f41c93511834dd.jpg)]
+![](/assets/images/a83a36bd2951ac2ac4f41c93511834dd.jpg)
 
 #### Community Bulletin Board (2023)
 
@@ -207,7 +207,7 @@ In fall 2022, I worked with staff to create a "Makerspace Bingo" game to encoura
 
 Attachments:
 
-- [Print this one! MS bingo.png](https://drive.google.com/file/d/10MR-fGQFlTctNnv81kCp4gZWGHemjES6/view?usp=share_link)
+- [Print this one! MS bingo.png](https://drive.google.com/file/d/10MR-fGQFlTctNnv81kCp4gZWGHemjES6/view?usp=share_link){:target="_blank"}
 
 ### Welcoming Users to the Makerspace: Classes, Tours, Events, Outreach
 
@@ -274,11 +274,11 @@ I've given versions of this welcome to over 800 students through more than 40 in
 
 Speaking to a Masters of Education class
 
-![(/assets/images/a80eb301abee459997a35e101b75ba4e.jpg)]
+![](/assets/images/a80eb301abee459997a35e101b75ba4e.jpg)
 
 Helping Visual Arts students scan their 3D sculptures
 
-![(/assets/images/fa9d3431b3beae5a073c8c55a452027c.jpg)]
+![](/assets/images/fa9d3431b3beae5a073c8c55a452027c.jpg)
 
 #### 3D Printing Workshops
 
@@ -394,28 +394,28 @@ The Tool Library and Fabric Stash give us new ways to talk about repair and reus
 
 Attachments: 
 
-- [Grant Proposal: Makerspace Sustainability Grant 2023 Proposal FINAL.pdf](https://drive.google.com/file/d/1-_I7Im0EbzGMaTXGkdYEeTKytYN5jSf4/view?usp=share_link)
-- [Makerspace Sustainability Grant Final Report – TRU Library Makerspace (C7elelkstén’).pdf](https://drive.google.com/file/d/1-RIDMF_S6EitXbItgdH3Vw2wdkNuG_Wd/view?usp=share_link)
-- [2024 poster community fabric stash.jpg](https://drive.google.com/file/d/10eiffx9ysqcRnMyce4VefHW5O4Qyvm-8/view?usp=share_link)
+- [Grant Proposal: Makerspace Sustainability Grant 2023 Proposal FINAL.pdf](https://drive.google.com/file/d/1-_I7Im0EbzGMaTXGkdYEeTKytYN5jSf4/view?usp=share_link){:target="_blank"}
+- [Makerspace Sustainability Grant Final Report – TRU Library Makerspace (C7elelkstén’).pdf](https://drive.google.com/file/d/1-RIDMF_S6EitXbItgdH3Vw2wdkNuG_Wd/view?usp=share_link){:target="_blank"}
+- [2024 poster community fabric stash.jpg](https://drive.google.com/file/d/10eiffx9ysqcRnMyce4VefHW5O4Qyvm-8/view?usp=share_link){:target="_blank"}
 
 Links:
 
-- [Makerspace Sustainability Grant Final Report – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2024/04/10/makerspace-sustainability-grant-final-report/) April 2024
-- [Sustainability Grant Update Tool Library Launches! Community Fabric Stash Coming Soon! – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2024/02/09/sustainability-grant-update-tool-library-launches-community-fabric-stash-coming-soon/) February, 2024
-- [Makerspace Sustainability Incubator Funded! – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2023/03/31/makerspace-sustainability-incubator-funded/) by Franklin Sayre, March 2023
-- [Makerspace is Hiring TWO Makerspace Student Sustainability Champions! (UPDATE: HIRING CLOSED) – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2023/04/11/the-makerspace-is-hiring-two-makerspace-student-sustainability-champions/) (April 2023)
+- [Makerspace Sustainability Grant Final Report – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2024/04/10/makerspace-sustainability-grant-final-report/){:target="_blank"} April 2024
+- [Sustainability Grant Update Tool Library Launches! Community Fabric Stash Coming Soon! – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2024/02/09/sustainability-grant-update-tool-library-launches-community-fabric-stash-coming-soon/){:target="_blank"} February, 2024
+- [Makerspace Sustainability Incubator Funded! – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2023/03/31/makerspace-sustainability-incubator-funded/){:target="_blank"} by Franklin Sayre, March 2023
+- [Makerspace is Hiring TWO Makerspace Student Sustainability Champions! (UPDATE: HIRING CLOSED) – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2023/04/11/the-makerspace-is-hiring-two-makerspace-student-sustainability-champions/){:target="_blank"} (April 2023)
 
 Whiteboard survey:
 
-![(/assets/images/e84e321dc0607520175a86da34ecb2d1.jpg)]
+![](/assets/images/e84e321dc0607520175a86da34ecb2d1.jpg)
 
 A very small selection of the tools we have available: 
 
-![(/assets/images/f56d31fd25489a8ca3c91ea3d941b96b.jpg)]
+![](/assets/images/f56d31fd25489a8ca3c91ea3d941b96b.jpg)
 
 Facilitator faculty member Cheryl Gladu leading a session at the TRUSU Open House for Clubs event
 
-![(/assets/images/8cad01299c067a2318a638085742680d.jpg)]
+![](/assets/images/8cad01299c067a2318a638085742680d.jpg)
 
 #### Repair Cafe Events (2023 - 2024)
 
@@ -427,15 +427,15 @@ Over the past two years, I collaborated with the Kamloops Repair Café and the T
 
 Repair Event in March 2023
 
-![(/assets/images/645ee40f13c12a3bfff0b1430dc973b3.jpg)]
+![](/assets/images/645ee40f13c12a3bfff0b1430dc973b3.jpg)
 
 Repair Event in November, 2023
 
-![(/assets/images/6985bc91ff8aa6d08480b13d97bc4152.jpg)]
+![](/assets/images/6985bc91ff8aa6d08480b13d97bc4152.jpg)
 
 Repair event and clothing exchange in January, 2023
 
-![(/assets/images/ada2e263d0a037304a304b5454dfe6cb.jpg)]
+![](/assets/images/ada2e263d0a037304a304b5454dfe6cb.jpg)
 
 #### Plant Day for Earth Day (2024)
 
@@ -443,13 +443,13 @@ To celebrate Earth Day on April 22, 2024, I collaborated with the TRU Sustainabi
 
 Plant Day 2023
 
-![(/assets/images/254a1451386c5f8eaed38064332eea40.jpg)]
+![](/assets/images/254a1451386c5f8eaed38064332eea40.jpg)
 
 #### Filament Recycling (2023)
 
 - Collaborated with the Sustainability Office to introduce a filament recycling program as part of our 3D printing services.
 
-![(/assets/images/0082a0957a071b254b4b8faa1511d370.jpg)]
+![](/assets/images/0082a0957a071b254b4b8faa1511d370.jpg)
 
 #### Sustainability Community of Practice Talk (2024)
 
@@ -467,7 +467,7 @@ In April 2024, I gave a talk for the TRU Sustainability Community of Practice ti
 
 Reception and workshop during the Liveable Cities, Collaborative Communities Conference: 
 
-![(/assets/images/1203e76b3b9a44a46e6d35eb37b4ce73.jpg)]
+![](/assets/images/1203e76b3b9a44a46e6d35eb37b4ce73.jpg)
 
 ### Communication
 
@@ -484,7 +484,7 @@ The Makerspace Website had dozens of pages and over 60 blog posts. Our Instagram
 
 Photo of card sorting activity I did with Makerspace Staff as part of a mini-redesign in 2023 
 
-![(/assets/images/6b04a6f2a0b1bcced1ad8d40df1a8f91.jpg)]
+![](/assets/images/6b04a6f2a0b1bcced1ad8d40df1a8f91.jpg)
 
 #### Makerspace Librarian Reports
 
@@ -492,10 +492,10 @@ Each term, I write a report capturing what's happening in the space. These repor
 
 Attachments:
 
-- [Winter 2024 Makerspace Librarian’s Report – TRU Library Makerspace (C7elelkstén’).pdf](https://drive.google.com/file/d/1-YJBFfvkrS_MlkKNrm4zUqDleOmsuWEN/view?usp=share_link)
-- [Winter 2023 TRU Library Makerspace Librarian’s Report – TRU Library Makerspace (C7elelkstén’).pdf](https://drive.google.com/file/d/10YXiv2uf7niwvHXktQhKBL4EAngmG__v/view?usp=share_link)
-- [Summer and Fall 2023 Makerspace Librarian’s Report – TRU Library Makerspace (C7elelkstén’).pdf](https://drive.google.com/file/d/1-VoBBsMloYJsVl8OsS2voaQSnCcZYyz1/view?usp=share_link)
-- [Fall 2022 TRU Library Makerspace Report – TRU Library Makerspace (C7elelkstén’).pdf](https://drive.google.com/file/d/109ctV91AP3a0OlUZFmM-dYiU1Gc5cTZm/view?usp=share_link)
+- [Winter 2024 Makerspace Librarian’s Report – TRU Library Makerspace (C7elelkstén’).pdf](https://drive.google.com/file/d/1-YJBFfvkrS_MlkKNrm4zUqDleOmsuWEN/view?usp=share_link){:target="_blank"}
+- [Winter 2023 TRU Library Makerspace Librarian’s Report – TRU Library Makerspace (C7elelkstén’).pdf](https://drive.google.com/file/d/10YXiv2uf7niwvHXktQhKBL4EAngmG__v/view?usp=share_link){:target="_blank"}
+- [Summer and Fall 2023 Makerspace Librarian’s Report – TRU Library Makerspace (C7elelkstén’).pdf](https://drive.google.com/file/d/1-VoBBsMloYJsVl8OsS2voaQSnCcZYyz1/view?usp=share_link){:target="_blank"}
+- [Fall 2022 TRU Library Makerspace Report – TRU Library Makerspace (C7elelkstén’).pdf](https://drive.google.com/file/d/109ctV91AP3a0OlUZFmM-dYiU1Gc5cTZm/view?usp=share_link){:target="_blank"}
 
 #### Social Media
 
@@ -509,51 +509,51 @@ Attachments:
 
 Links:
 
-- [TRU Library Makerspace (@trumakerspace) • Instagram photos and videos](https://www.instagram.com/trumakerspace/)
+- [TRU Library Makerspace (@trumakerspace) • Instagram photos and videos](https://www.instagram.com/trumakerspace/){:target="_blank"}
 
 Post Developed by Makerspace Technician Sarah Porter to celebrate The Makerspace's first birthday
 
-![(/assets/images/1e53d6062a5fbcaa8dca3c3f5ba418d9.jpg)]
+![](/assets/images/1e53d6062a5fbcaa8dca3c3f5ba418d9.jpg)
 
 Links:
 
-- [TRU Library Makerspace | Third year biology student Manuel Duque explaining the NSERC-funded research supervised by Dr. Eric Bottos. Hear about the implications of... | Instagram](https://www.instagram.com/reel/C5EDo0PLv1T/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==) Interview and Video by Franklin Sayre (2024)
+- [TRU Library Makerspace | Third year biology student Manuel Duque explaining the NSERC-funded research supervised by Dr. Eric Bottos. Hear about the implications of... | Instagram](https://www.instagram.com/reel/C5EDo0PLv1T/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==){:target="_blank"} Interview and Video by Franklin Sayre (2024)
 
-![(/assets/images/aca3724f9cfff24c3f6d121088681156.jpg)]
+![](/assets/images/aca3724f9cfff24c3f6d121088681156.jpg)
 
 #### Blog Posts by Me Not Included Elsewhere
 
 Links: 
 
-- [[Developing and Assessing a Culture of Change at the TRU Library Makerspace – TRU Library Makerspace (C7elelkstén’)]] (May 2024)
-- [New 3D Printing Rules and Guidelines – TRU Library Makerspace (C7elelkstén’)](https://drive.google.com/file/d/1-cH1T5pMnNRjVfF1NISgh4tU-unHqkDb/view?usp=share_link)
+- [Developing and Assessing a Culture of Change at the TRU Library Makerspace – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2024/05/17/developing-and-assessing-a-culture-of-change-at-the-tru-library-makerspace/){:target="_blank"} (May 2024)
+- [New 3D Printing Rules and Guidelines – TRU Library Makerspace (C7elelkstén’)](https://drive.google.com/file/d/1-cH1T5pMnNRjVfF1NISgh4tU-unHqkDb/view?usp=share_link){:target="_blank"}
 
 Attachments:
 
-- [Minimalist Making – TRU Library Makerspace (C7elelkstén’).pdf](https://drive.google.com/file/d/10Gh9VjeP7M1LsJvR1wCtVFoqTKo73vsk/view?usp=share_link)
-- [A Tail of 2 Failed 3D Prints/ Printing Complex Objects – TRU Library Makerspace (C7elelkstén’).pdf (October 2023)](https://drive.google.com/file/d/1-PcHk1ZhlZSzPZRhuhNgkSFWMmcuyWBD/view?usp=share_link)
+- [Minimalist Making – TRU Library Makerspace (C7elelkstén’).pdf](https://drive.google.com/file/d/10Gh9VjeP7M1LsJvR1wCtVFoqTKo73vsk/view?usp=share_link){:target="_blank"}
+- [A Tail of 2 Failed 3D Prints/ Printing Complex Objects – TRU Library Makerspace (C7elelkstén’).pdf (October 2023)](https://drive.google.com/file/d/1-PcHk1ZhlZSzPZRhuhNgkSFWMmcuyWBD/view?usp=share_link){:target="_blank"}
 
 #### Blog Posts by Students and Staff Overseen by Me Not Included Elsewhere
 
-- [Artwork added to Makerspace! – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2024/03/08/artwork-added-to-makerspace/) by Makerspace Library Technician Sarah Porter 
-- [Exploring Educational Learning Outcomes in a Makerspace – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2022/07/28/exploring-educational-learning-outcomes-in-a-makerspace/) (July 2023) by Makerspace Research Assistant and Bachlor of Education student Dalton Hargreaves
-- [Makerspace Team Grows! – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2023/10/25/makerspace-team-grows/) by Sarah Porter
+- [Artwork added to Makerspace! – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2024/03/08/artwork-added-to-makerspace/){:target="_blank"} by Makerspace Library Technician Sarah Porter 
+- [Exploring Educational Learning Outcomes in a Makerspace – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2022/07/28/exploring-educational-learning-outcomes-in-a-makerspace/){:target="_blank"} (July 2023) by Makerspace Research Assistant and Bachlor of Education student Dalton Hargreaves
+- [Makerspace Team Grows! – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2023/10/25/makerspace-team-grows/){:target="_blank"} by Sarah Porter
 
 #### Statistics
 
 Numbers can only tell part of our story, but they help show how the Makerspace has grown from an experiment into a key resource for TRU students, faculty, and staff. Reference questions, gate counts, 3D printing usage, circulation, room reservations, and digital engagement have all increased, especially during academic peak periods (September, October, and March). 
 
-All our statistics are publicly available on our website's About page because transparency is important to us: [About – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/about/#stats). 
+All our statistics are publicly available on our website's About page because transparency is important to us: [About – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/about/#stats){:target="_blank"}. 
 
 I also provide an overview of our statistics at the end of every term in my Librarian's Report Reports.  
 
 Combined Stats: Trends from 2021-2024 
 
-![(/assets/images/463222540713ae1fd4911fb6eb698189.svg)]
+![](/assets/images/463222540713ae1fd4911fb6eb698189.svg)
 
 Reference Questions
 
-![(/assets/images/6ad4cb3644f86ee4134aa86b71ce9ebd.png)]
+![](/assets/images/6ad4cb3644f86ee4134aa86b71ce9ebd.png)
 
 #### Makerspace Assessment Project and WILU 2024 Presentation
 
@@ -567,11 +567,11 @@ One thing that made this research and presentation special was including all our
 
 Attachments:
 
-- [SayreFranklin_DevelopingandAssessingaCultureofChangeattheTRULibraryMakerspace_WILU2014_NOTES.pdf](https://drive.google.com/file/d/1-Q7QQ0DVPkH_HlMhui7qDPITLU-lTl-j/view?usp=share_link)
+- [SayreFranklin_DevelopingandAssessingaCultureofChangeattheTRULibraryMakerspace_WILU2014_NOTES.pdf](https://drive.google.com/file/d/1-Q7QQ0DVPkH_HlMhui7qDPITLU-lTl-j/view?usp=share_link){:target="_blank"}
 
 Links:
 
-- [Research Project Starting Next Week in the Makerspace – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2023/01/13/research-project-starting-next-week-in-the-makerspace/) By Franklin Sayre (January 2023)
+- [Research Project Starting Next Week in the Makerspace – TRU Library Makerspace (C7elelkstén’)](https://makerspace.trubox.ca/2023/01/13/research-project-starting-next-week-in-the-makerspace/){:target="_blank"} By Franklin Sayre (January 2023)
 
 ### Outreach
 
@@ -610,7 +610,7 @@ During PD Week in February 2023, I developed and facilitated two 2-hour workshop
 
 PD Week 2023: Having each person teach the next how to use the button maker 
 
-![(/assets/images/03a706f502f251fd63aa927802339a89.jpg)]
+![](/assets/images/03a706f502f251fd63aa927802339a89.jpg)
 
 #### Events and PD for Internal Library Staff:
 
@@ -726,7 +726,7 @@ Attachment:
 
 Silly posters I made for each of our values. These posters now hang in the Makerspace Staff office, as well as in my office
 
-![(/assets/images/935cd98d40d60cb0d5f1ef265315d67c.jpg)]
+![](/assets/images/935cd98d40d60cb0d5f1ef265315d67c.jpg)
 
 #### Makerspace Team Development Days
 
@@ -751,7 +751,7 @@ In the summer of 2023, with a better understanding of the space and a solid foun
 
 Attachments: 
 
-- [Summer 2023 PD Planning.pdf](https://drive.google.com/file/d/10Ygs2OLXDa3ydKruRXQspKjyCCie4_L1/view?usp=share_link)
+- [Summer 2023 PD Planning.pdf](https://drive.google.com/file/d/10Ygs2OLXDa3ydKruRXQspKjyCCie4_L1/view?usp=share_link){:target="_blank"}
 
 ##### List of All Staff Team Development Events
 
@@ -803,7 +803,7 @@ These measures have successfully prevented further incidents while maintaining t
 
 The 3D print room following a break-in in December, 2022. 
 
-![(/assets/images/da75895004222f66cedff21dd3c4b7ae.jpg)]
+![](/assets/images/da75895004222f66cedff21dd3c4b7ae.jpg)
 
 #### Managing the Makerspace Budget and Purchasing
 
@@ -834,7 +834,7 @@ From 2022 to 2024, I led cataloging projects to make our tools and technologies 
 
 Lending stats for items
 
-![(/assets/images/0fa4d03417cb19875e43faecb40d9a90.png)]
+![](/assets/images/0fa4d03417cb19875e43faecb40d9a90.png)
 
 #### Developing Loan Policies
 
