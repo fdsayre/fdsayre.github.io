@@ -90,7 +90,7 @@ I continue to refine the program by focusing on helping Ambassadors understand t
 
 Attachments:
 
-- [Student Makerspace Ambassador Charter 2024.pdf](https://drive.google.com/file/d/1-hu9Turea4ihrmknTpjoQyKDVKHSMGQQ/view?usp=share_link)
+- [Student Makerspace Ambassador Charter 2024.pdf](https://drive.google.com/file/d/1-hu9Turea4ihrmknTpjoQyKDVKHSMGQQ/view?usp=share_link){:target="_blank"}
 - [Makerspace Ambassador FAQ 2024.pdf](https://drive.google.com/file/d/10-YBUC2fkROAA1AzRekFPf-fDBOaUsBu/view?usp=share_link)
 
 Links:
