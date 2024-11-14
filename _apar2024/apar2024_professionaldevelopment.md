@@ -2,7 +2,8 @@
 title: "Professional Development"
 order: 3
 ---
-# Professional Development
+
+During the last two years my professional development included a successful sabbatical application focused on ecological thinking in makerspaces, a Faculty Excellence Award nomination, and delivering a presentation at a conference on innovative spaces and services. 
 
 ## Applied for a Sabbatical (2023 - Successful)
 

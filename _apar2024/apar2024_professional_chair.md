@@ -3,11 +3,11 @@ title: "Professional Role: Librarians' Department Co-Chair"
 order: 2
 ---
 
-My second professional role is as Co-Chair of the Librarians' Department. In this role I have aimed to support my colleagues in the Department and fulfill the responsibilities of the position as laid out in the Collective Agreement. Throughout this period, I have focused on refining our workload distribution, fostering a collegial environment, and advancing the department's strategic priorities.
+As Co-Chair of the Librarians’ Department, I focus on fostering a collaborative, collegial environment, supporting faculty, and advancing departmental priorities. My work includes chairing meetings, overseeing workload distribution, mentoring colleagues, and working closely with my co-chair to address challenges. I’ve also led initiatives to streamline workload processes, introduce cross-functional teams, and develop a flexible liaison structure, all aimed at improving support, consistency, and communication across the department. Through these efforts, I strive to create a supportive and effective framework that empowers our team and aligns with our strategic goals.
 
 - Chair regular departmental meetings.
 - Meet regularly with individual faculty to offer mentorship, support, and address concerns.
-- Communicate regularly with my co-chair to discuss and resolve issues. We hold bi-weekly meetings to share updates and align strategies, which are crucial for the success of our co-chair model. 
+- Communicate regularly with my co-chair to discuss and resolve issues. 
 - Review Annual Professional Activity Reports (APARs) from Library Faculty and write responses. I share this task with my co-chair, each of us draft feedback for half of our colleagues and then we collaboratively review them for consistency and fairness and both sign them. I aim to provide constructive feedback that acknowledges achievements and guides professional development while also contextualizing the faculty member's work for future review committees.
 - Collaborate with library Library Administration on issues of shared concern, including attending bi-weekly Library Leadership Meetings. 
 - Participate in the TRU Chairs Group to represent our department.
