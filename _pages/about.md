@@ -7,8 +7,7 @@ permalink: /about/
 
  ![image of me](/assets/images/IMG_7026.jpeg){:width: 200; {: .img-left}}
 
-<img src="/assets/images/IMG_7026.jpeg" alt="me" width="200" float: left;    
- margin: 0 15px 0 0/>
+<img src="/assets/images/IMG_7026.jpeg" alt="me" width="200" float: left; margin: 0 15px 0 0/>
 
 
 hi there,
