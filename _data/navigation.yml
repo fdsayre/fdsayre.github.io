@@ -11,9 +11,9 @@ main:
     url: /tags/
   - title: "Projects"
     url: /projects/
-  # - title: "Pages"
-  #   url: /pages/
   - title: "APAR 2024"
     url: /apar2024/
 #  - title: "APARs Collection"
 #    url: /apars.html
+  # - title: "Pages"
+  #   url: /pages/
