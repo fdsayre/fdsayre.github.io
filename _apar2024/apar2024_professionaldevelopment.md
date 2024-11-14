@@ -10,7 +10,7 @@ In the summer of 2023 I successfully applied for a sabbatical focused on makersp
 
 Attachments:
 
-- [Sayre Sabbatical Leave Plan.pdf](https://drive.google.com/file/d/1-jlkU21UdcVaYK5Q-Nvj7nJOLQ3CufVC/view?usp=share_link)
+- [Sayre Sabbatical Leave Plan.pdf](https://drive.google.com/file/d/1-jlkU21UdcVaYK5Q-Nvj7nJOLQ3CufVC/view?usp=share_link){:target="_blank"}
 
 ## Nominated for a Faculty Excellence Award (Spring 2024 - Unsuccessful)
 
@@ -18,7 +18,7 @@ This year, the University Librarian nominated me for a Faculty Excellence Award 
 
 Attachments:
 
-- [2024 Faculty Excellence Award Application Package FINAL Sayre Franklin.pdf](https://drive.google.com/file/d/1-CZRnqhTrsjxZgiNiA6FI6Hd-s9mgsN4/view?usp=share_link)
+- [2024 Faculty Excellence Award Application Package FINAL Sayre Franklin.pdf](https://drive.google.com/file/d/1-CZRnqhTrsjxZgiNiA6FI6Hd-s9mgsN4/view?usp=share_link){:target="_blank"}
 
 ## Presentations given
 

@@ -9,15 +9,15 @@ order: 4
 
 ### Program Review Faculty Team (2023 - 2024)
 
-In 2023 - 2024, I was on the Department Program Review Team, the group responsible for planning and overseeing our Program Review. My responsibilities included participating in sessions, developing program learning outcomes, and liaising with CELT faculty and the Office of Quality Assurance. I contributed by writing and editing sections of the self-study report, focusing on areas like access services, the Makerspace, outreach, and communications. Additionally, I engaged with the external review committee multiple times, both in my capacity as a core team member and as department chair. 
+In 2023 - 2024, I was on our Program Review Team, the faculty group responsible for planning and overseeing our Program Review. My responsibilities included participating in sessions, developing program learning outcomes, and liaising with CELT faculty and the Office of Quality Assurance. I contributed by writing and editing sections of the self-study report, focusing on areas like access services, the Makerspace, outreach, and communications. Additionally, I met with the external review committee multiple times, in my capacities as a program review team member, department chair, and Makerspace librarian. 
 
-### ULDC Chair and Vice-Chair (2023 - 2024)
+### ULDC Chair (2024 - ongoing) and Vice-Chair (2023 - 2024)
 
-As the Vice Chair of the University Library Divisional Council (ULDC) from 2023 to 2024 and now the Chair starting in Spring 2024, I have focused on enhancing our council's effectiveness through innovative practices and collaborative initiatives. My main contribution has been the introduction of annotated consent agendas, which provide a structured outline of meeting topics along with additional details and relevant documents while also creating more time for meaningful discussions by reducing housekeeping tasks and putting giving more time to discussion items, with the understanding that decision items always come to ULDC first as a discussion item. 
+As the Vice Chair of the University Library Divisional Council (ULDC) from 2023 to 2024 and now the Chair starting in Spring 2024, I have focused on enhancing our council's effectiveness and trasparency. My main contribution has been the introduction of annotated consent agendas, which provide a structured outline of meeting topics along with additional details and relevant documents and are meant to provide more time for meaningful discussions by reducing housekeeping tasks and putting giving more time to discussion items, with the understanding that decision items always come to ULDC first as a discussion item. 
 
 ### ULDC Decolonization and Indigenization Committee Terms of Reference Working Group - Chair (2023)
 
-Additionally, I chaired the working group that developed the terms of reference for our ULDC's Indigenization and Decolonization Committee. This committee is dedicated to addressing Indigenous matters, including systemic challenges, inequities, and discrimination faced by Indigenous students, staff, and faculty. Its mandate includes supporting and honoring the Secwépemc nation, making relevant policy recommendations to the ULDC, raising awareness about Indigenous issues through educational opportunities and events, fostering dialogue about these matters, and supporting Indigenization initiatives across the university.
+I chaired a working group that developed the terms of reference for ULDC's Indigenization and Decolonization Committee. This committee is dedicated to addressing Indigenous matters, including systemic challenges, inequities, and discrimination faced by Indigenous students, staff, and faculty. Its mandate includes supporting and honoring the Secwépemc nation, making relevant policy recommendations to the ULDC, raising awareness about Indigenous issues through educational opportunities and events, fostering dialogue about these matters, and supporting Indigenization initiatives across the university.
 
 The committee operates on a consensus decision-making model, promoting collaboration and shared responsibility without stipulating clauses regarding outcomes in the absence of consensus. This approach reinforces our commitment to inclusivity and collective engagement. I also advocated for the inclusion of two CUPE staff positions on the committee, ensuring that diverse perspectives are represented in our discussions. 
 
@@ -54,11 +54,11 @@ The committee operates on a consensus decision-making model, promoting collabora
 
 ### EnviroCollab ISP Project (2023-2024)
 
-In 2023 and 2024 I made a number of significant contributions to the EnviroCollab ISP project, which aimed to foster collaborative and interdisciplinary environmental studies programming at TRU. The project kicked off with a day-long retreat in September 2023, where participants brainstormed goals and envisioned the program's potential. Following this, I worked with the ISP leadership and organized and led several events to advance the goals identified by faculty at the retreat. 
+In 2023 and 2024 I made a number of contributions to the EnviroCollab ISP project, which aimed to foster collaborative and interdisciplinary environmental studies programming at TRU. The project kicked off with a day-long retreat in September 2023, where participants brainstormed goals and envisioned the program's potential. Following this, I worked with the ISP leadership and organized several events to advance the goals identified by faculty at the retreat. 
 
 See Attachment:
 
-- [EnviroCollab ISP thank you letter from Kara Lefevre 2024.pdf](https://drive.google.com/file/d/10fVYCALE-Huxl9-qutOyzYKM3-g3D2bB/view?usp=share_link)
+- [EnviroCollab ISP thank you letter from Kara Lefevre 2024.pdf](https://drive.google.com/file/d/10fVYCALE-Huxl9-qutOyzYKM3-g3D2bB/view?usp=share_link){:target="_blank"}
 
 #### Creativity Breakfast Session
 
@@ -68,8 +68,8 @@ As part of this session, we created an activity called the Academic Exquisite Co
 
 Attachments:
 
-- [Enviro-Collab Breakfast & Brainstorm FINAL MY COPY.pdf](https://drive.google.com/file/d/1-0yKG4Rt62lu0Pl9Up_AXaBV3AejsdpI/view?usp=share_link)
-- [The Academic Exquisite Corpse Game.pdf](https://drive.google.com/file/d/1-et_JktgRnvp1qrqMC0pSYkop98stCOW/view?usp=share_link)
+- [Enviro-Collab Breakfast & Brainstorm FINAL MY COPY.pdf](https://drive.google.com/file/d/1-0yKG4Rt62lu0Pl9Up_AXaBV3AejsdpI/view?usp=share_link){:target="_blank"}
+- [The Academic Exquisite Corpse Game.pdf](https://drive.google.com/file/d/1-et_JktgRnvp1qrqMC0pSYkop98stCOW/view?usp=share_link){:target="_blank"}
 
 #### Field School Mutations: An EnviroCollab Hackathon
 
@@ -81,7 +81,7 @@ Although there are no immediate plans to implement these ideas, the data provide
 
 Attachments:
 
-- [Field School Mutations Summary of Findings and data.pdf](https://drive.google.com/file/d/10807lVrtBiv3TukwmIWcUi55kf-ciwfV/view?usp=share_link)
+- [Field School Mutations Summary of Findings and data.pdf](https://drive.google.com/file/d/10807lVrtBiv3TukwmIWcUi55kf-ciwfV/view?usp=share_link){:target="_blank"}
 
 ### Proposal for Honours College Course (2024 - Unsuccessful)
 
@@ -89,7 +89,7 @@ In early 2024, I collaborated with Dr. Cheryl Gladu from the Bob Gaglardi Schoo
 
 Attachments: 
 
-- [DesigningPlacesBelonging_Proposal.pdf](https://drive.google.com/file/d/1-UAZrd4UDdmSkqfd5sk4iV5oxfjKgIvJ/view?usp=share_link)
+- [DesigningPlacesBelonging_Proposal.pdf](https://drive.google.com/file/d/1-UAZrd4UDdmSkqfd5sk4iV5oxfjKgIvJ/view?usp=share_link){:target="_blank"}
 
 ### Letter to Senate about the Proposed Elimination of the Visual Arts Program at TRU
 
@@ -97,13 +97,13 @@ In my letter to the Senate of Thompson Rivers University on September 20, 2023, 
 
 Attachments:
 
-- [Letter to Senate re BRD 8-4 and Visual Arts Sept 20 2023.pdf](https://drive.google.com/file/d/10Id0uYHb-TaBkHQExk8eeLtsxLN8sdId/view?usp=share_link)
+- [Letter to Senate re BRD 8-4 and Visual Arts Sept 20 2023.pdf](https://drive.google.com/file/d/10Id0uYHb-TaBkHQExk8eeLtsxLN8sdId/view?usp=share_link){:target="_blank"}
 
 ### Board of Governers Election (Unsuccessful) ( 2023)
 
-In the 2023 Board of Governors election I was honoured to be nominated as a faculty representative. I decided to run because of my commitment to collegial representation and transparent decision-making processes as well as a belief in Thompson Rivers University's potential to be a great institution, shaped by our unique history, region, and community. Although I ultimately did not secure a position on the Board, the process reinforced my dedication to contributing to TRU's growth and excellence through advocating for collegial governance.
+In the 2023 Board of Governors election I was honoured to be nominated as a faculty representative. I decided to accept the nomination because I feel strongly about collegial representation and transparent decision-making processes, as well my belief that Thompson Rivers University has the potential to be a great institution, shaped by our unique history, region, and community. Although I ultimately did not secure a position on the Board, the process reinforced my dedication to advocating for collegial governance at TRU.
 
-### TRUFA Treasurer 2023-2024
+### Thompston Rivers University Faculty Association (TRUFA) Treasurer 2023-2024
 
 I served as TRUFA Treasurer from the spring of 2023 until the spring of 2024. During this time I dealt with the normal financial issues of a union, while also addressing significant financial governance issues within the association. A key challenge was the discovery of an unregulated bank account that has been opened by a sub-committee in 2018. This account had been used for TRUFA business but operated outside of TRUFA's established financial processes. In collaboration with the Executive and the President, I facilitated the transfer of this account to TRUFA's control and the undertaking an Agreed Upon Procedure Review of the account by an independent accounting firm to ensure compliance with our financial policies.
 
@@ -113,7 +113,7 @@ In addition to addressing financial governance issues, I actively participated i
 
 Attachment:
 
-- [TRUFA Treasurer Report for AGM.pdf](https://drive.google.com/file/d/1-tWvTpxCvyh19wcB-HRQh2rZ3Z3znSkA/view?usp=share_link)
+- [TRUFA Treasurer Report for AGM.pdf](https://drive.google.com/file/d/1-tWvTpxCvyh19wcB-HRQh2rZ3Z3znSkA/view?usp=share_link){:target="_blank"}
 
 ## External Service
 

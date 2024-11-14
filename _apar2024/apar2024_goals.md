@@ -11,9 +11,9 @@ order: 5
 1. Conduct an assessment project in the Makerspace in partnership with the Assessment Librarian Amy Patterson in order to investigate what users are doing in the space and if it the space is meeting our intial goals.
 	- Done and currently stuck at writing my sections of the paper. 
 2. Continue to develop my approach to leadership, specifically, I want to focus more on real delegation of meaningful work, making space for others to contribute, mentorship, and removing barriers my colleagues and the staff I work with face.
-	- Done 
+	- Done to the extent a goal like this is ever done
 3. Find ways to square the pedagogical model and values of the makerspace with the realities of it's growing popularity. As the Makerspace gets more popular, we will face pressure to make it less interesting in order to make it easier to run. While we will need to adapt, as much as possible I want us to stay focused on the purpose and values that drive the the Makerspace and be willing to take big risks
-	- Done
+	- Done. Our operations team charter, student ambassador charter, program descripton, and code of conduct all serve to keep us aligned with our purpose and values. 
 
 ## This Year's Goals
 
