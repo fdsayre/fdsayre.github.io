@@ -3,7 +3,7 @@ title: "About"
 permalink: /about/
 ---
 
-<img src="/assets/images/IMG_7026.jpeg" alt="me" width="200" float: left/>
+![image of me](/assets/images/IMG_7026.jpeg){: .img-left}
 
 
 hi there,
