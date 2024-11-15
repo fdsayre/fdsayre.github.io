@@ -21,7 +21,9 @@ permalink: /portfolio/
 {% endfor %} -->
 
 
-# [APAR 2022-2024](apar2024)
+# [APAR 2022-2024]({% link _pages/apar2024.md %})
+
+
 
 This a public version of my 2022-2024 Annual Professional Activity Report (APAR).
 
