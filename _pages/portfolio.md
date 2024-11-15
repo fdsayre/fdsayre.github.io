@@ -12,7 +12,7 @@ permalink: /portfolio/
   </ul>
 {% endfor %} -->
 
-{% raw %}
+
 {% assign custom_collections = site.collections | where_exp:"item", "item.label != 'posts'" %}
 {% for collection in custom_collections %}
   <h2>{{ collection.label | capitalize }}</h2>
