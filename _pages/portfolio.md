@@ -20,8 +20,9 @@ permalink: /portfolio/
 {% endif %}
 {% endfor %} -->
 
+This page is a placeholder for projects. 
 
-# [APAR 2022-2024]({% link _pages/apar2024.md %})
+## [APAR 2022-2024]({% link _pages/apar2024.md %})
 
 
 
