@@ -13,9 +13,9 @@ permalink: /portfolio/
 {% endfor %} -->
 
 
-{% assign custom_collections = site.collections | where_exp:"item", "item.label != 'posts'" %}
-{% for collection in custom_collections %}
-  <h2>{{ collection.label | capitalize }}</h2>
-  <a href="/{{ collection.label }}">View {{ collection.label }}</a>
+{% for collection in site.collections %}
+{% if collection.label != 'posts' %}
+## {{ collection.label | capitalize }}
+[View {{ collection.label }}](/{{ collection.label }})
+{% endif %}
 {% endfor %}
-{% endraw %}
