@@ -3,13 +3,11 @@ title: "Portfolio"
 permalink: /portfolio/
 ---
 
-{% raw %}
-{% assign collections_list = site.collections | where_exp:"item", "item.label != 'posts'" %}
-
-{% for collection in collections_list %}
-  <h2>{{ collection.label | capitalize }}</h2>
-  <div class="project-item">
-    <a href="/{{ collection.label }}">View {{ collection.label }} projects</a>
-  </div>
+{% for collection in site.collections %}
+  <h2>Items from {{ collection.label }}</h2>
+  <ul>
+    {% for item in site[collection.label] %}
+      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+    {% endfor %}
+  </ul>
 {% endfor %}
-{% endraw %}
