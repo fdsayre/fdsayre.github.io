@@ -1,13 +1,18 @@
 ---
-title: "Projects"
+title: "Portfolio"
 permalink: /portfolio/
 ---
 
 {% for collection in site.collections %}
-  <h2>Items from {{ collection.label }}</h2>
-  <ul>
+  {% if collection.label != "posts" %}
+    <h2>{{ collection.label | capitalize }}</h2>
+    <ul>
     {% for item in site[collection.label] %}
-      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+      <li>
+        <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+        {{ item.excerpt }}
+      </li>
     {% endfor %}
-  </ul>
+    </ul>
+  {% endif %}
 {% endfor %}
