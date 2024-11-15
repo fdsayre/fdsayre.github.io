@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-permalink: /projects/
+permalink: /portfolio/
 ---
 
 {% for collection in site.collections %}
