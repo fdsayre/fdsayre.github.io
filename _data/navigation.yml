@@ -5,12 +5,15 @@ main:
     url: /about/
   - title: "Posts"
     url: /posts/
+  - title: "WeekNotes"
+  url: /categories/
   - title: "Categories"
     url: /categories/
   - title: "Tags"
     url: /tags/
   - title: "Portfolio"
     url: /portfolio/
+  
   # - title: "APAR 2024"
   #   url: /apar2024/
 #  - title: "APARs Collection"
