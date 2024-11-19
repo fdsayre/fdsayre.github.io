@@ -1,6 +1,6 @@
 ---
-title: "WeekNotes"
+title: "weekNotes"
 layout: category
-permalink: /categories/weeknotes/
-taxonomy: weeknotes
+permalink: /categories/weekNotes/
+taxonomy: weekNotes
 ---

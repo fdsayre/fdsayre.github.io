@@ -5,8 +5,8 @@ main:
     url: /about/
   - title: "Posts"
     url: /posts/
-  - title: "WeekNotes"
-    url: /categories/weeknotes/
+  - title: "weekNotes"
+    url: /categories/weekNotes/
   - title: "Categories"
     url: /categories/
   - title: "Tags"
