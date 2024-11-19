@@ -7,8 +7,6 @@ main:
     url: /posts/
   - title: "weekNotes"
     url: /categories/weekNotes/
-  - title: "Categories"
-    url: /categories/
   - title: "Tags"
     url: /tags/
   - title: "Portfolio"
