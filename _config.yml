@@ -146,6 +146,15 @@ defaults:
       layout: single
       author_profile: true
       share: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      toc: true
+      layout: single
+      author_profile: true
+      share: true
 
 
 category_archive:
@@ -158,5 +167,8 @@ tag_archive:
 
 collections:
   apar2024:
+    output: true
+    permalink: /:collection/:path/
+  projects:
     output: true
     permalink: /:collection/:path/

@@ -1,8 +1,8 @@
 ---
-title: APARs Collection
+title: Projects
 layout: collection
-permalink: /apars/
-collection: apars
+permalink: /projects/
+collection: projects
 entries_layout: grid
 classes: wide
 ---
