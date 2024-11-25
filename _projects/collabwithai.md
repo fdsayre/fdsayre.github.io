@@ -14,7 +14,7 @@ The following is an outline for an experimental workshop on collaborating with A
 
 ### Links
 
-- [Starter Prompts](https://gist.github.com/fdsayre/aa177a871569fd19dc2ae930e0560778)
+- [Starter Prompts](https://gist.githubusercontent.com/fdsayre/aa177a871569fd19dc2ae930e0560778/raw/2a88571c54946f7be4f01714a887403d17d6683d/Collaborating%2520with%2520AI%2520meta%2520workshop%2520-%2520starter%2520prompts.md)
 - [UDL Guidelines](https://docs.google.com/document/d/1U4kvxFht8g8t4Ye6Gu97fByGuNI65yWE-7n0yL__BzU/edit?tab=t.0#heading=h.vhizgcy559g0) (for one of the activities: copy and paste entire doc or download as .txt to get plaintext format)
 - [Working google document](https://docs.google.com/document/d/1F0PMNqBZc4P-JTnzrp-ARrcVTu39EIIYrPO4wcKfsNo/edit?usp=sharing) (this will change for each session)
 
