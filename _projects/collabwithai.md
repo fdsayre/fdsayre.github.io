@@ -1,6 +1,5 @@
 ---
 title: "Collaborating with AI"
-permalink: /collab/
 ---
 
 
@@ -95,9 +94,9 @@ This section starts with the group running the starter prompt to bootstrap the s
 
 ### Starting Prompt
 
-```
+`
 I am creating an active learning workshop for university faculty, staff, and students on how to use artificial intelligence, and specifically text generation or GPT models. Attendees might come from across the university, work in teaching, administrative, and/or instructional support roles. Since we can't know ahead of time, the session must start with a roundtable where people introduce themselves and what they do at the university and talk for 1 minute at most about their experience with AI. The learning objectives are: 1. Demonstrate different techniques for prompting GenAI models, including brainstorming and generating content, getting feedback from various perspectives, and transforming content from one format to another. 2.Analyze and explain how different prompting techniques affect AI-generated outputs. 3. Critically evaluate the strengths and limitations of AI models for different types of content and tasks. 4. Critically evaluate the role of expertise in the use of GenAI models, including for prompting and evaluating content. The rest of the session will involve participants using this prompt to build the workshop they are in. It must include activities for each of the techniques in the learning objectives, and discussions of the role of expertise, strengths and limitations for different types of content and tasks. Generate a draft outline of the workshop.
-```
+`
 
 ### Discuss, Run, Iterate on Prompt as a Group
 
