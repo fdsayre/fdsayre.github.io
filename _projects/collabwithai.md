@@ -2,6 +2,8 @@
 title: "Collaborating with AI Meta Workshop - Outline"
 ---
 
+# Collaborating with AI Meta Workshop - Outline
+
 The following is an outline for an experimental workshop on collaborating with AI for faculty, staff, and administrators at Thompson Rivers University. 
 
 > [!NOTE]
@@ -93,9 +95,8 @@ This section starts with the group running the starter prompt to bootstrap the s
 
 ### Starting Prompt
 
-`
-I am creating an active learning workshop for university faculty, staff, and students on how to use artificial intelligence, and specifically text generation or GPT models. Attendees might come from across the university, work in teaching, administrative, and/or instructional support roles. Since we can't know ahead of time, the session must start with a roundtable where people introduce themselves and what they do at the university and talk for 1 minute at most about their experience with AI. The learning objectives are: 1. Demonstrate different techniques for prompting GenAI models, including brainstorming and generating content, getting feedback from various perspectives, and transforming content from one format to another. 2.Analyze and explain how different prompting techniques affect AI-generated outputs. 3. Critically evaluate the strengths and limitations of AI models for different types of content and tasks. 4. Critically evaluate the role of expertise in the use of GenAI models, including for prompting and evaluating content. The rest of the session will involve participants using this prompt to build the workshop they are in. It must include activities for each of the techniques in the learning objectives, and discussions of the role of expertise, strengths and limitations for different types of content and tasks. Generate a draft outline of the workshop.
-`
+
+`I am creating an active learning workshop for university faculty, staff, and students on how to use artificial intelligence, and specifically text generation or GPT models. Attendees might come from across the university, work in teaching, administrative, and/or instructional support roles. Since we can't know ahead of time, the session must start with a roundtable where people introduce themselves and what they do at the university and talk for 1 minute at most about their experience with AI. The learning objectives are: 1. Demonstrate different techniques for prompting GenAI models, including brainstorming and generating content, getting feedback from various perspectives, and transforming content from one format to another. 2.Analyze and explain how different prompting techniques affect AI-generated outputs. 3. Critically evaluate the strengths and limitations of AI models for different types of content and tasks. 4. Critically evaluate the role of expertise in the use of GenAI models, including for prompting and evaluating content. The rest of the session will involve participants using this prompt to build the workshop they are in. It must include activities for each of the techniques in the learning objectives, and discussions of the role of expertise, strengths and limitations for different types of content and tasks. Generate a draft outline of the workshop.`
 
 ### Discuss, Run, Iterate on Prompt as a Group
 
@@ -116,15 +117,13 @@ The following are example follow-up prompts. The actual follow-up prompts will d
 
 A version of this prompt will likely be needed by everyone, since we didn't include the number of people or the length of the session: 
 
-```
-a couple changes. the workshop will have 6 participants and will be 1.5 hours. the workshop will involve the group creating the same workshop they are in, thus it will be a meta workshop. the prompt provided will be the same one I just provided. as such, the first activity on brainstorming and generating content will involve discussing, analyzing, and iterating on that prompt. re-draft the outline and questions based on this information
-```
+`a couple changes. the workshop will have 6 participants and will be 1.5 hours. the workshop will involve the group creating the same workshop they are in, thus it will be a meta workshop. the prompt provided will be the same one I just provided. as such, the first activity on brainstorming and generating content will involve discussing, analyzing, and iterating on that prompt. re-draft the outline and questions based on this information`
+
 
 This example is more specific to what the model generates: 
 
-```
-at the end of section 2, include 10 minutes for me to review general rules and strategies, making the whole section 20 minutes. for section 3, combine exercise 2 and 3 into one activity that covers both. remove section 4 "building the meta workshop since that is what the whole workshop is actually doing. add that time into the reflection questions and getting feedback section`
-```
+`at the end of section 2, include 10 minutes for me to review general rules and strategies, making the whole section 20 minutes. for section 3, combine exercise 2 and 3 into one activity that covers both. remove section 4 "building the meta workshop since that is what the whole workshop is actually doing. add that time into the reflection questions and getting feedback section`
+
 
 ## Tips and Strategies for Collaborating with AI (10 minutes)
 
@@ -248,7 +247,7 @@ Refer to Learning Objectives:
 
 ## Wrap up (10 minutes)
 
-![[Pasted image 20241124125911.jpg]]
+![](/assets/images/Pastedimage20241124125911.jpg)
 
 Workshop-specific feedback: 
 
