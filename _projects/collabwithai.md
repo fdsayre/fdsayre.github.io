@@ -6,10 +6,10 @@ title: "Collaborating with AI"
 # Collaborating with AI Meta Workshop - Outline
 
 > [!NOTE]
-> The following is an outline for an experimental workshop on collaborating with AI for faculty, staff, and administrators at Thompson Rivers University.
+> The following is an outline for an experimental workshop on collaborating with AI for faculty, staff, and administrators at Thompson Rivers University. {: .notice--info}
 
 
-> I used AI extensively in the creation of this workshop. The original idea was my own, the learning objectives and initial activities were created by me with some feedback from AI from a previous workshop. After that workshop, feedback and issues around a lack of applicable examples led to this workshop as an attempt to use the workshop itself as a common object we would all have expertise on and could work from. After that, AI was primarily used to test the initial prompt, ensure it would consistently produce a similar outline, and test the subsequent activities to ensure they would be stable enough to allow for experimentaiton. At various points I used AI to get feedback, and especially to find potential problems or inconsistencies. 
+> I used AI extensively in the creation of this workshop. The original idea was my own, the learning objectives and initial activities were created by me with some feedback from AI from a previous workshop. After that workshop, feedback and issues around a lack of applicable examples led to this workshop as an attempt to use the workshop itself as a common object we would all have expertise on and could work from. After that, AI was primarily used to test the initial prompt, ensure it would consistently produce a similar outline, and test the subsequent activities to ensure they would be stable enough to allow for experimentaiton. At various points I used AI to get feedback, and especially to find potential problems or inconsistencies. {: .notice--info}
 
 # Resources
 
