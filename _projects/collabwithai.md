@@ -1,9 +1,6 @@
 ---
-title: "Collaborating with AI"
+title: "Collaborating with AI Meta Workshop - Outline"
 ---
-
-
-# Collaborating with AI Meta Workshop - Outline
 
 The following is an outline for an experimental workshop on collaborating with AI for faculty, staff, and administrators at Thompson Rivers University. 
 
