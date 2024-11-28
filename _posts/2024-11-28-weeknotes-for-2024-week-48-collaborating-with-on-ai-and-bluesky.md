@@ -45,6 +45,7 @@ Part of me loved social media circa 2014-2016 when I felt like I had this really
 I am also not sure how to build a new network. My old network has mostly dispersed into the winds - the part that is left often feels like a high school reunion. We're all doing different things now, and it feels like we should be close and quippy but really we're strangers. It feels weird to come back to a medium I once felt so comfortable in and instead feel so… outside. 
 
 Anyway, I am [@franklinsayre.bsky.social](https://bsky.app/profile/franklinsayre.bsky.social)
+
 ## Links
 
 A good reminder about the purpose of these devices - [TechScape: Why the US wants to force Google to sell Chrome | Technology | The Guardian](https://www.theguardian.com/technology/2024/nov/25/us-google-sell-chrome)
