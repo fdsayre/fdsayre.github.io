@@ -48,7 +48,7 @@ Anyway, I am [@franklinsayre.bsky.social](https://bsky.app/profile/franklinsayre
 
 ## Links
 
-A good reminder about the purpose of these devices - [TechScape: Why the US wants to force Google to sell Chrome | Technology | The Guardian](https://www.theguardian.com/technology/2024/nov/25/us-google-sell-chrome)
+A good reminder about the purpose of these devices - [TechScape: Why the US wants to force Google to sell Chrome - The Guardian](https://www.theguardian.com/technology/2024/nov/25/us-google-sell-chrome)
 
 > Without Chrome, Google would also lose the extremely valuable youth market. The tech giant’s Chromebooks are a low-cost item for schools that distribute laptops to students. Those laptops use Chrome OS, an operating system designed for web browsing and web-based tasks. Children introduced to one company’s products become accustomed to using them, and may seek out that company’s products as an adult. Apple has stated that training school-age users on its products can nurture a major pipeline of new customers. 
 
