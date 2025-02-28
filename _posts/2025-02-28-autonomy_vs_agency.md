@@ -1,6 +1,6 @@
 ---
 title: Autonomy vs Agency
-description: None
+description: Learning-by-doing is one of our main pedagogies because we believe it is how people best learn to use tools but also because it expands their agency when it comes to making decisions about when and how to learn about or use tools. 
 date: 2025-02-28
 publish: true
 categories:
@@ -10,9 +10,6 @@ tags:
   - makerspaces
   - pedagogy
 ---
-
-
-# Autonomy Vs Agency?
 
 Autonomy has been baked into the Makerspace's pedagogies and values from the start. For example, "Interest-based learning and autonomy" is one of our core pedagogies, and we say "Makerspace learners are encouraged to work on projects that genuinely interest them, including personal projects, and have the *autonomy* to choose their methods and media as long as they fall within other Makerspace guidelines." Similarly, in our Team Charter, we list "Autonomy" as a core value, saying: "We value having autonomy over how we accomplish the goals of our work."
 
