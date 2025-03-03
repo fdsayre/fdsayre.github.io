@@ -6,6 +6,7 @@ categories:
 - weekNotes
 tags:
 - makerspace
+- tools for conviviality
 ---
 
 > Weeknotes are where I share what I’m working on / thinking about this week and a few things to share without worrying too much about the ideas being fully formed.
