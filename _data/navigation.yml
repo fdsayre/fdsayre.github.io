@@ -4,7 +4,7 @@ main:
   - title: "About"
     url: /about/
   - title: "Posts"
-    url: /categories/posts/
+    url: /posts/
   - title: "weekNotes"
     url: /categories/weekNotes/
   - title: "Tags"
