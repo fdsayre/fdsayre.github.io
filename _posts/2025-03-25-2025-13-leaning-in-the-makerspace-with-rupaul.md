@@ -6,7 +6,6 @@ categories:
 - weekNotes
 ---
 
-> Weeknotes are a habit I'm trying to cultivate where I share what I'm working on or thinking about, primarily in my professional life, without worrying too much about the ideas being fully formed.
 
 ## Thinking About: RuPaul in the Makerspace
 
@@ -62,3 +61,5 @@ Klaudia Jaźwińska and Aisvarya Chandrasekar in articles: [We Compared Eight AI
 Alex Usher in articles: [Why Education in IT Fields is Different](https://higheredstrategy.com/why-education-in-it-fields-is-different/)
 
 > And so the lesson here is this: IT work is a pretty specific type of work in which much store is put in learning-by-doing and formal credentials like degrees and diplomas are to some degree replaceable by micro-credentials. But most of the world of work doesn’t work that way. And as a result, it’s important not to over-generalize future trends in education based on what happens to work in IT. It’s *sui generis*.
+
+> Weeknotes are a habit I'm trying to cultivate where I share what I'm working on or thinking about, primarily in my professional life, without worrying too much about the ideas being fully formed.
