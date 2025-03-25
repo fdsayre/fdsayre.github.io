@@ -44,7 +44,9 @@ I am creating an active learning workshop for university faculty, staff, and stu
 A version of this prompt will likely be needed:
 
 ```
+
 a couple changes. the workshop will have 6 participants and will be 2 hours long. the workshop will involve the group exploring models through the application of their disciplinary expertise and judgement. we will start with a demonstration of this prompt and some tips and strategies, and then as individuals participants will spend 15 minutes taking the promts we are using here and using them to create workshops for their own disciplinary contexts. they will then spend 15 minutes exploring asking models to apply Universal Design for Learning principles to their workshop. They will then have time for a group review before a break. After the break they will explore the role of disciplinary knowledge by swapping their pre-break disciplinary specific prompts with a partner, and working with them for 10 minutes, before spending 10 minutes reflecting with their partner on what they noticed working with AI from a different disciplinary perspective. There will then be 15 minutes for group discussion and relfection and a wrap up.
+
 ```
 
 ### What Makes This Prompt Effective?
