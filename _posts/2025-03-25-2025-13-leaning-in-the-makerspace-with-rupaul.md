@@ -6,9 +6,6 @@ categories:
 - weekNotes
 ---
 
-
-## Thinking About: RuPaul in the Makerspace
-
 We’ve been watching a lot of RuPaul lately, and it’s reminded me that people who are very good at doing a thing that requires other people be vulnerable often share an important quality: they are able to earnestly and unabashedly show *through their actions* that they believe in the value of the thing they are asking you to do. They create a reality distortion field where the purported purpose of the thing, it's value, becomes more important than anything else. 
 
 In his SXSW Keynote a few years go Bruce Springsteen talked about how he still practices his rockstar moves in front of a mirror and then teased the audience of curret and future rock stars to admit that they do too (the real fuckery: does he actually still do this? or does he just want you to believe that he still does this so you will feel that it's okay for you to do it too?). He also talked about how leading a band means that you’re the last person off the stage and only after you've thanked every other musician there with you.
