@@ -3,7 +3,12 @@ date_created: 2025-03-25, 10:11 AM
 date_modified: 2025-03-25, 10:42 AM
 title: Critical Play with GenAI: Evaluating AI Through Disciplinary Expertise
 ---
-# Critical Play with GenAI: Evaluating AI Through Disciplinary Expertise
+
+
+## Links
+
+- Shared Resource: [Critical Play with GenAI - Workshop Resources.md · GitHub](https://gist.github.com/fdsayre/e3906880fb6dca63404e2eacfd12d994)
+
 
 ## Workshop Outline (2 hours)
 
