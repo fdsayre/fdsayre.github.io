@@ -1,9 +1,6 @@
 ---
-date_created: 2025-03-25, 10:11 AM
-date_modified: 2025-03-25, 10:42 AM
-title: Critical Play with GenAI: Evaluating AI Through Disciplinary Expertise
+title: "Critical Play with GenAI: Evaluating AI Through Disciplinary Expertise"
 ---
-
 
 ## Links
 
