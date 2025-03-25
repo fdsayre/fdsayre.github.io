@@ -1,7 +1,7 @@
 ---
 date_created: 2025-03-24, 5:13 AM
 date_modified: 2025-03-24, 7:40 AM
-title: "WeekNotes for 2025 Week 13: In the Makerspace with RuPaul: The Value of Earnestly and Unabashedly Believing in the Value of What You Do"
+title: "WeekNotes for 2025 Week 13: Watching RuPaul in the Makerspace and the Value of Earnestly and Unabashedly Believing in the Value of What You Do"
 categories:
 - weekNotes
 ---
