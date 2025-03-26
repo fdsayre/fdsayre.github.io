@@ -4,8 +4,8 @@ title: "Critical Play with GenAI: Evaluating AI Through Disciplinary Expertise"
 
 ## Links
 
-- Shared Resource: [Critical Play with GenAI - Workshop Resources.md · GitHub](https://gist.github.com/fdsayre/e3906880fb6dca63404e2eacfd12d994)
-
+- Resources: [Critical Play with GenAI - Workshop Resources.md · GitHub](https://gist.github.com/fdsayre/e3906880fb6dca63404e2eacfd12d994)
+- Slides: [Critical Play with GenAI Workshop](https://follyrancher.com/critical-play-with-ai_slides.html) 
 
 ## Workshop Outline (2 hours)
 
