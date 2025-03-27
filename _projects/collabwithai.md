@@ -1,5 +1,5 @@
 ---
-title: "Collaborating with AI Meta Workshop - Outline"
+title: "October 2024 - Collaborating with AI Meta Workshop - Outline"
 ---
 
 # Collaborating with AI Meta Workshop - Outline
