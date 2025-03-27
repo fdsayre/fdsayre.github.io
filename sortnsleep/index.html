@@ -192,7 +192,7 @@
         </header>
         
         <div class="controls">
-            <button id="generate-btn">New Emails</button>
+            <button id="generate-btn" onclick="generateEmails()">New Emails</button>
             <div class="counter">Sorted: <span id="sorted-count">0</span>/<span id="total-count">0</span></div>
         </div>
         
@@ -223,282 +223,231 @@
     <div class="success-message" id="success-message">
         <h2>Congratulations, Twyla!</h2>
         <p>You are now allowed to rest. 😌</p>
-        <button id="restart-btn">Start Again</button>
+        <button id="restart-btn" onclick="generateEmails()">Start Again</button>
     </div>
     
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // Email data
-            const senders = [
-                { name: 'Google Play Store', email: 'play-store@google.com' },
-                { name: 'iOS Security', email: 'security@apple.com' },
-                { name: 'iCloud Photos', email: 'photos@apple.com' },
-                { name: 'Apple Maps', email: 'maps@apple.com' },
-                { name: 'iMessage', email: 'messages@apple.com' },
-                { name: 'App Store', email: 'appstore@apple.com' },
-                { name: 'iOS Developers', email: 'dev@apple.com' },
-                { name: 'iPhone Settings', email: 'settings@apple.com' },
-                { name: 'iCloud Storage', email: 'storage@apple.com' },
-                { name: 'Apple Pay', email: 'payments@apple.com' },
-                { name: 'Safari Team', email: 'safari@apple.com' },
-                { name: 'Apple TV', email: 'tv@apple.com' },
-                { name: 'Apple Watch', email: 'watch@apple.com' }
-            ];
-            
-            const workSubjects = [
-                'Team meeting notes for Project Apollo',
-                'Quarterly review schedule update',
-                'New client onboarding process',
-                'Upcoming deadline reminder: Phase 2',
-                'Please review: Draft proposal for Nexus',
-                'Budget approval needed for Q3',
-                'Team building event next Friday',
-                'HR policy update - please review',
-                'Vendor contract renewal discussion',
-                'Weekly progress report required'
-            ];
-            
-            const updateSubjects = [
-                'Your iPhone was updated',
-                'Security patch available for your device',
-                'App permissions have changed',
-                'Your iCloud storage is 85% full',
-                'New features available on your device',
-                'Backup completed successfully',
-                'System health report: All OK',
-                'Account verification required',
-                'Device performance optimization tips',
-                'New sign-in detected on your account'
-            ];
-            
-            const promotionSubjects = [
-                '50% off iCloud storage plans this week',
-                'Try Apple Music: First 3 months free',
-                'Recommended apps based on your usage',
-                'Limited time offer: AirPods accessories',
-                'Free ebook: "iOS Tips & Tricks"',
-                'Earn rewards with Apple Card',
-                'Exclusive App Store deals for you',
-                'iPhone Upgrade Program',
-                'Spring sale on Apple devices',
-                'Premium app subscription discount'
-            ];
-            
-            const excerpts = [
-                'Just wanted to follow up on our previous conversation about...',
-                'Please take a moment to review the attached document and provide feedback...',
-                'We've detected a new sign-in to your account on a Windows device...',
-                'Your monthly storage report is ready. You're currently using 15.4 GB of your storage...',
-                'As requested, I'm sharing the latest metrics from our campaign. The results show...',
-                'This is a reminder that you have an upcoming meeting scheduled tomorrow at 2:00 PM...',
-                'Thank you for your recent purchase. Your order has been confirmed and will be processed...',
-                'We've noticed you haven't been using this app lately. Here are some new features...',
-                'Your feedback is important to us. Could you take a few minutes to complete our survey...',
-                'Our records indicate that your subscription will renew automatically on June 15th...'
-            ];
-            
-            // Elements
-            const emailList = document.getElementById('email-list');
-            const generateBtn = document.getElementById('generate-btn');
-            const sortedCountEl = document.getElementById('sorted-count');
-            const totalCountEl = document.getElementById('total-count');
-            const successMessage = document.getElementById('success-message');
-            const restartBtn = document.getElementById('restart-btn');
-            
-            // Folder count elements
-            const workCount = document.getElementById('work-count');
-            const updatesCount = document.getElementById('updates-count');
-            const promotionsCount = document.getElementById('promotions-count');
-            const trashCount = document.getElementById('trash-count');
-            
-            // Variables
-            let emails = [];
-            let sortedCount = 0;
-            let totalCount = 0;
-            let folderCounts = {
+        // Email data
+        const senders = [
+            { name: 'Google Play Store', email: 'play-store@google.com' },
+            { name: 'iOS Security', email: 'security@apple.com' },
+            { name: 'iCloud Photos', email: 'photos@apple.com' },
+            { name: 'Apple Maps', email: 'maps@apple.com' },
+            { name: 'iMessage', email: 'messages@apple.com' },
+            { name: 'App Store', email: 'appstore@apple.com' },
+            { name: 'iOS Developers', email: 'dev@apple.com' },
+            { name: 'iPhone Settings', email: 'settings@apple.com' },
+            { name: 'iCloud Storage', email: 'storage@apple.com' },
+            { name: 'Apple Pay', email: 'payments@apple.com' },
+            { name: 'Safari Team', email: 'safari@apple.com' },
+            { name: 'Apple TV', email: 'tv@apple.com' },
+            { name: 'Apple Watch', email: 'watch@apple.com' }
+        ];
+        
+        const workSubjects = [
+            'Team meeting notes for Project Apollo',
+            'Quarterly review schedule update',
+            'New client onboarding process',
+            'Upcoming deadline reminder: Phase 2',
+            'Please review: Draft proposal for Nexus',
+            'Budget approval needed for Q3',
+            'Team building event next Friday',
+            'HR policy update - please review',
+            'Vendor contract renewal discussion',
+            'Weekly progress report required'
+        ];
+        
+        const updateSubjects = [
+            'Your iPhone was updated',
+            'Security patch available for your device',
+            'App permissions have changed',
+            'Your iCloud storage is 85% full',
+            'New features available on your device',
+            'Backup completed successfully',
+            'System health report: All OK',
+            'Account verification required',
+            'Device performance optimization tips',
+            'New sign-in detected on your account'
+        ];
+        
+        const promotionSubjects = [
+            '50% off iCloud storage plans this week',
+            'Try Apple Music: First 3 months free',
+            'Recommended apps based on your usage',
+            'Limited time offer: AirPods accessories',
+            'Free ebook: "iOS Tips & Tricks"',
+            'Earn rewards with Apple Card',
+            'Exclusive App Store deals for you',
+            'iPhone Upgrade Program',
+            'Spring sale on Apple devices',
+            'Premium app subscription discount'
+        ];
+        
+        const excerpts = [
+            'Just wanted to follow up on our previous conversation about...',
+            'Please take a moment to review the attached document and provide feedback...',
+            'We've detected a new sign-in to your account on a Windows device...',
+            'Your monthly storage report is ready. You're currently using 15.4 GB of your storage...',
+            'As requested, I'm sharing the latest metrics from our campaign. The results show...',
+            'This is a reminder that you have an upcoming meeting scheduled tomorrow at 2:00 PM...',
+            'Thank you for your recent purchase. Your order has been confirmed and will be processed...',
+            'We've noticed you haven't been using this app lately. Here are some new features...',
+            'Your feedback is important to us. Could you take a few minutes to complete our survey...',
+            'Our records indicate that your subscription will renew automatically on June 15th...'
+        ];
+        
+        // Variables
+        let emails = [];
+        let sortedCount = 0;
+        let totalCount = 0;
+        let folderCounts = {
+            work: 0,
+            updates: 0,
+            promotions: 0,
+            trash: 0
+        };
+        
+        // Generate random emails
+        function generateEmails() {
+            // Reset counts
+            sortedCount = 0;
+            totalCount = 0;
+            folderCounts = {
                 work: 0,
                 updates: 0,
                 promotions: 0,
                 trash: 0
             };
             
-            // Generate random emails
-            function generateEmails() {
-                try {
-                    // Reset counts
-                    sortedCount = 0;
-                    totalCount = 0;
-                    folderCounts = {
-                        work: 0,
-                        updates: 0,
-                        promotions: 0,
-                        trash: 0
-                    };
-                    
-                    updateFolderCounts();
-                    
-                    if (sortedCountEl) sortedCountEl.textContent = '0';
-                    
-                    // Clear email list
-                    if (emailList) emailList.innerHTML = '';
-                    
-                    // Determine how many emails to generate (10-15)
-                    const emailCount = Math.floor(Math.random() * 6) + 10;
-                    totalCount = emailCount;
-                    
-                    if (totalCountEl) totalCountEl.textContent = emailCount.toString();
-                    
-                    // Generate emails
-                    emails = [];
-                    for (let i = 0; i < emailCount; i++) {
-                        // Select random sender
-                        const sender = senders[Math.floor(Math.random() * senders.length)];
-                        
-                        // Determine email type and subject based on sender
-                        let subject;
-                        let type;
-                        const randomType = Math.random();
-                        
-                        if (randomType < 0.3) {
-                            subject = workSubjects[Math.floor(Math.random() * workSubjects.length)];
-                            type = 'work';
-                        } else if (randomType < 0.6) {
-                            subject = updateSubjects[Math.floor(Math.random() * updateSubjects.length)];
-                            type = 'updates';
-                        } else {
-                            subject = promotionSubjects[Math.floor(Math.random() * promotionSubjects.length)];
-                            type = 'promotions';
-                        }
-                        
-                        // Select random excerpt
-                        const excerpt = excerpts[Math.floor(Math.random() * excerpts.length)];
-                        
-                        // Random time in the last 24 hours
-                        const hours = Math.floor(Math.random() * 24);
-                        const minutes = Math.floor(Math.random() * 60);
-                        const timeString = hours === 0 
-                            ? `${minutes}m ago`
-                            : hours < 24 
-                                ? `${hours}h ${minutes}m ago` 
-                                : `${Math.floor(hours/24)}d ago`;
-                        
-                        // Create email object
-                        const email = {
-                            id: `email-${i}`,
-                            from: sender.name,
-                            email: sender.email,
-                            subject,
-                            excerpt,
-                            time: timeString,
-                            type
-                        };
-                        
-                        emails.push(email);
-                        
-                        // Create email element
-                        createEmailElement(email);
-                    }
-                    
-                    // Hide success message if visible
-                    if (successMessage) {
-                        successMessage.classList.remove('visible');
-                    }
-                } catch (error) {
-                    console.error('Error generating emails:', error);
-                }
-            }
+            updateFolderCounts();
             
-            // Create email element
-            function createEmailElement(email) {
-                try {
-                    if (!emailList) return;
-                    
-                    const emailElement = document.createElement('div');
-                    emailElement.classList.add('email');
-                    emailElement.id = email.id;
-                    
-                    emailElement.innerHTML = `
-                        <div class="email-header">
-                            <div class="email-from">${email.from}</div>
-                            <div class="email-time">${email.time}</div>
-                        </div>
-                        <div class="email-subject">${email.subject}</div>
-                        <div class="email-excerpt">${email.excerpt}</div>
-                        <div class="email-actions">
-                            <button class="action-btn" data-action="work">Work</button>
-                            <button class="action-btn" data-action="updates">Updates</button>
-                            <button class="action-btn" data-action="promotions">Promo</button>
-                            <button class="action-btn" data-action="trash">Trash</button>
-                        </div>
-                    `;
-                    
-                    // Add click events to action buttons
-                    const actionButtons = emailElement.querySelectorAll('.action-btn');
-                    actionButtons.forEach(button => {
-                        button.addEventListener('click', () => {
-                            const action = button.getAttribute('data-action');
-                            sortEmail(email, action, emailElement);
-                        });
-                    });
-                    
-                    emailList.appendChild(emailElement);
-                } catch (error) {
-                    console.error('Error creating email element:', error);
-                }
-            }
+            document.getElementById('sorted-count').textContent = '0';
             
-            // Sort email function
-            function sortEmail(email, folder, emailElement) {
-                try {
-                    // Increment folder count
-                    folderCounts[folder]++;
-                    updateFolderCounts();
-                    
-                    // Remove email from list
-                    if (emailElement && emailElement.parentNode) {
-                        emailElement.parentNode.removeChild(emailElement);
-                    }
-                    
-                    // Update sorted count
-                    sortedCount++;
-                    if (sortedCountEl) {
-                        sortedCountEl.textContent = sortedCount.toString();
-                    }
-                    
-                    // Check if all emails are sorted
-                    if (sortedCount === totalCount && totalCount > 0) {
-                        // Show success message
-                        setTimeout(() => {
-                            if (successMessage) {
-                                successMessage.classList.add('visible');
-                            }
-                        }, 300);
-                    }
-                } catch (error) {
-                    console.error('Error sorting email:', error);
-                }
-            }
+            // Clear email list
+            document.getElementById('email-list').innerHTML = '';
             
-            // Update folder counts
-            function updateFolderCounts() {
-                if (workCount) workCount.textContent = folderCounts.work;
-                if (updatesCount) updatesCount.textContent = folderCounts.updates;
-                if (promotionsCount) promotionsCount.textContent = folderCounts.promotions;
-                if (trashCount) trashCount.textContent = folderCounts.trash;
-            }
+            // Determine how many emails to generate (10-15)
+            const emailCount = Math.floor(Math.random() * 6) + 10;
+            totalCount = emailCount;
             
-            // Check if all elements exist
-            if (emailList && generateBtn && sortedCountEl && totalCountEl && successMessage && restartBtn) {
-                // Event listeners
-                generateBtn.addEventListener('click', generateEmails);
-                restartBtn.addEventListener('click', generateEmails);
+            document.getElementById('total-count').textContent = emailCount.toString();
+            
+            // Generate emails
+            emails = [];
+            for (let i = 0; i < emailCount; i++) {
+                // Select random sender
+                const sender = senders[Math.floor(Math.random() * senders.length)];
                 
-                // Generate emails on load
-                generateEmails();
-            } else {
-                console.error('Some required elements are missing!');
+                // Determine email type and subject based on sender
+                let subject;
+                let type;
+                const randomType = Math.random();
+                
+                if (randomType < 0.3) {
+                    subject = workSubjects[Math.floor(Math.random() * workSubjects.length)];
+                    type = 'work';
+                } else if (randomType < 0.6) {
+                    subject = updateSubjects[Math.floor(Math.random() * updateSubjects.length)];
+                    type = 'updates';
+                } else {
+                    subject = promotionSubjects[Math.floor(Math.random() * promotionSubjects.length)];
+                    type = 'promotions';
+                }
+                
+                // Select random excerpt
+                const excerpt = excerpts[Math.floor(Math.random() * excerpts.length)];
+                
+                // Random time in the last 24 hours
+                const hours = Math.floor(Math.random() * 24);
+                const minutes = Math.floor(Math.random() * 60);
+                const timeString = hours === 0 
+                    ? `${minutes}m ago`
+                    : hours < 24 
+                        ? `${hours}h ${minutes}m ago` 
+                        : `${Math.floor(hours/24)}d ago`;
+                
+                // Create email object
+                const email = {
+                    id: `email-${i}`,
+                    from: sender.name,
+                    email: sender.email,
+                    subject,
+                    excerpt,
+                    time: timeString,
+                    type
+                };
+                
+                emails.push(email);
+                
+                // Create email element
+                createEmailElement(email);
             }
-        });
+            
+            // Hide success message if visible
+            document.getElementById('success-message').classList.remove('visible');
+        }
+        
+        // Create email element
+        function createEmailElement(email) {
+            const emailList = document.getElementById('email-list');
+            
+            const emailElement = document.createElement('div');
+            emailElement.classList.add('email');
+            emailElement.id = email.id;
+            
+            emailElement.innerHTML = `
+                <div class="email-header">
+                    <div class="email-from">${email.from}</div>
+                    <div class="email-time">${email.time}</div>
+                </div>
+                <div class="email-subject">${email.subject}</div>
+                <div class="email-excerpt">${email.excerpt}</div>
+                <div class="email-actions">
+                    <button class="action-btn" onclick="sortEmail('${email.id}', 'work')">Work</button>
+                    <button class="action-btn" onclick="sortEmail('${email.id}', 'updates')">Updates</button>
+                    <button class="action-btn" onclick="sortEmail('${email.id}', 'promotions')">Promo</button>
+                    <button class="action-btn" onclick="sortEmail('${email.id}', 'trash')">Trash</button>
+                </div>
+            `;
+            
+            emailList.appendChild(emailElement);
+        }
+        
+        // Sort email function
+        function sortEmail(emailId, folder) {
+            // Increment folder count
+            folderCounts[folder]++;
+            updateFolderCounts();
+            
+            // Remove email from list
+            const emailElement = document.getElementById(emailId);
+            if (emailElement) {
+                emailElement.parentNode.removeChild(emailElement);
+            }
+            
+            // Update sorted count
+            sortedCount++;
+            document.getElementById('sorted-count').textContent = sortedCount.toString();
+            
+            // Check if all emails are sorted
+            if (sortedCount === totalCount && totalCount > 0) {
+                // Show success message
+                setTimeout(() => {
+                    document.getElementById('success-message').classList.add('visible');
+                }, 300);
+            }
+        }
+        
+        // Update folder counts
+        function updateFolderCounts() {
+            document.getElementById('work-count').textContent = folderCounts.work;
+            document.getElementById('updates-count').textContent = folderCounts.updates;
+            document.getElementById('promotions-count').textContent = folderCounts.promotions;
+            document.getElementById('trash-count').textContent = folderCounts.trash;
+        }
+        
+        // Generate emails on page load
+        window.onload = generateEmails;
     </script>
 </body>
 </html>
