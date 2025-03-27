@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twyla's Email Sorter</title>
+    <style>
+        /* Basic reset and body styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f2f2f7;
+            color: #333;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        /* Header styles */
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            background-color: #007aff;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        
+        .header h1 {
+            margin-bottom: 5px;
+        }
+        
+        /* Controls section */
+        .controls {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        button {
+            background-color: #007aff;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #0062cc;
+        }
+        
+        .counter {
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+        
+        /* Main content layout */
+        .content-container {
+            display: flex;
+            gap: 20px;
+        }
+        
+        /* Folder panel */
+        .folder-panel {
+            width: 200px;
+            flex-shrink: 0;
+        }
+        
+        .folder {
+            background-color: white;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 10px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            cursor: pointer;
+            transition: background-color 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .folder.dragover {
+            background-color: #e5f2ff;
+            border: 2px dashed #007aff;
+        }
+        
+        .folder-icon {
+            width: 24px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+        }
+        
+        .folder-label {
+            flex-grow: 1;
+            font-weight: 500;
+        }
+        
+        .folder-count {
+            background-color: #f2f2f7;
+            padding: 3px 8px;
+            border-radius: 10px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        
+        /* Email list */
+        .email-container {
+            flex-grow: 1;
+        }
+        
+        /* Email styles */
+        .email {
+            background-color: white;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 15px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            cursor: grab;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .email:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+        }
+        
+        .email.dragging {
+            opacity: 0.5;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+        }
+        
+        .email-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        
+        .email-from {
+            font-weight: bold;
+        }
+        
+        .email-time {
+            color: #8a8a8e;
+            font-size: 14px;
+        }
+        
+        .email-subject {
+            font-weight: bold;
+            margin-bottom: 5px;
+            font-size: 16px;
+        }
+        
+        .email-excerpt {
+            color: #636366;
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+        
+        /* Success message */
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0,0,0,0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 999;
+            display: none;
+            flex-direction: column;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .overlay h2 {
+            color: white;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+        
+        .overlay p {
+            color: white;
+            margin-bottom: 30px;
+            font-size: 20px;
+        }
+        
+        .overlay button {
+            background-color: white;
+            color: #007aff;
+            padding: 12px 24px;
+            font-size: 16px;
+        }
+        
+        /* Media queries for mobile */
+        @media (max-width: 768px) {
+            .content-container {
+                flex-direction: column;
+            }
+            
+            .folder-panel {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            
+            .folder {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1>Twyla's Email Sorter</h1>
+        <p>Sort all emails to earn your break!</p>
+    </div>
+    
+    <!-- Controls -->
+    <div class="controls">
+        <button id="new-emails-btn">Generate New Emails</button>
+        <div class="counter">Sorted: <span id="sorted-count">0</span>/<span id="total-count">0</span></div>
+    </div>
+    
+    <!-- Main content -->
+    <div class="content-container">
+        <!-- Folder panel -->
+        <div class="folder-panel">
+            <div class="folder" id="work-folder" data-folder="work">
+                <div class="folder-icon">💼</div>
+                <div class="folder-label">Work</div>
+                <div class="folder-count" id="work-count">0</div>
+            </div>
+            
+            <div class="folder" id="updates-folder" data-folder="updates">
+                <div class="folder-icon">🔔</div>
+                <div class="folder-label">Updates</div>
+                <div class="folder-count" id="updates-count">0</div>
+            </div>
+            
+            <div class="folder" id="promotions-folder" data-folder="promotions">
+                <div class="folder-icon">🛍️</div>
+                <div class="folder-label">Promotions</div>
+                <div class="folder-count" id="promotions-count">0</div>
+            </div>
+            
+            <div class="folder" id="trash-folder" data-folder="trash">
+                <div class="folder-icon">🗑️</div>
+                <div class="folder-label">Trash</div>
+                <div class="folder-count" id="trash-count">0</div>
+            </div>
+        </div>
+        
+        <!-- Email container -->
+        <div class="email-container">
+            <div id="email-list">
+                <!-- Emails will be generated here -->
+            </div>
+        </div>
+    </div>
+    
+    <!-- Success Overlay -->
+    <div class="overlay" id="success-overlay">
+        <h2>Congratulations, Twyla!</h2>
+        <p>You are now allowed to rest. 😌</p>
+        <button id="restart-btn">Start Again</button>
+    </div>
+
+    <script>
+        // Data for email generation
+        const emailData = {
+            senders: {
+                work: [
+                    { name: "Work Team", email: "team@company.com" },
+                    { name: "Project Manager", email: "pm@company.com" },
+                    { name: "HR Department", email: "hr@company.com" },
+                    { name: "Team Lead", email: "lead@company.com" },
+                    { name: "Client Relations", email: "clients@company.com" }
+                ],
+                updates: [
+                    { name: "Apple", email: "no-reply@apple.com" },
+                    { name: "iPhone Calendar", email: "calendar@apple.com" },
+                    { name: "App Store", email: "appstore@apple.com" },
+                    { name: "Bank of America", email: "alerts@bofa.com" },
+                    { name: "Microsoft Account", email: "account@microsoft.com" }
+                ],
+                promotions: [
+                    { name: "Amazon", email: "offers@amazon.com" },
+                    { name: "Netflix", email: "info@netflix.com" },
+                    { name: "Spotify", email: "news@spotify.com" },
+                    { name: "Best Buy", email: "deals@bestbuy.com" },
+                    { name: "Target", email: "offers@target.com" }
+                ]
+            },
+            subjects: {
+                work: [
+                    "Team meeting notes for Project Atlas",
+                    "Quarterly review schedule - Action required",
+                    "Project update required by EOD",
+                    "New client onboarding process changes",
+                    "Please review: draft proposal for Smith Co.",
+                    "Updated timeline for Q3 deliverables",
+                    "Reminder: Expense reports due Friday",
+                    "Training opportunity: New software rollout",
+                    "Team lunch this Thursday",
+                    "Office closure notice - Memorial Day"
+                ],
+                updates: [
+                    "Your account has been updated successfully",
+                    "Security alert: new login from Chicago",
+                    "Your subscription will renew on May, 15",
+                    "App update available: Version 2.4.1",
+                    "Payment confirmation #RT78291",
+                    "Your password was changed recently",
+                    "2-step verification added to your account",
+                    "Scheduled maintenance notification",
+                    "Important update to our terms of service",
+                    "Your monthly statement is ready to view"
+                ],
+                promotions: [
+                    "50% off spring sale this weekend only!",
+                    "Limited time offer: Buy one, get one free",
+                    "You might like these items based on your history",
+                    "Free shipping on orders over $35",
+                    "Exclusive member discount: 30% off everything",
+                    "Flash sale: 24 hours only",
+                    "New arrivals you don't want to miss",
+                    "Your cart is waiting - items still in stock",
+                    "Last chance: Sale ends tonight",
+                    "Special offer just for you"
+                ]
+            },
+            excerpts: {
+                work: [
+                    "Just wanted to follow up on our team discussion about the new project timeline. Please review the attached document and provide feedback by...",
+                    "Here are the key points from yesterday's meeting: 1. Budget approvals are due next Monday 2. The client presentation is scheduled for...",
+                    "This is a reminder that you have an upcoming deadline for the quarterly reports. All team members need to submit their section by...",
+                    "Please review the attached proposal before our client meeting. Key areas to focus on include pricing structure and implementation timeline...",
+                    "We're updating our internal processes for client onboarding. Starting next month, all new clients will need to complete the expanded...",
+                    "The leadership team has requested updates on all active projects. Please prepare a brief summary (2-3 paragraphs) of your current progress...",
+                    "Just a friendly reminder that all expense reports for the conference need to be submitted by Friday. Please use the new expense form...",
+                    "The quarterly planning meeting has been rescheduled to next Wednesday at 2pm. Please adjust your calendars accordingly and come prepared to..."
+                ],
+                updates: [
+                    "We've detected a new sign-in to your account on May 7, 2023 at 3:45 PM from Chicago, IL. If this wasn't you, please secure your account...",
+                    "Your password was changed on May 10, 2023. If you didn't make this change, please contact customer support immediately at...",
+                    "Your subscription will automatically renew on May 15, 2023. Your card ending in 4382 will be charged $9.99. To manage your subscription...",
+                    "A new security update is available for your device. This update includes important security patches and performance improvements...",
+                    "Thank you for your recent payment of $54.32. Your account has been credited and your new balance is $0. Your next statement will be...",
+                    "We've updated our privacy policy effective June 1, 2023. Key changes include enhanced data protection measures and updated information about...",
+                    "Your account statement for the period April 1-30, 2023 is now available. Account summary: Opening balance: $324.56, Deposits: $1,200.00..."
+                ],
+                promotions: [
+                    "Don't miss our biggest sale of the season! For a limited time only, enjoy 50% off all regular-priced items plus free shipping on orders over...",
+                    "Based on your recent purchases, we thought you might be interested in these new arrivals. Use code NEWSTUFF for an extra 15% off your next...",
+                    "Your exclusive member reward is waiting! As one of our valued customers, you've unlocked a special discount of 30% off your next purchase...",
+                    "Flash sale alert! For the next 24 hours only, take an additional 25% off all clearance items. No code needed - discount applied automatically at...",
+                    "Free shipping weekend! This Saturday and Sunday only, enjoy free shipping on all orders with no minimum purchase required. Shop our new collection...",
+                    "Your shopping cart is still waiting! The items you added are still in stock, but they're selling fast. Complete your purchase now and use code..."
+                ]
+            }
+        };
+
+        // DOM elements
+        const emailList = document.getElementById("email-list");
+        const newEmailsBtn = document.getElementById("new-emails-btn");
+        const restartBtn = document.getElementById("restart-btn");
+        const sortedCountEl = document.getElementById("sorted-count");
+        const totalCountEl = document.getElementById("total-count");
+        const successOverlay = document.getElementById("success-overlay");
+        const folderElements = document.querySelectorAll(".folder");
+        const folderCountElements = {
+            work: document.getElementById("work-count"),
+            updates: document.getElementById("updates-count"),
+            promotions: document.getElementById("promotions-count"),
+            trash: document.getElementById("trash-count")
+        };
+
+        // State
+        let emails = [];
+        let sortedCount = 0;
+        let totalCount = 0;
+        let folderCounts = {
+            work: 0,
+            updates: 0,
+            promotions: 0,
+            trash: 0
+        };
+        let draggedEmail = null;
+
+        // Helper function - get random item from array
+        function getRandomItem(array) {
+            return array[Math.floor(Math.random() * array.length)];
+        }
+
+        // Generate random emails
+        function generateEmails() {
+            // Reset state
+            emails = [];
+            sortedCount = 0;
+            totalCount = 0;
+            folderCounts = {
+                work: 0,
+                updates: 0,
+                promotions: 0,
+                trash: 0
+            };
+            
+            // Update UI
+            updateCounters();
+            emailList.innerHTML = "";
+            successOverlay.style.display = "none";
+            
+            // Generate 10-15 emails
+            const emailCount = Math.floor(Math.random() * 6) + 10;
+            totalCount = emailCount;
+            totalCountEl.textContent = emailCount;
+            
+            for (let i = 0; i < emailCount; i++) {
+                // Determine email type to ensure subject and excerpt match
+                const emailTypes = ["work", "updates", "promotions"];
+                const type = getRandomItem(emailTypes);
+                
+                // Create email data from the matching category
+                const sender = getRandomItem(emailData.senders[type]);
+                const subject = getRandomItem(emailData.subjects[type]);
+                const excerpt = getRandomItem(emailData.excerpts[type]);
+                
+                // Random time
+                const hours = Math.floor(Math.random() * 24);
+                const minutes = Math.floor(Math.random() * 60);
+                const timeStr = hours === 0 
+                    ? `${minutes}m ago` 
+                    : hours < 24 
+                        ? `${hours}h ${minutes}m ago` 
+                        : `${Math.floor(hours/24)}d ago`;
+                
+                // Create email object
+                const email = {
+                    id: `email-${i}`,
+                    sender: sender.name,
+                    email: sender.email,
+                    subject: subject,
+                    excerpt: excerpt,
+                    time: timeStr,
+                    type: type
+                };
+                
+                emails.push(email);
+                
+                // Create and add email element
+                createEmailElement(email);
+            }
+        }
+
+        // Create email element
+        function createEmailElement(email) {
+            const emailEl = document.createElement("div");
+            emailEl.classList.add("email");
+            emailEl.id = email.id;
+            emailEl.setAttribute("draggable", "true");
+            emailEl.dataset.type = email.type;
+            
+            emailEl.innerHTML = `
+                <div class="email-header">
+                    <div class="email-from">${email.sender}</div>
+                    <div class="email-time">${email.time}</div>
+                </div>
+                <div class="email-subject">${email.subject}</div>
+                <div class="email-excerpt">${email.excerpt}</div>
+            `;
+            
+            // Add drag events
+            emailEl.addEventListener("dragstart", handleDragStart);
+            emailEl.addEventListener("dragend", handleDragEnd);
+            
+            emailList.appendChild(emailEl);
+        }
+
+        // Drag and drop handlers
+        function handleDragStart(e) {
+            draggedEmail = this;
+            this.classList.add("dragging");
+            e.dataTransfer.setData("text/plain", this.id);
+            e.dataTransfer.effectAllowed = "move";
+        }
+
+        function handleDragEnd(e) {
+            this.classList.remove("dragging");
+            draggedEmail = null;
+            
+            // Remove dragover class from all folders
+            document.querySelectorAll(".folder").forEach(folder => {
+                folder.classList.remove("dragover");
+            });
+        }
+
+        // Setup folder drop targets
+        folderElements.forEach(folder => {
+            folder.addEventListener("dragover", e => {
+                e.preventDefault();
+                folder.classList.add("dragover");
+            });
+            
+            folder.addEventListener("dragleave", e => {
+                folder.classList.remove("dragover");
+            });
+            
+            folder.addEventListener("drop", e => {
+                e.preventDefault();
+                folder.classList.remove("dragover");
+                
+                const emailId = e.dataTransfer.getData("text/plain");
+                const folderType = folder.dataset.folder;
+                
+                sortEmail(emailId, folderType);
+            });
+            
+            // Also allow clicking on folders to sort the currently dragged email
+            folder.addEventListener("click", e => {
+                if (draggedEmail) {
+                    const folderType = folder.dataset.folder;
+                    sortEmail(draggedEmail.id, folderType);
+                }
+            });
+        });
+
+        // Sort email function
+        function sortEmail(emailId, folder) {
+            // Remove email from list
+            const emailEl = document.getElementById(emailId);
+            if (emailEl) {
+                emailEl.remove();
+                
+                // Update counts
+                folderCounts[folder]++;
+                sortedCount++;
+                
+                // Update UI
+                updateCounters();
+                
+                // Check if all emails are sorted
+                if (sortedCount >= totalCount && totalCount > 0) {
+                    showSuccessMessage();
+                }
+            }
+        }
+
+        // Update counters in UI
+        function updateCounters() {
+            sortedCountEl.textContent = sortedCount;
+            
+            for (const folder in folderCounts) {
+                if (folderCountElements[folder]) {
+                    folderCountElements[folder].textContent = folderCounts[folder];
+                }
+            }
+        }
+
+        // Show success message
+        function showSuccessMessage() {
+            successOverlay.style.display = "flex";
+        }
+
+        // Event listeners
+        newEmailsBtn.addEventListener("click", generateEmails);
+        restartBtn.addEventListener("click", generateEmails);
+
+        // Initialize on page load
+        window.onload = generateEmails;
+    </script>
+</body>
+</html>

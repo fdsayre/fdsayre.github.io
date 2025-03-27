@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franklin & Twyla's Snack Bag Dilemma</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #a8d5e5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        
+        .title {
+            background-color: #f8b88b;
+            color: #333;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 15px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        .game-container {
+            position: relative;
+            width: 800px;
+            height: 500px;
+            background-color: #c5e1a5;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+        
+        .couch {
+            position: absolute;
+            width: 400px;
+            height: 150px;
+            background-color: #8d6e63;
+            border-radius: 20px 20px 0 0;
+            bottom: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            z-index: 0;
+        }
+        
+        .couch:before {
+            content: '';
+            position: absolute;
+            width: 380px;
+            height: 40px;
+            background-color: #a1887f;
+            border-radius: 20px 20px 0 0;
+            top: -20px;
+            left: 10px;
+        }
+        
+        .couch:after {
+            content: '';
+            position: absolute;
+            width: 420px;
+            height: 20px;
+            background-color: #6d4c41;
+            border-radius: 10px;
+            bottom: -10px;
+            left: -10px;
+        }
+        
+        .pigeon {
+            position: absolute;
+            width: 120px;
+            height: 120px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            transition: transform 0.2s;
+            z-index: 1;
+        }
+        
+        #franklin {
+            left: 220px;
+            bottom: 130px;
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="%236b8e9e"/><circle cx="65" cy="40" r="5" fill="white"/><circle cx="68" cy="38" r="2" fill="black"/><path d="M40,60 Q50,70 60,60" stroke="black" stroke-width="2" fill="none"/><path d="M30,30 L15,15" stroke="%236b8e9e" stroke-width="6"/><path d="M70,30 L85,15" stroke="%236b8e9e" stroke-width="6"/></svg>');
+        }
+        
+        #twyla {
+            right: 220px;
+            bottom: 130px;
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="%23a18e9e"/><circle cx="65" cy="40" r="5" fill="white"/><circle cx="68" cy="38" r="2" fill="black"/><path d="M40,60 Q50,70 60,60" stroke="black" stroke-width="2" fill="none"/><path d="M30,30 L15,15" stroke="%23a18e9e" stroke-width="6"/><path d="M70,30 L85,15" stroke="%23a18e9e" stroke-width="6"/></svg>');
+        }
+        
+        .heart {
+            position: absolute;
+            font-size: 24px;
+            color: red;
+            opacity: 0;
+            animation: float 2s forwards;
+        }
+        
+        @keyframes float {
+            0% { transform: translateY(0); opacity: 1; }
+            100% { transform: translateY(-100px); opacity: 0; }
+        }
+        
+        .snack-bag {
+            position: absolute;
+            width: 60px;
+            height: 80px;
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M20,30 L80,30 L90,100 L10,100 Z" fill="%23ffd966"/><path d="M20,30 Q50,10 80,30" stroke="%23ffd966" stroke-width="20" fill="none"/><circle cx="30" cy="60" r="5" fill="%23e6b422"/><circle cx="50" cy="80" r="5" fill="%23e6b422"/><circle cx="70" cy="50" r="5" fill="%23e6b422"/></svg>');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            transition: all 0.3s ease;
+            z-index: 2;
+        }
+        
+        .scoreboard {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 10px 10px 0 0;
+        }
+        
+        .score {
+            padding: 5px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            text-align: center;
+        }
+        
+        #franklin-score {
+            background-color: #6b8e9e;
+            color: white;
+        }
+        
+        #twyla-score {
+            background-color: #a18e9e;
+            color: white;
+        }
+        
+        .controls {
+            margin-top: 20px;
+            display: flex;
+            gap: 20px;
+        }
+        
+        .control-panel {
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        button {
+            background-color: #ff9800;
+            border: none;
+            border-radius: 5px;
+            padding: 8px 15px;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 5px;
+            transition: all 0.2s;
+        }
+        
+        button:hover {
+            background-color: #e65100;
+            transform: scale(1.05);
+        }
+        
+        button:active {
+            transform: scale(0.95);
+        }
+        
+        .message-box {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            z-index: 10;
+            display: none;
+        }
+        
+        .snack-alert {
+            position: absolute;
+            padding: 5px 10px;
+            background-color: #ff9800;
+            color: white;
+            border-radius: 5px;
+            font-size: 14px;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        
+        .balance-meter {
+            width: 200px;
+            height: 30px;
+            background-color: #ddd;
+            border-radius: 15px;
+            margin: 10px auto;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .balance-fill {
+            height: 100%;
+            width: 50%;
+            background: linear-gradient(to right, #6b8e9e 0%, #a18e9e 100%);
+            transition: width 0.5s;
+        }
+        
+        .balance-indicator {
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="title">
+        <h1>Franklin & Twyla's Snack Bag Dilemma</h1>
+        <p>Help the loving pigeon couple share the responsibility of holding the snack bag as they cuddle on their couch!</p>
+    </div>
+    
+    <div class="game-container">
+        <div class="scoreboard">
+            <div class="score" id="franklin-score">Franklin: 0</div>
+            <div class="balance-meter">
+                <div class="balance-fill"></div>
+                <div class="balance-indicator">Balance</div>
+            </div>
+            <div class="score" id="twyla-score">Twyla: 0</div>
+        </div>
+        
+        <div class="couch"></div>
+        <div id="franklin" class="pigeon"></div>
+        <div id="twyla" class="pigeon"></div>
+        <div class="snack-bag"></div>
+        
+        <div class="snack-alert" id="franklin-alert">I love snacks!</div>
+        <div class="snack-alert" id="twyla-alert">My turn!</div>
+        
+        <div class="message-box" id="game-over">
+            <h2>Game Over!</h2>
+            <p id="winner-message"></p>
+            <p id="balance-message"></p>
+            <button id="restart-button">Play Again</button>
+        </div>
+    </div>
+    
+    <div class="controls">
+        <div class="control-panel">
+            <h3>Franklin (Player 1)</h3>
+            <button id="franklin-grab">Grab Snack Bag (A)</button>
+            <button id="franklin-nibble">Nibble Snack (S)</button>
+        </div>
+        
+        <div class="control-panel">
+            <h3>Twyla (Player 2)</h3>
+            <button id="twyla-grab">Grab Snack Bag (K)</button>
+            <button id="twyla-nibble">Nibble Snack (L)</button>
+        </div>
+    </div>
+    
+    <script>
+        // Game state
+        const gameState = {
+            franklinScore: 0,
+            twylaScore: 0,
+            currentHolder: null,
+            gameOver: false,
+            nibbleCount: 0,
+            maxNibbles: 20,
+            franklinHoldTime: 0,
+            twylaHoldTime: 0,
+            moveSpeed: 5,
+            franklinX: 100,
+            twylaX: 600,
+            franklinWantsSnack: 0.7, // Franklin's desire to hold the snack (higher = more likely to grab)
+            turnTimer: null,
+            turnDuration: 4000, // 4 seconds per turn
+            currentTurnTime: 0
+        };
+        
+        // DOM elements
+        const franklin = document.getElementById('franklin');
+        const twyla = document.getElementById('twyla');
+        const snackBag = document.querySelector('.snack-bag');
+        const franklinScore = document.getElementById('franklin-score');
+        const twylaScore = document.getElementById('twyla-score');
+        const gameOverBox = document.getElementById('game-over');
+        const winnerMessage = document.getElementById('winner-message');
+        const balanceMessage = document.getElementById('balance-message');
+        const franklinAlert = document.getElementById('franklin-alert');
+        const twylaAlert = document.getElementById('twyla-alert');
+        const balanceFill = document.querySelector('.balance-fill');
+        
+        // Initialize game
+        function initGame() {
+            // Position elements
+            snackBag.style.left = '370px';
+            snackBag.style.bottom = '210px';
+            
+            // Set up event listeners
+            document.getElementById('franklin-grab').addEventListener('click', () => grabSnackBag('franklin'));
+            document.getElementById('twyla-grab').addEventListener('click', () => grabSnackBag('twyla'));
+            document.getElementById('franklin-nibble').addEventListener('click', () => nibbleSnack('franklin'));
+            document.getElementById('twyla-nibble').addEventListener('click', () => nibbleSnack('twyla'));
+            document.getElementById('restart-button').addEventListener('click', resetGame);
+            
+            // Set up keyboard controls
+            document.addEventListener('keydown', handleKeyPress);
+            
+            // Start the game
+            gameState.currentHolder = Math.random() < 0.5 ? 'franklin' : 'twyla';
+            updateSnackBagPosition();
+            
+            // Start turn timer
+            startTurnTimer();
+        }
+        
+        function handleKeyPress(e) {
+            if (gameState.gameOver) return;
+            
+            switch(e.key.toLowerCase()) {
+                case 'a':
+                    grabSnackBag('franklin');
+                    break;
+                case 's':
+                    nibbleSnack('franklin');
+                    break;
+                case 'k':
+                    grabSnackBag('twyla');
+                    break;
+                case 'l':
+                    nibbleSnack('twyla');
+                    break;
+            }
+        }
+        
+        function grabSnackBag(player) {
+            if (gameState.gameOver) return;
+            
+            // If player already has the bag, they can't grab it
+            if (gameState.currentHolder === player) return;
+            
+            // If Franklin is trying to grab, factor in his love for holding the snack bag
+            if (player === 'franklin' && Math.random() > gameState.franklinWantsSnack) {
+                showAlert(franklinAlert, "I'll let you hold it... for now");
+                return;
+            }
+            
+            const otherPlayer = player === 'franklin' ? 'twyla' : 'franklin';
+            
+            // Reset turn timer
+            clearInterval(gameState.turnTimer);
+            gameState.currentTurnTime = 0;
+            
+            // Update holder
+            gameState.currentHolder = player;
+            updateSnackBagPosition();
+            createHeart(player === 'franklin' ? franklin : twyla);
+            
+            // Start new turn timer
+            startTurnTimer();
+            
+            // Show alert
+            if (player === 'franklin') {
+                showAlert(franklinAlert, "I love holding the snacks!");
+            } else {
+                showAlert(twylaAlert, "My turn to hold!");
+            }
+        }
+        
+        function nibbleSnack(player) {
+            if (gameState.gameOver || gameState.currentHolder !== player) return;
+            
+            // Nibble animation
+            const playerElement = player === 'franklin' ? franklin : twyla;
+            playerElement.style.transform = 'scale(1.1)';
+            setTimeout(() => {
+                playerElement.style.transform = 'scale(1)';
+            }, 200);
+            
+            // Update score
+            if (player === 'franklin') {
+                gameState.franklinScore += 1;
+                franklinScore.textContent = `Franklin: ${gameState.franklinScore}`;
+            } else {
+                gameState.twylaScore += 1;
+                twylaScore.textContent = `Twyla: ${gameState.twylaScore}`;
+            }
+            
+            // Track nibble count
+            gameState.nibbleCount++;
+            
+            // Track hold time
+            if (player === 'franklin') {
+                gameState.franklinHoldTime++;
+            } else {
+                gameState.twylaHoldTime++;
+            }
+            
+            // Update balance meter
+            updateBalanceMeter();
+            
+            // Check if game is over
+            if (gameState.nibbleCount >= gameState.maxNibbles) {
+                endGame();
+            }
+        }
+        
+        function updateSnackBagPosition() {
+            if (gameState.currentHolder === 'franklin') {
+                snackBag.style.left = '280px';
+                snackBag.style.bottom = '200px';
+            } else {
+                snackBag.style.left = '480px';
+                snackBag.style.bottom = '200px';
+            }
+        }
+        
+        function updateBalanceMeter() {
+            const total = gameState.franklinHoldTime + gameState.twylaHoldTime;
+            if (total === 0) return;
+            
+            const franklinPercentage = (gameState.franklinHoldTime / total) * 100;
+            balanceFill.style.width = `${franklinPercentage}%`;
+        }
+        
+        function createHeart(pigeon) {
+            const heart = document.createElement('div');
+            heart.className = 'heart';
+            heart.innerHTML = '❤️';
+            
+            // Position the heart above the pigeons
+            const pigeonRect = pigeon.getBoundingClientRect();
+            const containerRect = document.querySelector('.game-container').getBoundingClientRect();
+            
+            const leftPos = (pigeonRect.left - containerRect.left) + (pigeonRect.width / 2);
+            const bottomPos = containerRect.height - (pigeonRect.top - containerRect.top);
+            
+            heart.style.left = `${leftPos}px`;
+            heart.style.bottom = `${bottomPos + 40}px`;
+            
+            document.querySelector('.game-container').appendChild(heart);
+            
+            setTimeout(() => {
+                heart.remove();
+            }, 2000);
+        }
+        
+        function showAlert(alertElement, text) {
+            alertElement.textContent = text;
+            alertElement.style.opacity = 1;
+            
+            if (alertElement === franklinAlert) {
+                alertElement.style.left = '220px';
+                alertElement.style.bottom = '240px';
+            } else {
+                alertElement.style.right = '220px';
+                alertElement.style.bottom = '240px';
+            }
+            
+            setTimeout(() => {
+                alertElement.style.opacity = 0;
+            }, 2000);
+        }
+        
+        function startTurnTimer() {
+            gameState.turnTimer = setInterval(() => {
+                gameState.currentTurnTime += 100;
+                
+                // If time is up, automatically switch to the other player
+                if (gameState.currentTurnTime >= gameState.turnDuration) {
+                    const currentPlayer = gameState.currentHolder;
+                    const otherPlayer = currentPlayer === 'franklin' ? 'twyla' : 'franklin';
+                    
+                    // Add a chance that Franklin might refuse to give up the bag
+                    if (currentPlayer === 'franklin' && Math.random() < gameState.franklinWantsSnack) {
+                        showAlert(franklinAlert, "Just one more nibble!");
+                        gameState.currentTurnTime = 0; // Reset timer
+                    } else {
+                        grabSnackBag(otherPlayer);
+                    }
+                }
+            }, 100);
+        }
+        
+        function endGame() {
+            gameState.gameOver = true;
+            clearInterval(gameState.turnTimer);
+            
+            // Determine winner
+            let winner;
+            if (gameState.franklinScore > gameState.twylaScore) {
+                winner = "Franklin";
+            } else if (gameState.twylaScore > gameState.franklinScore) {
+                winner = "Twyla";
+            } else {
+                winner = "It's a tie";
+            }
+            
+            // Check balance
+            const total = gameState.franklinHoldTime + gameState.twylaHoldTime;
+            const franklinPercentage = (gameState.franklinHoldTime / total) * 100;
+            let balanceText;
+            
+            if (franklinPercentage > 70) {
+                balanceText = "Franklin hogged the snack bag as usual!";
+            } else if (franklinPercentage < 30) {
+                balanceText = "Twyla really took charge of the snack bag!";
+            } else {
+                balanceText = "Great job sharing the snack bag responsibility!";
+            }
+            
+            // Show game over message
+            winnerMessage.textContent = `${winner} won with the most nibbles!`;
+            balanceMessage.textContent = balanceText;
+            gameOverBox.style.display = 'block';
+        }
+        
+        function resetGame() {
+            // Reset game state
+            gameState.franklinScore = 0;
+            gameState.twylaScore = 0;
+            gameState.currentHolder = Math.random() < 0.5 ? 'franklin' : 'twyla';
+            gameState.gameOver = false;
+            gameState.nibbleCount = 0;
+            gameState.franklinHoldTime = 0;
+            gameState.twylaHoldTime = 0;
+            gameState.currentTurnTime = 0;
+            
+            // Update UI
+            franklinScore.textContent = 'Franklin: 0';
+            twylaScore.textContent = 'Twyla: 0';
+            gameOverBox.style.display = 'none';
+            balanceFill.style.width = '50%';
+            
+            // Update snack bag position
+            updateSnackBagPosition();
+            
+            // Restart turn timer
+            startTurnTimer();
+        }
+        
+        // Start the game when the page loads
+        window.onload = initGame;
+    </script>
+</body>
+</html>
