@@ -5,87 +5,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Twyla's Email Sorter</title>
     <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-            background-color: #f5f5f5;
+        /* Basic reset and body styles */
+        * {
+            box-sizing: border-box;
             margin: 0;
-            padding: 10px;
-            color: #333;
+            padding: 0;
         }
         
-        .container {
-            max-width: 100%;
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f2f2f7;
+            color: #333;
+            padding: 20px;
+            max-width: 800px;
             margin: 0 auto;
         }
         
-        header {
+        /* Header styles */
+        .header {
             text-align: center;
-            padding: 15px;
-            background-color: #0A84FF;
+            margin-bottom: 20px;
+            background-color: #007aff;
             color: white;
-            border-radius: 8px;
-            margin-bottom: 15px;
+            padding: 20px;
+            border-radius: 10px;
         }
         
-        header h1 {
-            margin: 0;
-            font-size: 24px;
+        .header h1 {
+            margin-bottom: 5px;
         }
         
-        header p {
-            margin: 5px 0 0;
-            font-size: 14px;
-        }
-        
+        /* Controls section */
         .controls {
-            background: white;
-            border-radius: 8px;
-            padding: 15px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.1);
-            margin-bottom: 15px;
             display: flex;
             justify-content: space-between;
-            align-items: center;
+            margin-bottom: 20px;
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
         }
         
         button {
-            background: #0A84FF;
+            background-color: #007aff;
             color: white;
             border: none;
-            padding: 10px 15px;
+            padding: 8px 16px;
             border-radius: 8px;
             font-weight: bold;
-            font-size: 14px;
             cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #0062cc;
         }
         
         .counter {
             font-weight: bold;
-            font-size: 14px;
+            display: flex;
+            align-items: center;
         }
         
-        .email {
-            background: white;
+        /* Folder stats */
+        .folder-stats {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .folder-stat {
+            background-color: white;
             border-radius: 8px;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .folder-name {
+            font-size: 12px;
+            color: #8a8a8e;
+            margin-bottom: 5px;
+        }
+        
+        .folder-count {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        
+        /* Email styles */
+        .email {
+            background-color: white;
+            border-radius: 10px;
             padding: 15px;
-            margin-bottom: 10px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+            margin-bottom: 15px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
         }
         
         .email-header {
             display: flex;
             justify-content: space-between;
-            margin-bottom: 8px;
+            margin-bottom: 10px;
         }
         
         .email-from {
             font-weight: bold;
-            font-size: 15px;
         }
         
         .email-time {
-            color: #8E8E93;
-            font-size: 13px;
+            color: #8a8a8e;
+            font-size: 14px;
         }
         
         .email-subject {
@@ -95,208 +124,191 @@
         }
         
         .email-excerpt {
-            color: #666;
+            color: #636366;
+            margin-bottom: 15px;
             font-size: 14px;
-            margin-bottom: 10px;
         }
         
         .email-actions {
-            display: flex;
-            flex-wrap: wrap;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
             gap: 5px;
         }
         
         .action-btn {
-            flex: 1;
-            min-width: 70px;
-            padding: 8px 10px;
-            border: none;
-            border-radius: 8px;
             background-color: #f2f2f7;
-            font-size: 13px;
-            font-weight: bold;
-            text-align: center;
-            color: #0A84FF;
+            color: #007aff;
+            border: none;
+            padding: 8px;
+            border-radius: 8px;
+            font-weight: 500;
+            font-size: 14px;
+            cursor: pointer;
         }
         
-        .success-message {
+        .action-btn:hover {
+            background-color: #e5e5ea;
+        }
+        
+        /* Success message */
+        .overlay {
             position: fixed;
             top: 0;
             left: 0;
             right: 0;
             bottom: 0;
-            background: rgba(0,0,0,0.85);
+            background-color: rgba(0,0,0,0.8);
             display: flex;
-            flex-direction: column;
             justify-content: center;
             align-items: center;
-            color: white;
-            z-index: 1000;
+            z-index: 999;
+            display: none;
+            flex-direction: column;
             padding: 20px;
             text-align: center;
-            opacity: 0;
-            visibility: hidden;
-            transition: opacity 0.3s ease;
         }
         
-        .success-message.visible {
-            opacity: 1;
-            visibility: visible;
+        .overlay h2 {
+            color: white;
+            margin-bottom: 20px;
+            font-size: 28px;
         }
         
-        .success-message h2 {
-            font-size: 24px;
-            margin-bottom: 15px;
+        .overlay p {
+            color: white;
+            margin-bottom: 30px;
+            font-size: 20px;
         }
         
-        .success-message p {
-            font-size: 18px;
-            margin-bottom: 25px;
+        .overlay button {
+            background-color: white;
+            color: #007aff;
+            padding: 12px 24px;
+            font-size: 16px;
         }
         
-        .folder-stats {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            margin-top: 15px;
-            margin-bottom: 5px;
-        }
-        
-        .folder-stat {
-            flex: 1;
-            min-width: 70px;
-            background: white;
-            padding: 10px;
-            border-radius: 8px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-        
-        .folder-name {
-            font-size: 12px;
-            color: #8E8E93;
-            margin-bottom: 5px;
-        }
-        
-        .folder-count {
-            font-size: 18px;
-            font-weight: bold;
+        /* Media queries for mobile */
+        @media (max-width: 600px) {
+            .folder-stats {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .email-actions {
+                grid-template-columns: repeat(2, 1fr);
+            }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Twyla's Email Sorter</h1>
-            <p>Sort emails to earn your break</p>
-        </header>
-        
-        <div class="controls">
-            <button id="generate-btn" onclick="generateEmails()">New Emails</button>
-            <div class="counter">Sorted: <span id="sorted-count">0</span>/<span id="total-count">0</span></div>
+    <!-- Header -->
+    <div class="header">
+        <h1>Twyla's Email Sorter</h1>
+        <p>Sort all emails to earn your break!</p>
+    </div>
+    
+    <!-- Controls -->
+    <div class="controls">
+        <button id="new-emails-btn">Generate New Emails</button>
+        <div class="counter">Sorted: <span id="sorted-count">0</span>/<span id="total-count">0</span></div>
+    </div>
+    
+    <!-- Folder Stats -->
+    <div class="folder-stats">
+        <div class="folder-stat">
+            <div class="folder-name">Work</div>
+            <div class="folder-count" id="work-count">0</div>
         </div>
-        
-        <div class="folder-stats">
-            <div class="folder-stat">
-                <div class="folder-name">Work</div>
-                <div class="folder-count" id="work-count">0</div>
-            </div>
-            <div class="folder-stat">
-                <div class="folder-name">Updates</div>
-                <div class="folder-count" id="updates-count">0</div>
-            </div>
-            <div class="folder-stat">
-                <div class="folder-name">Promo</div>
-                <div class="folder-count" id="promotions-count">0</div>
-            </div>
-            <div class="folder-stat">
-                <div class="folder-name">Trash</div>
-                <div class="folder-count" id="trash-count">0</div>
-            </div>
+        <div class="folder-stat">
+            <div class="folder-name">Updates</div>
+            <div class="folder-count" id="updates-count">0</div>
         </div>
-        
-        <div id="email-list">
-            <!-- Emails will be generated here -->
+        <div class="folder-stat">
+            <div class="folder-name">Promotions</div>
+            <div class="folder-count" id="promotions-count">0</div>
+        </div>
+        <div class="folder-stat">
+            <div class="folder-name">Trash</div>
+            <div class="folder-count" id="trash-count">0</div>
         </div>
     </div>
     
-    <div class="success-message" id="success-message">
+    <!-- Email List -->
+    <div id="email-list">
+        <!-- Emails will be generated here -->
+    </div>
+    
+    <!-- Success Overlay -->
+    <div class="overlay" id="success-overlay">
         <h2>Congratulations, Twyla!</h2>
         <p>You are now allowed to rest. 😌</p>
-        <button id="restart-btn" onclick="generateEmails()">Start Again</button>
+        <button id="restart-btn">Start Again</button>
     </div>
-    
+
     <script>
-        // Email data
-        const senders = [
-            { name: 'Google Play Store', email: 'play-store@google.com' },
-            { name: 'iOS Security', email: 'security@apple.com' },
-            { name: 'iCloud Photos', email: 'photos@apple.com' },
-            { name: 'Apple Maps', email: 'maps@apple.com' },
-            { name: 'iMessage', email: 'messages@apple.com' },
-            { name: 'App Store', email: 'appstore@apple.com' },
-            { name: 'iOS Developers', email: 'dev@apple.com' },
-            { name: 'iPhone Settings', email: 'settings@apple.com' },
-            { name: 'iCloud Storage', email: 'storage@apple.com' },
-            { name: 'Apple Pay', email: 'payments@apple.com' },
-            { name: 'Safari Team', email: 'safari@apple.com' },
-            { name: 'Apple TV', email: 'tv@apple.com' },
-            { name: 'Apple Watch', email: 'watch@apple.com' }
-        ];
-        
-        const workSubjects = [
-            'Team meeting notes for Project Apollo',
-            'Quarterly review schedule update',
-            'New client onboarding process',
-            'Upcoming deadline reminder: Phase 2',
-            'Please review: Draft proposal for Nexus',
-            'Budget approval needed for Q3',
-            'Team building event next Friday',
-            'HR policy update - please review',
-            'Vendor contract renewal discussion',
-            'Weekly progress report required'
-        ];
-        
-        const updateSubjects = [
-            'Your iPhone was updated',
-            'Security patch available for your device',
-            'App permissions have changed',
-            'Your iCloud storage is 85% full',
-            'New features available on your device',
-            'Backup completed successfully',
-            'System health report: All OK',
-            'Account verification required',
-            'Device performance optimization tips',
-            'New sign-in detected on your account'
-        ];
-        
-        const promotionSubjects = [
-            '50% off iCloud storage plans this week',
-            'Try Apple Music: First 3 months free',
-            'Recommended apps based on your usage',
-            'Limited time offer: AirPods accessories',
-            'Free ebook: "iOS Tips & Tricks"',
-            'Earn rewards with Apple Card',
-            'Exclusive App Store deals for you',
-            'iPhone Upgrade Program',
-            'Spring sale on Apple devices',
-            'Premium app subscription discount'
-        ];
-        
-        const excerpts = [
-            'Just wanted to follow up on our previous conversation about...',
-            'Please take a moment to review the attached document and provide feedback...',
-            'We've detected a new sign-in to your account on a Windows device...',
-            'Your monthly storage report is ready. You're currently using 15.4 GB of your storage...',
-            'As requested, I'm sharing the latest metrics from our campaign. The results show...',
-            'This is a reminder that you have an upcoming meeting scheduled tomorrow at 2:00 PM...',
-            'Thank you for your recent purchase. Your order has been confirmed and will be processed...',
-            'We've noticed you haven't been using this app lately. Here are some new features...',
-            'Your feedback is important to us. Could you take a few minutes to complete our survey...',
-            'Our records indicate that your subscription will renew automatically on June 15th...'
-        ];
-        
-        // Variables
+        // Data for email generation
+        const emailData = {
+            senders: [
+                { name: "Work Team", email: "team@company.com" },
+                { name: "Project Manager", email: "pm@company.com" },
+                { name: "HR Department", email: "hr@company.com" },
+                { name: "Apple", email: "no-reply@apple.com" },
+                { name: "iPhone Calendar", email: "calendar@apple.com" },
+                { name: "App Store", email: "appstore@apple.com" },
+                { name: "Amazon", email: "orders@amazon.com" },
+                { name: "Netflix", email: "info@netflix.com" },
+                { name: "Spotify", email: "news@spotify.com" },
+                { name: "Bank of America", email: "alerts@bofa.com" }
+            ],
+            subjects: {
+                work: [
+                    "Team meeting notes",
+                    "Quarterly review schedule",
+                    "Project update required",
+                    "New client onboarding",
+                    "Please review: draft proposal"
+                ],
+                updates: [
+                    "Your account has been updated",
+                    "Security alert: new login",
+                    "Your subscription renews soon",
+                    "App update available",
+                    "Payment confirmation"
+                ],
+                promotions: [
+                    "50% off spring sale!",
+                    "Limited time offer inside",
+                    "You might like these items",
+                    "Free shipping this weekend",
+                    "Exclusive member discount"
+                ]
+            },
+            excerpts: [
+                "Just wanted to follow up on our previous conversation about...",
+                "Please take a moment to review the attached document and provide feedback...",
+                "This is a reminder that you have an upcoming deadline scheduled for...",
+                "Thank you for your recent purchase. Your order has been confirmed and will be...",
+                "We've noticed you haven't been using this feature lately. Here are some tips...",
+                "Your account information was recently updated. If you didn't make this change...",
+                "Based on your recent activity, we thought you might be interested in these...",
+                "This is an automated message to let you know that your payment has been processed..."
+            ]
+        };
+
+        // DOM elements
+        const emailList = document.getElementById("email-list");
+        const newEmailsBtn = document.getElementById("new-emails-btn");
+        const restartBtn = document.getElementById("restart-btn");
+        const sortedCountEl = document.getElementById("sorted-count");
+        const totalCountEl = document.getElementById("total-count");
+        const successOverlay = document.getElementById("success-overlay");
+        const folderCountElements = {
+            work: document.getElementById("work-count"),
+            updates: document.getElementById("updates-count"),
+            promotions: document.getElementById("promotions-count"),
+            trash: document.getElementById("trash-count")
+        };
+
+        // State
         let emails = [];
         let sortedCount = 0;
         let totalCount = 0;
@@ -306,10 +318,16 @@
             promotions: 0,
             trash: 0
         };
-        
+
+        // Helper function - get random item from array
+        function getRandomItem(array) {
+            return array[Math.floor(Math.random() * array.length)];
+        }
+
         // Generate random emails
         function generateEmails() {
-            // Reset counts
+            // Reset state
+            emails = [];
             sortedCount = 0;
             totalCount = 0;
             folderCounts = {
@@ -319,49 +337,31 @@
                 trash: 0
             };
             
-            updateFolderCounts();
+            // Update UI
+            updateCounters();
+            emailList.innerHTML = "";
+            successOverlay.style.display = "none";
             
-            document.getElementById('sorted-count').textContent = '0';
-            
-            // Clear email list
-            document.getElementById('email-list').innerHTML = '';
-            
-            // Determine how many emails to generate (10-15)
+            // Generate 10-15 emails
             const emailCount = Math.floor(Math.random() * 6) + 10;
             totalCount = emailCount;
+            totalCountEl.textContent = emailCount;
             
-            document.getElementById('total-count').textContent = emailCount.toString();
-            
-            // Generate emails
-            emails = [];
             for (let i = 0; i < emailCount; i++) {
-                // Select random sender
-                const sender = senders[Math.floor(Math.random() * senders.length)];
+                // Determine email type
+                const emailTypes = ["work", "updates", "promotions"];
+                const type = getRandomItem(emailTypes);
                 
-                // Determine email type and subject based on sender
-                let subject;
-                let type;
-                const randomType = Math.random();
+                // Create email data
+                const sender = getRandomItem(emailData.senders);
+                const subject = getRandomItem(emailData.subjects[type]);
+                const excerpt = getRandomItem(emailData.excerpts);
                 
-                if (randomType < 0.3) {
-                    subject = workSubjects[Math.floor(Math.random() * workSubjects.length)];
-                    type = 'work';
-                } else if (randomType < 0.6) {
-                    subject = updateSubjects[Math.floor(Math.random() * updateSubjects.length)];
-                    type = 'updates';
-                } else {
-                    subject = promotionSubjects[Math.floor(Math.random() * promotionSubjects.length)];
-                    type = 'promotions';
-                }
-                
-                // Select random excerpt
-                const excerpt = excerpts[Math.floor(Math.random() * excerpts.length)];
-                
-                // Random time in the last 24 hours
+                // Random time
                 const hours = Math.floor(Math.random() * 24);
                 const minutes = Math.floor(Math.random() * 60);
-                const timeString = hours === 0 
-                    ? `${minutes}m ago`
+                const timeStr = hours === 0 
+                    ? `${minutes}m ago` 
                     : hours < 24 
                         ? `${hours}h ${minutes}m ago` 
                         : `${Math.floor(hours/24)}d ago`;
@@ -369,35 +369,30 @@
                 // Create email object
                 const email = {
                     id: `email-${i}`,
-                    from: sender.name,
+                    sender: sender.name,
                     email: sender.email,
-                    subject,
-                    excerpt,
-                    time: timeString,
-                    type
+                    subject: subject,
+                    excerpt: excerpt,
+                    time: timeStr,
+                    type: type
                 };
                 
                 emails.push(email);
                 
-                // Create email element
+                // Create and add email element
                 createEmailElement(email);
             }
-            
-            // Hide success message if visible
-            document.getElementById('success-message').classList.remove('visible');
         }
-        
+
         // Create email element
         function createEmailElement(email) {
-            const emailList = document.getElementById('email-list');
+            const emailEl = document.createElement("div");
+            emailEl.classList.add("email");
+            emailEl.id = email.id;
             
-            const emailElement = document.createElement('div');
-            emailElement.classList.add('email');
-            emailElement.id = email.id;
-            
-            emailElement.innerHTML = `
+            emailEl.innerHTML = `
                 <div class="email-header">
-                    <div class="email-from">${email.from}</div>
+                    <div class="email-from">${email.sender}</div>
                     <div class="email-time">${email.time}</div>
                 </div>
                 <div class="email-subject">${email.subject}</div>
@@ -405,48 +400,56 @@
                 <div class="email-actions">
                     <button class="action-btn" onclick="sortEmail('${email.id}', 'work')">Work</button>
                     <button class="action-btn" onclick="sortEmail('${email.id}', 'updates')">Updates</button>
-                    <button class="action-btn" onclick="sortEmail('${email.id}', 'promotions')">Promo</button>
+                    <button class="action-btn" onclick="sortEmail('${email.id}', 'promotions')">Promotions</button>
                     <button class="action-btn" onclick="sortEmail('${email.id}', 'trash')">Trash</button>
                 </div>
             `;
             
-            emailList.appendChild(emailElement);
+            emailList.appendChild(emailEl);
         }
-        
+
         // Sort email function
         function sortEmail(emailId, folder) {
-            // Increment folder count
-            folderCounts[folder]++;
-            updateFolderCounts();
-            
             // Remove email from list
-            const emailElement = document.getElementById(emailId);
-            if (emailElement) {
-                emailElement.parentNode.removeChild(emailElement);
-            }
-            
-            // Update sorted count
-            sortedCount++;
-            document.getElementById('sorted-count').textContent = sortedCount.toString();
-            
-            // Check if all emails are sorted
-            if (sortedCount === totalCount && totalCount > 0) {
-                // Show success message
-                setTimeout(() => {
-                    document.getElementById('success-message').classList.add('visible');
-                }, 300);
+            const emailEl = document.getElementById(emailId);
+            if (emailEl) {
+                emailEl.remove();
+                
+                // Update counts
+                folderCounts[folder]++;
+                sortedCount++;
+                
+                // Update UI
+                updateCounters();
+                
+                // Check if all emails are sorted
+                if (sortedCount >= totalCount && totalCount > 0) {
+                    showSuccessMessage();
+                }
             }
         }
-        
-        // Update folder counts
-        function updateFolderCounts() {
-            document.getElementById('work-count').textContent = folderCounts.work;
-            document.getElementById('updates-count').textContent = folderCounts.updates;
-            document.getElementById('promotions-count').textContent = folderCounts.promotions;
-            document.getElementById('trash-count').textContent = folderCounts.trash;
+
+        // Update counters in UI
+        function updateCounters() {
+            sortedCountEl.textContent = sortedCount;
+            
+            for (const folder in folderCounts) {
+                if (folderCountElements[folder]) {
+                    folderCountElements[folder].textContent = folderCounts[folder];
+                }
+            }
         }
-        
-        // Generate emails on page load
+
+        // Show success message
+        function showSuccessMessage() {
+            successOverlay.style.display = "flex";
+        }
+
+        // Event listeners
+        newEmailsBtn.addEventListener("click", generateEmails);
+        restartBtn.addEventListener("click", generateEmails);
+
+        // Initialize on page load
         window.onload = generateEmails;
     </script>
 </body>
