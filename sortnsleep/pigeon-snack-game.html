@@ -37,6 +37,41 @@
             overflow: hidden;
         }
         
+        .couch {
+            position: absolute;
+            width: 400px;
+            height: 150px;
+            background-color: #8d6e63;
+            border-radius: 20px 20px 0 0;
+            bottom: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            z-index: 0;
+        }
+        
+        .couch:before {
+            content: '';
+            position: absolute;
+            width: 380px;
+            height: 40px;
+            background-color: #a1887f;
+            border-radius: 20px 20px 0 0;
+            top: -20px;
+            left: 10px;
+        }
+        
+        .couch:after {
+            content: '';
+            position: absolute;
+            width: 420px;
+            height: 20px;
+            background-color: #6d4c41;
+            border-radius: 10px;
+            bottom: -10px;
+            left: -10px;
+        }
+        
         .pigeon {
             position: absolute;
             width: 120px;
@@ -49,14 +84,14 @@
         }
         
         #franklin {
-            left: 100px;
-            bottom: 80px;
+            left: 220px;
+            bottom: 130px;
             background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="%236b8e9e"/><circle cx="65" cy="40" r="5" fill="white"/><circle cx="68" cy="38" r="2" fill="black"/><path d="M40,60 Q50,70 60,60" stroke="black" stroke-width="2" fill="none"/><path d="M30,30 L15,15" stroke="%236b8e9e" stroke-width="6"/><path d="M70,30 L85,15" stroke="%236b8e9e" stroke-width="6"/></svg>');
         }
         
         #twyla {
-            right: 100px;
-            bottom: 80px;
+            right: 220px;
+            bottom: 130px;
             background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="%23a18e9e"/><circle cx="65" cy="40" r="5" fill="white"/><circle cx="68" cy="38" r="2" fill="black"/><path d="M40,60 Q50,70 60,60" stroke="black" stroke-width="2" fill="none"/><path d="M30,30 L15,15" stroke="%23a18e9e" stroke-width="6"/><path d="M70,30 L85,15" stroke="%23a18e9e" stroke-width="6"/></svg>');
         }
         
@@ -199,7 +234,7 @@
 <body>
     <div class="title">
         <h1>Franklin & Twyla's Snack Bag Dilemma</h1>
-        <p>Help the pigeon couple share the responsibility of holding the snack bag!</p>
+        <p>Help the loving pigeon couple share the responsibility of holding the snack bag as they cuddle on their couch!</p>
     </div>
     
     <div class="game-container">
@@ -212,6 +247,7 @@
             <div class="score" id="twyla-score">Twyla: 0</div>
         </div>
         
+        <div class="couch"></div>
         <div id="franklin" class="pigeon"></div>
         <div id="twyla" class="pigeon"></div>
         <div class="snack-bag"></div>
@@ -391,11 +427,11 @@
         
         function updateSnackBagPosition() {
             if (gameState.currentHolder === 'franklin') {
-                snackBag.style.left = '160px';
-                snackBag.style.bottom = '150px';
+                snackBag.style.left = '280px';
+                snackBag.style.bottom = '200px';
             } else {
-                snackBag.style.left = '580px';
-                snackBag.style.bottom = '150px';
+                snackBag.style.left = '480px';
+                snackBag.style.bottom = '200px';
             }
         }
         
@@ -411,9 +447,17 @@
             const heart = document.createElement('div');
             heart.className = 'heart';
             heart.innerHTML = '❤️';
-            heart.style.left = `${parseInt(pigeon.style.left || pigeon.offsetLeft) + 60}px`;
-            heart.style.bottom = `${parseInt(pigeon.style.bottom || 
-            pigeon.offsetTop) + 120}px`;
+            
+            // Position the heart above the pigeons
+            const pigeonRect = pigeon.getBoundingClientRect();
+            const containerRect = document.querySelector('.game-container').getBoundingClientRect();
+            
+            const leftPos = (pigeonRect.left - containerRect.left) + (pigeonRect.width / 2);
+            const bottomPos = containerRect.height - (pigeonRect.top - containerRect.top);
+            
+            heart.style.left = `${leftPos}px`;
+            heart.style.bottom = `${bottomPos + 40}px`;
+            
             document.querySelector('.game-container').appendChild(heart);
             
             setTimeout(() => {
@@ -426,11 +470,11 @@
             alertElement.style.opacity = 1;
             
             if (alertElement === franklinAlert) {
-                alertElement.style.left = '100px';
-                alertElement.style.bottom = '210px';
+                alertElement.style.left = '220px';
+                alertElement.style.bottom = '240px';
             } else {
-                alertElement.style.right = '100px';
-                alertElement.style.bottom = '210px';
+                alertElement.style.right = '220px';
+                alertElement.style.bottom = '240px';
             }
             
             setTimeout(() => {
