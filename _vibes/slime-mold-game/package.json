@@ -1,0 +1,18 @@
+{
+  "name": "slime-mold-game",
+  "version": "1.0.0",
+  "description": "A game where you play as a slime mold traveling from Kamloops to Vancouver",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "game",
+    "slime-mold",
+    "educational",
+    "canvas",
+    "javascript"
+  ],
+  "author": "",
+  "license": "MIT"
+}

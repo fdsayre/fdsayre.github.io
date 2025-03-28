@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slime Mold on the Run!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-header">
+            <h1>Slime Mold on the Run!</h1>
+            <div class="game-stats">
+                <div class="stat">
+                    <span class="stat-label">Nutrients:</span>
+                    <span id="nutrients-value">100</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">Distance:</span>
+                    <span id="distance-value">0</span>
+                    <span class="stat-unit">km</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">Population:</span>
+                    <span id="population-value">1</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="game-board">
+            <canvas id="game-canvas"></canvas>
+        </div>
+        
+        <div class="game-controls">
+            <div class="control-group">
+                <button id="forage-btn">Forage for Food</button>
+                <button id="explore-btn">Explore</button>
+                <button id="rest-btn">Rest & Recover</button>
+                <button id="split-btn">Split Colony</button>
+            </div>
+        </div>
+        
+        <div class="game-info">
+            <div id="location-info" class="info-panel">
+                <h3>Current Location</h3>
+                <p id="current-location">Kamloops, BC</p>
+                <p id="location-description">Starting point of your journey.</p>
+            </div>
+            
+            <div id="event-log" class="info-panel">
+                <h3>Journey Log</h3>
+                <div id="event-messages">
+                    <p>Your slime mold colony begins its journey in Kamloops!</p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="facts-container" class="info-panel">
+            <h3>Slime Mold Facts</h3>
+            <p id="slime-fact">Slime molds are not fungi but are classified as protists. They can move at speeds of up to 1cm per hour!</p>
+        </div>
+    </div>
+    
+    <div id="game-modal" class="modal">
+        <div class="modal-content">
+            <h2 id="modal-title">Welcome to Slime Mold on the Run!</h2>
+            <div id="modal-text">
+                <p>You are a colony of Physarum polycephalum, a fascinating yellow slime mold with extraordinary abilities. Your goal is to travel from Kamloops to Vancouver, BC - a journey of approximately 350 km!</p>
+                <p>As a slime mold, you:</p>
+                <ul>
+                    <li>Can find optimal paths through complex environments</li>
+                    <li>Need moisture and nutrients to survive</li>
+                    <li>Can split your colony to explore multiple paths</li>
+                    <li>Are sensitive to light, temperature, and terrain</li>
+                </ul>
+                <p>Make strategic decisions to navigate the diverse terrain of British Columbia. Watch out for dry conditions in the Interior, challenging mountain passes, and human activity along the way!</p>
+            </div>
+            <button id="start-game-btn">Start Your Journey!</button>
+        </div>
+    </div>
+    
+    <div id="event-modal" class="modal">
+        <div class="modal-content">
+            <h2 id="event-title">Encounter!</h2>
+            <div id="event-description">
+                <p>You've encountered something on your journey...</p>
+            </div>
+            <div id="event-choices">
+                <!-- Choices will be dynamically inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Main script - entry point -->
+    <script type="module" src="main.js"></script>
+</body>
+</html>
