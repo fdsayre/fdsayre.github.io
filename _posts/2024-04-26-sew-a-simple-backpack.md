@@ -1,3 +1,14 @@
+---
+title: 'Sewing a Simple Backpack'
+description: None
+date: 2025-04-26
+categories:
+- posts
+tags: 
+    - myog
+    - sewing
+    - projects
+---
 
 I love backpacks! I own way too many. Yet I'm always disatisfied with the spacifics. Too many straps in places I don't want them. A pocket that isn't just right. A bunch of unnecessary features. So for years I've dreamed of making my own backpack. My dream backpack.
 
