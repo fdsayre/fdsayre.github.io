@@ -172,3 +172,6 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
+  sabbatical:
+    output: true
+    permalink: /sabbatical/:path/
