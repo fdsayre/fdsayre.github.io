@@ -2,7 +2,8 @@
 title: How Can Makerspaces Be Sites of Kin-making and Ecological Thinking in the More-than-human-world of the Chthulucene: A Carrier Bag Sabbatical
 date: 2025-08-15
 layout: single
-categories: [sabbatical]     # makes it show in /sabbatical/ and on main blog
+categories: 
+- sabbatical     # makes it show in /sabbatical/ and on main blog
 tags: [sabbatical, methdology, makerspaces]
 excerpt: Inspired by Donna Haraway’s *Staying with the Trouble: Making Kin in the Chthulucene* my sabbatical explores the question: **How can makerspaces and similar learning environments become sites of kin-making and ecological thinking in the more-than-human world of the Chthulucene? And how can we do this without compromising the pedagogies and values that make these learning environments special.** I will approach this question as a research-creation project, using design inquiry to make one or more *carrier bags* that will hold the ideas, stories, and materials I want to bring back to my work. The process I use, and the design of the bags and other materials I create, will be my best attempt at exploring these ideas without compromising the values and pedagogies that make these learning spaces special.
 author_profile: false
