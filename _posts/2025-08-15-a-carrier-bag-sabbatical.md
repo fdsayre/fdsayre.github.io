@@ -1,5 +1,5 @@
 ---
-title: A Carrier Bag Sabbatical
+title: "Making in the Chthulucene: A Carrier Bag Sabbatical"
 date: 2025-08-15
 layout: single
 categories: 
@@ -8,9 +8,6 @@ tags: [sabbatical, methdology, makerspaces]
 excerpt: "Inspired by Donna Haraway’s *Staying with the Trouble: Making Kin in the Chthulucene* my sabbatical explores the question: **How can makerspaces and similar learning environments become sites of kin-making and ecological thinking in the more-than-human world of the Chthulucene? And how can we do this without compromising the pedagogies and values that make these learning environments special.** I will approach this question as a research-creation project, using design inquiry to make one or more *carrier bags* that will hold the ideas, stories, and materials I want to bring back to my work. The process I use, and the design of the bags and other materials I create, will be my best attempt at exploring these ideas without compromising the values and pedagogies that make these learning spaces special."
 author_profile: false
 ---
-
-# A Carrier Bag Sabbatical
-
 > "If it is a human thing to do to put something you want, because it's useful, edible, or beautiful, into a bag, or a basket, or a bit of rolled bark or leaf, or a net woven of your own hair, or what have you, and then take it home with you, home being another, larger kind of pouch or bag, a container for people, and then later on you take it out and eat it or share it or store it up for winter in a solider container or put it in the medicine bundle or the shrine or the museum, the holy place, the area that contains what is sacred, and then next day you probably do much the same again--if to do that is human, if that's what it takes, then I am a human being after all. Fully, freely, gladly, for the first time." (Ursula K Le Guin, The Carrier Bag Theory of Fiction)
 
 Inspired by Donna Haraway’s *Staying with the Trouble: Making Kin in the Chthulucene* my sabbatical explores the question: **How can makerspaces and similar learning environments become sites of kin-making and ecological thinking in the more-than-human world of the Chthulucene? And how can we do this without compromising the pedagogies and values that make these learning environments special.**
