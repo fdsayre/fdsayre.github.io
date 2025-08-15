@@ -1,5 +1,5 @@
 ---
-title: How Can Makerspaces Be Sites of Kin-making and Ecological Thinking in the More-than-human-world of the Chthulucene: A Carrier Bag Sabbatical
+title: A Carrier Bag Sabbatical
 date: 2025-08-15
 layout: single
 categories: 
@@ -9,7 +9,7 @@ excerpt: Inspired by Donna Haraway’s *Staying with the Trouble: Making Kin in 
 author_profile: false
 ---
 
-# How Can Makerspaces Be Sites of Kin-making and Ecological Thinking in the More-than-human-world of the Chthulucene: A Carrier Bag Sabbatical
+# A Carrier Bag Sabbatical
 
 > "If it is a human thing to do to put something you want, because it's useful, edible, or beautiful, into a bag, or a basket, or a bit of rolled bark or leaf, or a net woven of your own hair, or what have you, and then take it home with you, home being another, larger kind of pouch or bag, a container for people, and then later on you take it out and eat it or share it or store it up for winter in a solider container or put it in the medicine bundle or the shrine or the museum, the holy place, the area that contains what is sacred, and then next day you probably do much the same again--if to do that is human, if that's what it takes, then I am a human being after all. Fully, freely, gladly, for the first time." (Ursula K Le Guin, The Carrier Bag Theory of Fiction)
 
