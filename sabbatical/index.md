@@ -1,6 +1,6 @@
 ---
 title: Making in the Chthulucene
-layout: default
+layout: single
 permalink: /sabbatical/
 ---
 
