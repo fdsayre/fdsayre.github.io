@@ -1,5 +1,5 @@
 ---
-title: Making in the Chthulucene
+title: "Making in the Chthulucene: A Carrier Bag Sabbatical"
 layout: single
 permalink: /sabbatical/
 ---
