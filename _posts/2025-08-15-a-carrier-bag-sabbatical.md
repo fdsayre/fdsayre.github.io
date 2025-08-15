@@ -14,6 +14,8 @@ Inspired by Donna Haraway’s *Staying with the Trouble: Making Kin in the Chthu
 
 I will approach this question as a research-creation project, using design inquiry to make one or more *carrier bags* that will hold the ideas, stories, and materials I want to bring back to my work. The process I use, and the design of the bags and other materials I create, will be my best attempt at exploring these ideas without compromising the values and pedagogies that make these learning spaces special.
 
+<!--more-->
+
 ## Making in the Chthulucene
 
 Haraway’s notion of *kin-making* asks us to go beyond human relationships to include non-human species and places — the more-than-human world — as equal partners as we “stay with the trouble” and find ways of “getting on together” in these times of ecological and social disruption.

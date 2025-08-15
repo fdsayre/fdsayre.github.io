@@ -24,7 +24,7 @@ search: true
 repository: "fdsayre/fdsayre.github.io"
 locale: "en-US"
 url: https://fdsayre.github.io/
-
+excerpt_separator: "<!--more-->"
 
 analytics:
   provider: "google-gtag"
@@ -172,6 +172,3 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
-  sabbatical:
-    output: true
-    permalink: /sabbatical/:path/
