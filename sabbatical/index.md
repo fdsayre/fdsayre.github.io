@@ -14,7 +14,7 @@ Pick the “hero” post by path (explicit) or by most recent sabbatical post.
 {%- endif -%}
 
 {%- if hero -%}
-  <h1 class="page__title">{{ hero.title }}</h1>
+  <!-- <h1 class="page__title">{{ hero.title }}</h1> -->
   <div class="page__content">
     {{ hero.excerpt }}
     <p><a href="{{ hero.url | relative_url }}">Read the full post →</a></p>
