@@ -130,6 +130,9 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
+      show_categories: true
+      show_tags: true
   # _pages
   - scope:
       path: "_pages"
@@ -137,6 +140,9 @@ defaults:
     values:
       layout: single
       author_profile: true
+      show_date: true
+      show_categories: true
+      show_tags: true
   # _apar2024
   - scope:
       path: ""
@@ -155,6 +161,9 @@ defaults:
       layout: single
       author_profile: true
       share: true
+      show_date: true
+      show_categories: true
+      show_tags: true
 
 
 category_archive:
