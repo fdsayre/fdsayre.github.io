@@ -1,6 +1,6 @@
 ---
-title: "Making in the Chthulucene: A Carrier Bag Sabbatical"
-date: 2025-08-15
+title: "Reflections about Scope"
+date: 2025-08-20
 layout: single
 categories: 
 - sabbatical
