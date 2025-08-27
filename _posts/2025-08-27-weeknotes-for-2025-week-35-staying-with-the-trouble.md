@@ -14,8 +14,9 @@ date: 2025-08-27
 layout: single
 ---
 
-<img src="/assets/images/2025-08-27-1.jpeg" alt="Description of image" align="left" width="250" style="margin-right:15px; margin-bottom:10px;" />
+_Weeknotes are a type of thinking-in-public writting and planning. The idea is to explore ideas without worrying about them being perfect. They are meant to be riddled with errors and provisional._
 
+<img src="/assets/images/2025-08-27-1.jpeg" alt="Description of image" align="left" width="250" style="margin-right:15px; margin-bottom:10px;" />
 
 This week I am in Revelstoke with my partner for a few days of hiking before the semester starts. I have not escaped my sabbatical however, and this week is also seeing me struggle / stay with the trouble of keeping this project interesting / joyful while also something that I can do / is for me to do. 
 
