@@ -3,6 +3,7 @@ title: "Weeknotes for 2025 Week 35: Staying with the Trouble"
 categories:
 - weekNotes
 - sabbatical
+- posts
 tags:
 - sabbatical
 - ai
