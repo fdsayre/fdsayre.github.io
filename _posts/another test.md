@@ -7,6 +7,7 @@ categories:
   - Posts
 tags:
 author_profile: false
+publish: true
 ---
 
 hello testing again
