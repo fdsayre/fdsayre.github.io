@@ -1,9 +1,11 @@
 ---
-title: 'Prototyping a creature bag'
+title: 'Prototyping a Creature Bag'
 description:
 date: 2025-08-29
 publish: true
-categories: Sabbatical, Posts
+categories: 
+    - sabbatical
+    - Posts
 tags: bags, prototypes
 ---
 
