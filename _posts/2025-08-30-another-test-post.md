@@ -1,7 +1,7 @@
 ---
 share: true
 title: 2025-08-30-This is another test post
-date: 2025-08-30
+date: 2025-08-31
 layout: single
 categories:
   - Posts
