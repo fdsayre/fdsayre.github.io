@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-08-30-another-test-post.md",
+                "file": "_posts/2025-08-31-another-test-post.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-08-30-another-test-post"
+              "title": "2025-08-31-another-test-post"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2025-08-30-another-test-post.md",
+                "file": "_posts/2025-08-31-another-test-post.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025-08-30-another-test-post"
+              "title": "Backlinks for 2025-08-31-another-test-post"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2025-08-30-another-test-post.md",
+                "file": "_posts/2025-08-31-another-test-post.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2025-08-30-another-test-post"
+              "title": "Outgoing links from 2025-08-31-another-test-post"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2025-08-30-another-test-post.md",
+                "file": "_posts/2025-08-31-another-test-post.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-08-30-another-test-post"
+              "title": "Outline of 2025-08-31-another-test-post"
             }
           }
         ]
