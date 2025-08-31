@@ -1,10 +1,13 @@
 ---
 title: This is a title
-date: 2025-08-20
+date: 2025-08-31
 layout: single
 categories:
-- Posts
-tags: [sabbatical, methdology, reflections]
+  - Posts
+tags:
+  - sabbatical
+  - methdology
+  - reflections
 author_profile: false
 publish: true
 ---
