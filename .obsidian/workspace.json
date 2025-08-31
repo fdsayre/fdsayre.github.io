@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-08-29-a-prototype-of-a-creature-bag.md",
+                "file": "_posts/2025-08-31-new-test-dummy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-08-29-a-prototype-of-a-creature-bag"
+              "title": "2025-08-31-new-test-dummy"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2025-08-29-a-prototype-of-a-creature-bag.md",
+                "file": "_posts/2025-08-31-new-test-dummy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025-08-29-a-prototype-of-a-creature-bag"
+              "title": "Backlinks for 2025-08-31-new-test-dummy"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2025-08-29-a-prototype-of-a-creature-bag.md",
+                "file": "_posts/2025-08-31-new-test-dummy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2025-08-29-a-prototype-of-a-creature-bag"
+              "title": "Outgoing links from 2025-08-31-new-test-dummy"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2025-08-29-a-prototype-of-a-creature-bag.md",
+                "file": "_posts/2025-08-31-new-test-dummy.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-08-29-a-prototype-of-a-creature-bag"
+              "title": "Outline of 2025-08-31-new-test-dummy"
             }
           }
         ]
@@ -172,13 +172,15 @@
   },
   "active": "24983f3e0be984fe",
   "lastOpenFiles": [
+    "assets/images/790FDDD6-BB07-41D8-ADC7-00C22159DF56_1_105_c.jpeg",
+    "_posts/2025-08-29-a-prototype-of-a-creature-bag.md",
+    "_posts/2025-08-31-new-test-dummy.md",
     "A prototype of a creature bag and a test of an Obsidian plugin-1756512818723.png",
     "_posts/2025-08-20-reflections-about-scope.md",
     "_posts/2025-08-31-another-test-post.md",
     "_posts/2025-08-31-a-new-test-vault.md",
     "_posts/2025-08-30.md",
     "_posts/testing envelope.md",
-    "_posts/2025-08-29-a-prototype-of-a-creature-bag.md",
     "_posts/another test.md",
     "Untitled.md",
     "assets/images/3B80DD3C-252D-4FE0-B839-EAE7975E9C23_1_105_c.jpeg"
