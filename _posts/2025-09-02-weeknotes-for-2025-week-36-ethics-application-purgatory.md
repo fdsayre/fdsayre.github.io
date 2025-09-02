@@ -6,13 +6,11 @@ categories:
 tags:
   - sabbatical
   - reflections
-date: 2025-08-02
+date: 2025-09-02
 layout: single
 ---
 
->> Weeknotes are where I share what I am doing without worrying too much about them being perfect. They are a way of thinking-in-public. They are written quickly and generally without editing. 
->
->
+>_Weeknotes are where I share what I am doing without worrying too much about them being perfect. They are a way of thinking-in-public. They are written quickly and generally without editing._
 ## Sabbatical 
 
 - Bullet points are great. So much less threatening than sentences and paragraphs. 
