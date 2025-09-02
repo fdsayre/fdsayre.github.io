@@ -6,3 +6,7 @@ Gemfile.lock
 assets/.DS_Store
 _apar2024/.DS_Store
 .DS_Store
+Add below lines to exclude OS settings and caches
+.trash/
+# to exclude Obsidian's settings (including plugin and hotkey configurations)
+.obsidian/

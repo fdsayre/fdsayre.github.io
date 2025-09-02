@@ -6,7 +6,9 @@ publish: true
 categories: 
     - sabbatical
     - Posts
-tags: bags, prototypes
+tags: 
+- bags
+- prototypes
 ---
 
 I needed to test an Obsidian plugin that I'm hoping will make including images in posts here easier by automating how they are named and uploaded to Github pages ([GitHub - addozhang/obsidian-image-upload-toolkit: An obsidian plugin for uploading local images embedded in markdown to remote store and export markdown for publishing to static site.](https://github.com/addozhang/obsidian-image-upload-toolkit)) so I'm using this post as an excuse to share a silly bag prototype..
