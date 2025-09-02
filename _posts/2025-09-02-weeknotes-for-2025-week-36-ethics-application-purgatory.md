@@ -11,6 +11,8 @@ layout: single
 ---
 
 >_Weeknotes are where I share what I am doing without worrying too much about them being perfect. They are a way of thinking-in-public. They are written quickly and generally without editing._
+
+
 ## Sabbatical 
 
 - Bullet points are great. So much less threatening than sentences and paragraphs. 
