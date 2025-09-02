@@ -10,4 +10,4 @@ tags:
 ---
 This should successfully insert and display and image (I hope)
 
-![[53C42C8B-5634-4A51-925B-C02EFE9885AA_1_105_c.jpeg]]
+![[(../assets/images/dde97cf9532d87b359a3d16a21689be6f4efb9c8.jpeg)]]
