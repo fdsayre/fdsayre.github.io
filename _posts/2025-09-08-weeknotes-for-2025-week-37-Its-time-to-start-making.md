@@ -7,7 +7,7 @@ layout: single
 tags:
 - sabbatical
 - reflections
-title: "Weeknotes for 2025 Week 37: It's time to start making"
+title: "Weeknotes for 2025 Week 37: Time to start making"
 ---
 
 > *Weeknotes are where I share what I am doing without worrying too much about them being perfect. They are a way of thinking-in-public. They are written quickly and generally without editing.*
