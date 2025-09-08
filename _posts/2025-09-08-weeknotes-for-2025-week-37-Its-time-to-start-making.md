@@ -10,8 +10,6 @@ tags:
 title: "Weeknotes for 2025 Week 37: It's time to start making"
 ---
 
-# Weeknotes for 2025 Week 37
-
 > *Weeknotes are where I share what I am doing without worrying too much about them being perfect. They are a way of thinking-in-public. They are written quickly and generally without editing.*
 
 ## Making / Doing
