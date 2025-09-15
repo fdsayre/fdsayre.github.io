@@ -6,10 +6,8 @@ date: 2025-09-15
 layout: single
 tags:
 - sabbatical
-- reflections
-title: "Weeknotes for 2025 Week 37: It's time to start making"
-type:
-- WeekNotes
+- genAI
+title: "Weeknotes for 2025 Week 38 - Time, attention, knowing, materials, care, digital gardens, books, and internet culture"
 ---
 
 > *Weeknotes are where I share what I am doing without worrying too much about them being perfect. They are a way of thinking-in-public. They are written quickly and generally without editing.*
