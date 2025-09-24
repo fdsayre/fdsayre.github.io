@@ -28,13 +28,13 @@ It seems to be testing and prototyping week:
   - Absolutely lowers my anxiety about getting started and fear of wasting materials.
   - Does not turn easily, i.e. going around sharp corners is almost impossible.
 
-![](/assets/images/Weeknotes_for_2025_Week_39-1758723972804.webp)()
+![](/assets/images/Weeknotes_for_2025_Week_39-1758723972804.webp)
 Caption: A cyanotype on cotton canvas
 
-![](/assets/images/Weeknotes_for_2025_Week_39-1758723924453.webp)()
+![](/assets/images/Weeknotes_for_2025_Week_39-1758723924453.webp)
 Caption: A cyanotype on cotton muslin
 
-![](/assets/images/Weeknotes_for_2025_Week_39-1758724317493.webp)()Caption: A prototype made of Tyvek
+![](/assets/images/Weeknotes_for_2025_Week_39-1758724317493.webp)Caption: A prototype made of Tyvek
 
 Next this week/weekend:
 - Tyvek prototype of my methodology bag, possibly as a 1/3 size version that might end up also being a prototype for a Nalgeine carrying bag. I like the idea of a cute tiny backpack for a water bottle.
