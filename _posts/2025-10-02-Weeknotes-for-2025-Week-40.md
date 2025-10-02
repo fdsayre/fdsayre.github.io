@@ -9,8 +9,6 @@ tags:
 - sabbatical
 ---
 
-# Weeknotes for 2025 Week 40
-
 > *Weeknotes are where I share what I am doing without worrying too much about them being perfect. They are a way of thinking-in-public. They are written quickly and generally without editing.*
 
 A short week so I'm posting a late and short WeekNotes.
