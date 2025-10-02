@@ -5,6 +5,7 @@ categories:
 title: "Weeknotes for 2025 Week 39: Cyanotypes and Tyvek"
 categories:
 - weekNotes
+- sabbatical
 date: 2025-09-24
 layout: single
 tags:
