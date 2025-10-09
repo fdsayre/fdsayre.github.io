@@ -3,6 +3,7 @@ title: "What story/ethics am I crafting with my research question?"
 date: 2025-10-09
 layout: single
 categories: 
+- Posts
 - sabbatical
 tags: [sabbatical, methdology, storytelling, makerspaces, reflections]
 author_profile: false
