@@ -5,11 +5,10 @@ layout: single
 categories: 
 - Posts
 - sabbatical
-tags: [sabbatical, plants, place, reflections]
+tags: [sabbatical, plants, place, reflections, nature, kamloops]
 author_profile: false
 ---
 
-# Gathering Plants for Cyanotypes at McConnell Lake Provincial Park
 
 The first time I visited McConnell Lake was on a cold morning the first September after I moved to Kamloops. My friend Jenna, the type of person who wakes up at 4am and decides she needs to be in nature immediately, invited me to come with her and 20 minutes later we were driving up and out of the valley as the first flakes of snow I'd seen that year started falling.
 
