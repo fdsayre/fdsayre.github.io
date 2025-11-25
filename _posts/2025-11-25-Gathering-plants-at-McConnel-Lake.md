@@ -15,7 +15,7 @@ The first time I visited McConnell Lake was on a cold morning the first Septembe
 
 <figure>
 <img
-src="Gathering%20plants%20at%20McConnel%20Lake%20for%20a%20cyanotypes-media/c6d853ea4be60ea7f6a8c2953fce92abc9a1accb.jpg"
+src="/assets/images/c6d853ea4be60ea7f6a8c2953fce92abc9a1accb.jpg"
 title="wikilink" alt="IMG_20190929_084127629_HDR(1).jpg" />
 <figcaption
 aria-hidden="true">IMG_20190929_084127629_HDR(1).jpg</figcaption>
@@ -31,7 +31,7 @@ McConnell is also a diverse little pocket universe. On the west side its sunny w
 
 <figure>
 <img
-src="Gathering%20plants%20at%20McConnel%20Lake%20for%20a%20cyanotypes-media/2240b9ef5147abe2107430e18c2ac6eacf08caa6.jpg"
+src="/assets/images/2240b9ef5147abe2107430e18c2ac6eacf08caa6.jpg"
 title="wikilink" alt="IMG_1068(1).jpg" />
 <figcaption aria-hidden="true">IMG_1068(1).jpg</figcaption>
 </figure>
@@ -40,7 +40,7 @@ Caption McConnel Lake in January, 2022
 
 <figure>
 <img
-src="Gathering%20plants%20at%20McConnel%20Lake%20for%20a%20cyanotypes-media/059c8823d374ba8f9039687c3d8789187e3e3638.jpg"
+src="/assets/images/059c8823d374ba8f9039687c3d8789187e3e3638.jpg"
 title="wikilink" alt="IMG_6008.jpg" />
 <figcaption aria-hidden="true">IMG_6008.jpg</figcaption>
 </figure>
@@ -51,7 +51,7 @@ At the end of August my partner and I drove out to McConnell to gather plants so
 
 <figure>
 <img
-src="Gathering%20plants%20at%20McConnel%20Lake%20for%20a%20cyanotypes-media/64fa3cdecc9decec53e528fbe4ba46adb02432f4.webp"
+src="/assets/images/64fa3cdecc9decec53e528fbe4ba46adb02432f4.webp"
 title="wikilink"
 alt="Gathering_plants_at_McConnel_Lake_for_a_cyanotypes-1757692010090.webp" />
 <figcaption
@@ -70,7 +70,7 @@ By the end we had two cloth shopping bags of materials and a 1/5 of a gallen bag
 
 <figure>
 <img
-src="Gathering%20plants%20at%20McConnel%20Lake%20for%20a%20cyanotypes-media/7da44e431ee6624244c6a238c85ba21f1cc82669.jpg"
+src="/assets/images/7da44e431ee6624244c6a238c85ba21f1cc82669.jpg"
 title="wikilink" alt="IMG_7292.jpg" />
 <figcaption aria-hidden="true">IMG_7292.jpg</figcaption>
 </figure>
@@ -79,7 +79,7 @@ Twyla looking for mushrooms during a sudden torrential rain storm, August 2025.
 
 <figure>
 <img
-src="Gathering%20plants%20at%20McConnel%20Lake%20for%20a%20cyanotypes-media/bde8287d88dc489db26a9308f9f2fc600f0cc6f1.jpg"
+src="/assets/images/bde8287d88dc489db26a9308f9f2fc600f0cc6f1.jpg"
 title="wikilink" alt="IMG_0060.jpg" />
 <figcaption aria-hidden="true">IMG_0060.jpg</figcaption>
 </figure>
@@ -90,7 +90,7 @@ Back on campus we sorted what we had collected into what was already dry and wha
 
 <figure>
 <img
-src="Gathering%20plants%20at%20McConnel%20Lake%20for%20a%20cyanotypes-media/427c0e2f0f0b3a3a43de131fe686df7a881b748b.jpg"
+src="/assets/images/427c0e2f0f0b3a3a43de131fe686df7a881b748b.jpg"
 title="wikilink" alt="IMG_8018.jpg" />
 <figcaption aria-hidden="true">IMG_8018.jpg</figcaption>
 </figure>
@@ -99,7 +99,7 @@ Caption: Twyla sorting her bag
 
 <figure>
 <img
-src="Gathering%20plants%20at%20McConnel%20Lake%20for%20a%20cyanotypes-media/322a0ca90b68194b5588a48a8d6b7647e0024f76.jpg"
+src="/assets/images/322a0ca90b68194b5588a48a8d6b7647e0024f76.jpg"
 title="wikilink" alt="IMG_8015.jpg" />
 <figcaption aria-hidden="true">IMG_8015.jpg</figcaption>
 </figure>
@@ -108,7 +108,7 @@ Caption: everything we collected arranged for drying and pressing.
 
 <figure>
 <img
-src="Gathering%20plants%20at%20McConnel%20Lake%20for%20a%20cyanotypes-media/000e6a2f8769cc9bfe8103ef913a2cb669573490.jpg"
+src="/assets/images/000e6a2f8769cc9bfe8103ef913a2cb669573490.jpg"
 title="wikilink" alt="IMG_8043.jpg" />
 <figcaption aria-hidden="true">IMG_8043.jpg</figcaption>
 </figure>
@@ -117,7 +117,7 @@ Caption: A forest of clamps used for pressing plants between layers of paper and
 
 <figure>
 <img
-src="Gathering%20plants%20at%20McConnel%20Lake%20for%20a%20cyanotypes-media/dfd11d68274cf4d9ecc094d5ed73d7c788a1e843.webp"
+src="/assets/images/dfd11d68274cf4d9ecc094d5ed73d7c788a1e843.webp"
 title="wikilink"
 alt="Gathering_plants_at_McConnel_Lake_for_a_cyanotypes-2025-11-25-10-01-32.webp" />
 <figcaption
@@ -136,7 +136,7 @@ And over the next couple months, as I worked with the plants---sorting them, dry
 
 <figure>
 <img
-src="Gathering%20plants%20at%20McConnel%20Lake%20for%20a%20cyanotypes-media/f39a2f9acb3821bac5bcbb5d7151417b7b33fdf0.jpg"
+src="/assets/images/f39a2f9acb3821bac5bcbb5d7151417b7b33fdf0.jpg"
 title="wikilink" alt="IMG_1558.jpg" />
 <figcaption aria-hidden="true">IMG_1558.jpg</figcaption>
 </figure>
