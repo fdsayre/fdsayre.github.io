@@ -1,5 +1,5 @@
 ---
-title: "What story/ethics am I crafting with my research question?"
+title: "What story am I crafting with my research question?"
 date: 2025-10-09
 layout: single
 categories: 
