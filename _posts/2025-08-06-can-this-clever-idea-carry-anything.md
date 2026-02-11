@@ -15,7 +15,7 @@ title: "\"Can this clever idea carry anything\""
 
 <figure>
 <img
-src="/assets/images/2025-08-06-can-this-clever-idea-carry-anything-media/89cdc6d5fbff5fce84c00741d7b438f685dc8221.webp"
+src="/assets/images/c799ec544d61a46338a772fe5f4669487ae084ce.jpeg"
 title="wikilink"
 alt="2025-08-06-can-this-clever-idea-carry-anything-2026-02-11-08-35-23.webp" />
 <figcaption
