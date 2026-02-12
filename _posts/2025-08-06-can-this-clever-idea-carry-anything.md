@@ -10,7 +10,7 @@ tags:
 - sabbatical
 - methdology
 - reflections
-title: "\"Can this clever idea carry anything\""
+title: "Can this clever idea carry anything"
 ---
 
 <figure>
