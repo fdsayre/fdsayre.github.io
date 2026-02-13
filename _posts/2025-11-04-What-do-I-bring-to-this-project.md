@@ -3,14 +3,13 @@ author_profile: false
 categories:
 - Posts
 - sabbatical 
-date: 2025-08-20
+date: 2025-11-04
 layout: single
 publish: true
 tags:
 - sabbatical
-- methdology
+- methodology
 - reflections
-- bagsabbatical/publish
 title: What do I bring to this project?
 ---
 
