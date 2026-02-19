@@ -3,7 +3,7 @@ author_profile: false
 categories:
 - Posts
 - sabbatical
-date: 2025-08-20
+date: 2026-02-19
 layout: single
 publish: false
 tags:
