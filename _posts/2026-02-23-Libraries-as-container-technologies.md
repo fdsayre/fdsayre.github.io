@@ -46,8 +46,8 @@ title: Libraries as Container Technologies (Gathering Points)
 
 ## Towards a speculative definition: libraries as irreducible local transformative spaces of discovery/invention (worlding)
 
-- Back to Sofia's original definition: "The apparatus, as well as the specialized space that houses it (the kitchen, the lab, the workshop), could be interpreted as equivalents of the ==potential space where inner and outer worlds are negotiated in the course of discovery/invention==."
-- This is mirrored in the conclusion: "There is no such thing as a discovery/invention *apart from the potential space: lab, studio, study, etc.*"
+- Back to Sofia's original definition: "The apparatus, as well as the specialized space that houses it (the kitchen, the lab, the workshop), could be interpreted as equivalents of the *potential space where inner and outer worlds are negotiated in the course of discovery/invention*."
+- This is mirrored in the conclusion: "There is no such thing as a discovery/invention *apart from the potential space: lab, studio, study, etc."
 - **Libraries are apparatus-containers in that they are potential spaces where we can negotiate worlds in the course of discovery and invention.**
 - Sofia brings Heidegger back here to talk about the idea that the "the thing" is actually a gathering: a local and specific manifestation of its context, both near and far.
 - "The thing emerges in a "nearness" or rather a process of "nearing" that gathers remote elements into itself; thus a local and specific object is also a manifestation of its macro-context."
