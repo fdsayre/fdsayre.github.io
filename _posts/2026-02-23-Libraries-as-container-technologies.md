@@ -13,7 +13,7 @@ tags:
 title: Libraries as Container Technologies (Gathering Points)
 ---
 
-> Gathering Points: I've been experimenting with writing-in-public as a way of exploring unpolished and speculative ideas without worrying too much about their polish. Gathering Points are a form of this post where the purpose is to pull together a number of complex ideas into something coherent. They are still meant to be unpolished, speculative, and exploratory, but based around an idea I'm trying to understand and/or apply. I'm using bullet points because to me they suggest the idea that each point is distinct but related.
+> Gathering Points: I've been experimenting with writing-in-public as a way of exploring speculative ideas without worrying too much about their polish. Gathering Points are a form of this post where the purpose is to pull together a number of complex ideas into something coherent. They are still meant to be unpolished, speculative, and exploratory, but based around an idea I'm trying to understand and/or apply. I'm using bullet points because to me they suggest the idea that each point is distinct but related.
 
 ## Complicating the Container
 
