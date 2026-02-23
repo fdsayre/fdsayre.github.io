@@ -5,7 +5,7 @@ categories:
 - sabbatical
 date: 2026-02-19
 layout: single
-publish: false
+publish: true
 tags:
 - sabbatical
 - methdology
