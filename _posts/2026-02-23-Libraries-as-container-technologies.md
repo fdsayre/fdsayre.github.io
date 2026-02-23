@@ -31,9 +31,11 @@ title: Libraries as Container Technologies (Gathering Points)
 
 - Sofia presents a speculative categorization of container technologies:
 
-> • The utensil: the generic container, a basket or bowl, perhaps corresponds to the mother as a container into which we dump our excess stuff, and which we come to consider as an extension of ourselves.
-> • Apparatus: the specialized container, like an oven or a vat, in which something may be created or transformed. The apparatus, as well as the specialized space that houses it (the kitchen, the lab, the workshop), could be interpreted as equivalents of the potential space where inner and outer worlds are negotiated in the course of discovery/invention.
-> • Utilities: these can include buildings (from humble cottages to huge environment-controlled spaces like shopping malls or airport terminals) as well as various channels for dynamic flows (like pipes, cables, reservoirs). These technologies reproduce something like the "environment mother" who works unobtrusively to ensure "smooth functioning" and continued supply to the infant whose bodily states and feeling she regulates." (Page 10)
+> • *The utensil*: the generic container, a basket or bowl, perhaps corresponds to the mother as a container into which we dump our excess stuff, and which we come to consider as an extension of ourselves.
+>
+> • *Apparatus*: the specialized container, like an oven or a vat, in which something may be created or transformed. The apparatus, as well as the specialized space that houses it (the kitchen, the lab, the workshop), could be interpreted as equivalents of the potential space where inner and outer worlds are negotiated in the course of discovery/invention.
+>
+> • *Utilities*: these can include buildings (from humble cottages to huge environment-controlled spaces like shopping malls or airport terminals) as well as various channels for dynamic flows (like pipes, cables, reservoirs). These technologies reproduce something like the "environment mother" who works unobtrusively to ensure "smooth functioning" and continued supply to the infant whose bodily states and feeling she regulates." (Page 10)
 
 - So what kind of containers are libraries?
 - Utensils: I do not think we are utensils, though we use a lot of them: shelves, digital storage devices, book drops, pen cups. Perhaps some of our specialized containers, like a catalog or a digital repository, could *in some ways* be considered a utensil, but in other ways they do not. If you don't know a lot about how libraries function, most of what you see is probably a utensil.
