@@ -23,4 +23,8 @@ I've set this to run as an automation based on time of day. It would be great to
 Link to download: [RoutineHub • Set wallpaper to most recent iNaturalist observation in your area](https://routinehub.co/shortcut/25359/)
 
 
-![](efa0b5edc55ba704f19ec149abf3e6ab380064e0.png)
+<figure>
+<img
+src="/assets/images/efa0b5edc55ba704f19ec149abf3e6ab380064e0.png" alt="a screenshot of a wallpaper set to a juniper bush" />
+<figcaption aria-hidden="true">A maybe not super exciting example screenshot of the shortcut in action</figcaption>
+</figure>
