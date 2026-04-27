@@ -22,11 +22,5 @@ I've set this to run as an automation based on time of day. It would be great to
 
 Link to download: [RoutineHub • Set wallpaper to most recent iNaturalist observation in your area](https://routinehub.co/shortcut/25359/)
 
-<figure>
-<img
-src="2026-04-27-an-ios-shortcut-to-change-your-wallpaper-based-on-the-most-recent-inaturalist-observation-in-your-area-media/efa0b5edc55ba704f19ec149abf3e6ab380064e0.png"
-title="wikilink"
-alt="2026-04-27-an-ios-shortcut-to-change-your-wallpaper-based-on-the-most-recent-inaturalist-observation-in-your-area-2026-04-27-09-14-51.png" />
-<figcaption
-aria-hidden="true">2026-04-27-an-ios-shortcut-to-change-your-wallpaper-based-on-the-most-recent-inaturalist-observation-in-your-area-2026-04-27-09-14-51.png</figcaption>
-</figure>
+
+![](efa0b5edc55ba704f19ec149abf3e6ab380064e0.png)
