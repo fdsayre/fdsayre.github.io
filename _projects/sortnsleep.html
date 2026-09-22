@@ -1,594 +1,1051 @@
 ---
 layout: none
 title: "Twyla's Sort 'n Sleep"
-excerpt: "A vibe coded game where you sort fake emails to earn rest, so you don't open your real email."
+excerpt: "A night inbox. Sort gentle, made-up letters into little folders until you're sleepy. Nothing in it is real. Nothing in it is urgent."
 ---
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Twyla's Email Sorter</title>
-    <style>
-        /* Basic reset and body styles */
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-        
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: #f2f2f7;
-            color: #333;
-            padding: 20px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        
-        /* Header styles */
-        .header {
-            text-align: center;
-            margin-bottom: 20px;
-            background-color: #007aff;
-            color: white;
-            padding: 20px;
-            border-radius: 10px;
-        }
-        
-        .header h1 {
-            margin-bottom: 5px;
-        }
-        
-        /* Controls section */
-        .controls {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 20px;
-            background-color: white;
-            padding: 15px;
-            border-radius: 10px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-        }
-        
-        button {
-            background-color: #007aff;
-            color: white;
-            border: none;
-            padding: 8px 16px;
-            border-radius: 8px;
-            font-weight: bold;
-            cursor: pointer;
-        }
-        
-        button:hover {
-            background-color: #0062cc;
-        }
-        
-        .counter {
-            font-weight: bold;
-            display: flex;
-            align-items: center;
-        }
-        
-        /* Main content layout */
-        .content-container {
-            display: flex;
-            gap: 20px;
-        }
-        
-        /* Folder panel */
-        .folder-panel {
-            width: 200px;
-            flex-shrink: 0;
-        }
-        
-        .folder {
-            background-color: white;
-            border-radius: 8px;
-            padding: 15px;
-            margin-bottom: 10px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-            cursor: pointer;
-            transition: background-color 0.2s;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        
-        .folder.dragover {
-            background-color: #e5f2ff;
-            border: 2px dashed #007aff;
-        }
-        
-        .folder-icon {
-            width: 24px;
-            height: 24px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 16px;
-        }
-        
-        .folder-label {
-            flex-grow: 1;
-            font-weight: 500;
-        }
-        
-        .folder-count {
-            background-color: #f2f2f7;
-            padding: 3px 8px;
-            border-radius: 10px;
-            font-size: 12px;
-            font-weight: bold;
-        }
-        
-        /* Email list */
-        .email-container {
-            flex-grow: 1;
-        }
-        
-        /* Email styles */
-        .email {
-            background-color: white;
-            border-radius: 10px;
-            padding: 15px;
-            margin-bottom: 15px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-            cursor: grab;
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-        
-        .email:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
-        }
-        
-        .email.dragging {
-            opacity: 0.5;
-            box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-        }
-        
-        .email-header {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 10px;
-        }
-        
-        .email-from {
-            font-weight: bold;
-        }
-        
-        .email-time {
-            color: #8a8a8e;
-            font-size: 14px;
-        }
-        
-        .email-subject {
-            font-weight: bold;
-            margin-bottom: 5px;
-            font-size: 16px;
-        }
-        
-        .email-excerpt {
-            color: #636366;
-            margin-bottom: 5px;
-            font-size: 14px;
-        }
-        
-        /* Success message */
-        .overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-color: rgba(0,0,0,0.8);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            z-index: 999;
-            display: none;
-            flex-direction: column;
-            padding: 20px;
-            text-align: center;
-        }
-        
-        .overlay h2 {
-            color: white;
-            margin-bottom: 20px;
-            font-size: 28px;
-        }
-        
-        .overlay p {
-            color: white;
-            margin-bottom: 30px;
-            font-size: 20px;
-        }
-        
-        .overlay button {
-            background-color: white;
-            color: #007aff;
-            padding: 12px 24px;
-            font-size: 16px;
-        }
-        
-        /* Media queries for mobile */
-        @media (max-width: 768px) {
-            .content-container {
-                flex-direction: column;
-            }
-            
-            .folder-panel {
-                width: 100%;
-                margin-bottom: 20px;
-            }
-            
-            .folder {
-                padding: 10px;
-            }
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#0d1022">
+<title>Twyla's Sort 'n Sleep</title>
+<style>
+  :root {
+    --sky-top: #0d1022;
+    --sky-bottom: #201434;
+    --ink: #e9e2d2;
+    --muted: #9c94b4;
+    --faint: #6f688a;
+    --amber: #e6b87e;
+    --amber-dim: rgba(230, 184, 126, 0.35);
+    --card-bg: rgba(24, 27, 51, 0.92);
+    --card-edge: rgba(230, 184, 126, 0.14);
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, sans-serif;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body { height: 100%; }
+
+  body {
+    font-family: var(--serif);
+    color: var(--ink);
+    background: linear-gradient(180deg, var(--sky-top) 0%, #131230 55%, var(--sky-bottom) 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ---------- night sky ---------- */
+  #sky {
+    position: fixed; inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    overflow: hidden;
+  }
+
+  .star {
+    position: absolute;
+    width: 2px; height: 2px;
+    border-radius: 50%;
+    background: #d9d4e8;
+    opacity: 0;
+    animation: twinkle var(--tw, 6s) ease-in-out var(--td, 0s) infinite;
+  }
+  .star.earned {
+    width: 3px; height: 3px;
+    background: #f2ecdd;
+    box-shadow: 0 0 6px 1px rgba(242, 236, 221, 0.5);
+  }
+  .star.golden {
+    width: 4px; height: 4px;
+    background: var(--amber);
+    box-shadow: 0 0 8px 2px rgba(230, 184, 126, 0.55);
+  }
+  @keyframes twinkle {
+    0%, 100% { opacity: var(--lo, 0.15); }
+    50%      { opacity: var(--hi, 0.85); }
+  }
+  .star.arriving { animation: star-arrive 1.8s ease-out, twinkle var(--tw, 6s) ease-in-out 1.8s infinite; }
+  @keyframes star-arrive {
+    0%   { opacity: 0; transform: scale(3); }
+    60%  { opacity: 1; }
+    100% { opacity: var(--hi, 0.85); transform: scale(1); }
+  }
+
+  #moon {
+    position: fixed;
+    top: 7vh; right: 8vw;
+    width: 74px; height: 74px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 38% 34%, #f4eeda 0%, #e4dabc 55%, #cfc3a0 100%);
+    box-shadow: 0 0 50px 12px rgba(240, 232, 205, 0.16), 0 0 120px 40px rgba(240, 232, 205, 0.07);
+    z-index: 0;
+    pointer-events: none;
+    animation: moon-bob 24s ease-in-out infinite;
+    transition: top 6s ease;
+  }
+  #moon::after { /* maria */
+    content: "";
+    position: absolute; inset: 0;
+    border-radius: 50%;
+    background:
+      radial-gradient(circle at 62% 30%, rgba(160,148,118,.35) 0 9%, transparent 11%),
+      radial-gradient(circle at 40% 60%, rgba(160,148,118,.30) 0 13%, transparent 15%),
+      radial-gradient(circle at 70% 68%, rgba(160,148,118,.25) 0 7%, transparent 9%);
+  }
+  @keyframes moon-bob {
+    0%, 100% { transform: translateY(0); }
+    50%      { transform: translateY(-8px); }
+  }
+
+  .cloud {
+    position: fixed;
+    width: 44vw; height: 12vh;
+    border-radius: 50%;
+    background: rgba(150, 140, 190, 0.06);
+    filter: blur(30px);
+    z-index: 0;
+    pointer-events: none;
+    animation: drift var(--cd, 150s) linear infinite;
+  }
+  @keyframes drift {
+    from { transform: translateX(-60vw); }
+    to   { transform: translateX(120vw); }
+  }
+
+  /* the night deepens: dimming veil */
+  #dimmer {
+    position: fixed; inset: 0;
+    background: #06040e;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 5;
+    transition: opacity 6s ease;
+  }
+
+  /* ---------- layout ---------- */
+  #app {
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 22px 18px 150px;
+  }
+
+  header { text-align: center; margin-bottom: 6px; }
+
+  header h1 {
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    color: var(--ink);
+  }
+  header .tagline {
+    margin-top: 6px;
+    font-size: 13.5px;
+    color: var(--muted);
+    font-style: italic;
+    letter-spacing: 0.03em;
+  }
+
+  #meta-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin: 14px 0 20px;
+    font-family: var(--sans);
+    font-size: 13px;
+    color: var(--muted);
+  }
+  #star-tally { letter-spacing: 0.04em; }
+
+  .soft-btn {
+    font-family: var(--sans);
+    font-size: 13px;
+    color: var(--muted);
+    background: rgba(230, 184, 126, 0.06);
+    border: 1px solid rgba(230, 184, 126, 0.18);
+    border-radius: 999px;
+    padding: 6px 14px;
+    cursor: pointer;
+    transition: color 0.4s, border-color 0.4s, background 0.4s;
+  }
+  .soft-btn:hover { color: var(--ink); border-color: var(--amber-dim); background: rgba(230, 184, 126, 0.1); }
+
+  /* ---------- arrival note ---------- */
+  #arrival-note {
+    text-align: center;
+    min-height: 22px;
+    font-style: italic;
+    font-size: 14.5px;
+    color: var(--faint);
+    margin-bottom: 16px;
+    opacity: 0;
+    transition: opacity 2s ease;
+  }
+  #arrival-note.show { opacity: 1; }
+
+  /* ---------- letters ---------- */
+  #stack { position: relative; }
+
+  .letter {
+    background: var(--card-bg);
+    border: 1px solid var(--card-edge);
+    border-radius: 14px;
+    padding: 16px 18px 15px;
+    margin-bottom: 14px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.25);
+    opacity: 0;
+    transition: transform 0.5s ease, box-shadow 0.5s ease, border-color 0.5s ease;
+    overflow: hidden;
+  }
+  .letter.landed { animation: settle 1.6s ease forwards; }
+  @keyframes settle {
+    0%   { opacity: 0; transform: translateY(-26px) rotate(-1deg); }
+    70%  { opacity: 1; }
+    100% { opacity: 1; transform: translateY(0) rotate(0deg); }
+  }
+
+  .letter:hover { border-color: var(--amber-dim); }
+
+  .letter.held {
+    transform: translateY(-4px) rotate(-0.6deg) scale(1.015);
+    border-color: var(--amber);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.45), 0 0 18px rgba(230, 184, 126, 0.12);
+  }
+
+  .letter.flying { pointer-events: none; }
+
+  .letter-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 8px;
+  }
+  .letter .from {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--amber);
+    letter-spacing: 0.02em;
+  }
+  .letter .stamp {
+    font-size: 11.5px;
+    font-style: italic;
+    color: var(--faint);
+    text-align: right;
+    flex-shrink: 0;
+  }
+  .letter .subject {
+    font-size: 16.5px;
+    line-height: 1.35;
+    margin-bottom: 6px;
+    color: var(--ink);
+  }
+  .letter .body {
+    font-size: 13.5px;
+    line-height: 1.55;
+    color: var(--muted);
+  }
+
+  /* ---------- quiet / breathing interlude ---------- */
+  #interlude {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 34px 0 20px;
+  }
+  #interlude.show { display: flex; }
+
+  .breath-circle {
+    width: 84px; height: 84px;
+    border-radius: 50%;
+    border: 1px solid var(--amber-dim);
+    background: radial-gradient(circle, rgba(230, 184, 126, 0.08) 0%, transparent 70%);
+    animation: breathe 10s ease-in-out infinite;
+    margin-bottom: 20px;
+  }
+  @keyframes breathe {
+    0%   { transform: scale(1);    opacity: 0.45; }
+    40%  { transform: scale(1.55); opacity: 0.95; }
+    50%  { transform: scale(1.55); opacity: 0.95; }
+    100% { transform: scale(1);    opacity: 0.45; }
+  }
+  .breath-text {
+    font-style: italic;
+    font-size: 15px;
+    color: var(--muted);
+    min-height: 22px;
+    transition: opacity 1s ease;
+  }
+  .quiet-line {
+    font-size: 14px;
+    color: var(--faint);
+    font-style: italic;
+    margin-top: 14px;
+  }
+
+  /* ---------- folder dock ---------- */
+  #dock {
+    position: fixed;
+    left: 0; right: 0; bottom: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px 12px calc(12px + env(safe-area-inset-bottom));
+    background: linear-gradient(180deg, rgba(13, 16, 34, 0) 0%, rgba(10, 11, 26, 0.88) 30%, rgba(10, 11, 26, 0.97) 100%);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+  }
+
+  .folder {
+    font-family: var(--sans);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    width: 88px;
+    padding: 10px 4px 8px;
+    background: rgba(24, 27, 51, 0.85);
+    border: 1px solid var(--card-edge);
+    border-radius: 14px;
+    color: var(--muted);
+    cursor: pointer;
+    transition: border-color 0.4s, transform 0.4s, box-shadow 0.4s, color 0.4s;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .folder .f-icon { font-size: 21px; line-height: 1; }
+  .folder .f-name { font-size: 11.5px; letter-spacing: 0.05em; }
+  .folder .f-count {
+    font-size: 10.5px;
+    color: var(--faint);
+    min-height: 13px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .folder.ready {
+    border-color: var(--amber-dim);
+    color: var(--ink);
+    transform: translateY(-3px);
+    box-shadow: 0 0 16px rgba(230, 184, 126, 0.12);
+    animation: folder-glow 2.4s ease-in-out infinite;
+  }
+  @keyframes folder-glow {
+    0%, 100% { box-shadow: 0 0 10px rgba(230, 184, 126, 0.08); }
+    50%      { box-shadow: 0 0 20px rgba(230, 184, 126, 0.20); }
+  }
+  .folder.dragover {
+    border-color: var(--amber);
+    color: var(--ink);
+    transform: translateY(-5px) scale(1.05);
+  }
+  .folder.received { animation: folder-sip 0.7s ease; }
+  @keyframes folder-sip {
+    0%   { transform: scale(1); }
+    35%  { transform: scale(1.08) translateY(-3px); }
+    100% { transform: scale(1); }
+  }
+
+  /* ---------- whisper toast ---------- */
+  #whisper {
+    position: fixed;
+    bottom: 108px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9;
+    font-style: italic;
+    font-size: 14px;
+    color: var(--muted);
+    text-shadow: 0 1px 6px rgba(0,0,0,.6);
+    opacity: 0;
+    transition: opacity 1.2s ease;
+    pointer-events: none;
+    white-space: nowrap;
+  }
+  #whisper.show { opacity: 1; }
+
+  /* ---------- goodnight overlay ---------- */
+  #goodnight {
+    position: fixed; inset: 0;
+    z-index: 20;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 28px;
+    background: radial-gradient(ellipse at 50% 30%, #131230 0%, #08060f 75%);
+    opacity: 0;
+    transition: opacity 3s ease;
+  }
+  #goodnight.show { display: flex; }
+  #goodnight.visible { opacity: 1; }
+
+  #goodnight .gn-small {
+    font-style: italic;
+    font-size: 14px;
+    color: var(--faint);
+    letter-spacing: 0.04em;
+  }
+  #goodnight h2 {
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 0.05em;
+    margin: 10px 0 34px;
+    color: var(--ink);
+  }
+  #goodnight .breath-circle {
+    width: 120px; height: 120px;
+    margin-bottom: 24px;
+  }
+  #gn-breath-text {
+    font-style: italic;
+    font-size: 16px;
+    color: var(--muted);
+    min-height: 24px;
+    margin-bottom: 38px;
+  }
+  #gn-stats {
+    font-size: 14px;
+    line-height: 1.9;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  #gn-note {
+    font-size: 13px;
+    font-style: italic;
+    color: var(--faint);
+    margin-bottom: 34px;
+    max-width: 300px;
+    line-height: 1.7;
+  }
+  #gn-return {
+    opacity: 0.75;
+  }
+
+  /* ---------- reduced motion ---------- */
+  @media (prefers-reduced-motion: reduce) {
+    .star, .star.arriving, .cloud, #moon,
+    .breath-circle, .folder.ready { animation: none !important; }
+    .star { opacity: var(--hi, 0.7); }
+    .breath-circle { opacity: 0.7; }
+    .letter.landed { animation: none; opacity: 1; }
+    #dimmer, #goodnight, .letter, #arrival-note { transition-duration: 0.4s; }
+  }
+
+  @media (max-width: 420px) {
+    .folder { width: 21.5vw; }
+    header h1 { font-size: 23px; }
+    #app { padding-left: 14px; padding-right: 14px; }
+  }
+</style>
 </head>
 <body>
-    <!-- Header -->
-    <div class="header">
-        <h1>Twyla's Sort 'n Sleep</h1>
-        <p>Sort all emails to earn your break!</p>
-    </div>
-    
-    <!-- Controls -->
-    <div class="controls">
-        <button id="new-emails-btn">Generate New Emails</button>
-        <div class="counter">Sorted: <span id="sorted-count">0</span>/<span id="total-count">0</span></div>
-    </div>
-    
-    <!-- Main content -->
-    <div class="content-container">
-        <!-- Folder panel -->
-        <div class="folder-panel">
-            <div class="folder" id="work-folder" data-folder="work">
-                <div class="folder-icon">💼</div>
-                <div class="folder-label">Work</div>
-                <div class="folder-count" id="work-count">0</div>
-            </div>
-            
-            <div class="folder" id="updates-folder" data-folder="updates">
-                <div class="folder-icon">🔔</div>
-                <div class="folder-label">Updates</div>
-                <div class="folder-count" id="updates-count">0</div>
-            </div>
-            
-            <div class="folder" id="promotions-folder" data-folder="promotions">
-                <div class="folder-icon">🛍️</div>
-                <div class="folder-label">Promotions</div>
-                <div class="folder-count" id="promotions-count">0</div>
-            </div>
-            
-            <div class="folder" id="trash-folder" data-folder="trash">
-                <div class="folder-icon">🗑️</div>
-                <div class="folder-label">Trash</div>
-                <div class="folder-count" id="trash-count">0</div>
-            </div>
-        </div>
-        
-        <!-- Email container -->
-        <div class="email-container">
-            <div id="email-list">
-                <!-- Emails will be generated here -->
-            </div>
-        </div>
-    </div>
-    
-    <!-- Success Overlay -->
-    <div class="overlay" id="success-overlay">
-        <h2>Congratulations, Twyla!</h2>
-        <p>You are now allowed to rest. 😌</p>
-        <button id="restart-btn">Start Again</button>
+
+  <!-- night sky -->
+  <div id="sky" aria-hidden="true"></div>
+  <div id="moon" aria-hidden="true"></div>
+  <div class="cloud" style="top:12vh; --cd:170s;" aria-hidden="true"></div>
+  <div class="cloud" style="top:38vh; --cd:230s; animation-delay:-90s;" aria-hidden="true"></div>
+  <div id="dimmer" aria-hidden="true"></div>
+
+  <div id="app">
+    <header>
+      <h1>sort &rsquo;n sleep</h1>
+      <p class="tagline">a night inbox for twyla &middot; nothing here is real &middot; nothing is urgent</p>
+    </header>
+
+    <div id="meta-row">
+      <span id="star-tally" aria-live="polite">&#10024; 0 stars tonight</span>
+      <button class="soft-btn" id="sound-toggle" aria-label="toggle sound">&#128276; sound on</button>
+      <button class="soft-btn" id="sleep-btn">&#127769; ready for sleep</button>
     </div>
 
-    <script>
-        // Data for email generation
-        const emailData = {
-            senders: {
-                work: [
-                    { name: "Work Team", email: "team@company.com" },
-                    { name: "Project Manager", email: "pm@company.com" },
-                    { name: "HR Department", email: "hr@company.com" },
-                    { name: "Team Lead", email: "lead@company.com" },
-                    { name: "Client Relations", email: "clients@company.com" }
-                ],
-                updates: [
-                    { name: "Apple", email: "no-reply@apple.com" },
-                    { name: "iPhone Calendar", email: "calendar@apple.com" },
-                    { name: "App Store", email: "appstore@apple.com" },
-                    { name: "Bank of America", email: "alerts@bofa.com" },
-                    { name: "Microsoft Account", email: "account@microsoft.com" }
-                ],
-                promotions: [
-                    { name: "Amazon", email: "offers@amazon.com" },
-                    { name: "Netflix", email: "info@netflix.com" },
-                    { name: "Spotify", email: "news@spotify.com" },
-                    { name: "Best Buy", email: "deals@bestbuy.com" },
-                    { name: "Target", email: "offers@target.com" }
-                ]
-            },
-            subjects: {
-                work: [
-                    "Team meeting notes for Project Atlas",
-                    "Quarterly review schedule - Action required",
-                    "Project update required by EOD",
-                    "New client onboarding process changes",
-                    "Please review: draft proposal for Smith Co.",
-                    "Updated timeline for Q3 deliverables",
-                    "Reminder: Expense reports due Friday",
-                    "Training opportunity: New software rollout",
-                    "Team lunch this Thursday",
-                    "Office closure notice - Memorial Day"
-                ],
-                updates: [
-                    "Your account has been updated successfully",
-                    "Security alert: new login from Chicago",
-                    "Your subscription will renew on May, 15",
-                    "App update available: Version 2.4.1",
-                    "Payment confirmation #RT78291",
-                    "Your password was changed recently",
-                    "2-step verification added to your account",
-                    "Scheduled maintenance notification",
-                    "Important update to our terms of service",
-                    "Your monthly statement is ready to view"
-                ],
-                promotions: [
-                    "50% off spring sale this weekend only!",
-                    "Limited time offer: Buy one, get one free",
-                    "You might like these items based on your history",
-                    "Free shipping on orders over $35",
-                    "Exclusive member discount: 30% off everything",
-                    "Flash sale: 24 hours only",
-                    "New arrivals you don't want to miss",
-                    "Your cart is waiting - items still in stock",
-                    "Last chance: Sale ends tonight",
-                    "Special offer just for you"
-                ]
-            },
-            excerpts: {
-                work: [
-                    "Just wanted to follow up on our team discussion about the new project timeline. Please review the attached document and provide feedback by...",
-                    "Here are the key points from yesterday's meeting: 1. Budget approvals are due next Monday 2. The client presentation is scheduled for...",
-                    "This is a reminder that you have an upcoming deadline for the quarterly reports. All team members need to submit their section by...",
-                    "Please review the attached proposal before our client meeting. Key areas to focus on include pricing structure and implementation timeline...",
-                    "We're updating our internal processes for client onboarding. Starting next month, all new clients will need to complete the expanded...",
-                    "The leadership team has requested updates on all active projects. Please prepare a brief summary (2-3 paragraphs) of your current progress...",
-                    "Just a friendly reminder that all expense reports for the conference need to be submitted by Friday. Please use the new expense form...",
-                    "The quarterly planning meeting has been rescheduled to next Wednesday at 2pm. Please adjust your calendars accordingly and come prepared to..."
-                ],
-                updates: [
-                    "We've detected a new sign-in to your account on May 7, 2023 at 3:45 PM from Chicago, IL. If this wasn't you, please secure your account...",
-                    "Your password was changed on May 10, 2023. If you didn't make this change, please contact customer support immediately at...",
-                    "Your subscription will automatically renew on May 15, 2023. Your card ending in 4382 will be charged $9.99. To manage your subscription...",
-                    "A new security update is available for your device. This update includes important security patches and performance improvements...",
-                    "Thank you for your recent payment of $54.32. Your account has been credited and your new balance is $0. Your next statement will be...",
-                    "We've updated our privacy policy effective June 1, 2023. Key changes include enhanced data protection measures and updated information about...",
-                    "Your account statement for the period April 1-30, 2023 is now available. Account summary: Opening balance: $324.56, Deposits: $1,200.00..."
-                ],
-                promotions: [
-                    "Don't miss our biggest sale of the season! For a limited time only, enjoy 50% off all regular-priced items plus free shipping on orders over...",
-                    "Based on your recent purchases, we thought you might be interested in these new arrivals. Use code NEWSTUFF for an extra 15% off your next...",
-                    "Your exclusive member reward is waiting! As one of our valued customers, you've unlocked a special discount of 30% off your next purchase...",
-                    "Flash sale alert! For the next 24 hours only, take an additional 25% off all clearance items. No code needed - discount applied automatically at...",
-                    "Free shipping weekend! This Saturday and Sunday only, enjoy free shipping on all orders with no minimum purchase required. Shop our new collection...",
-                    "Your shopping cart is still waiting! The items you added are still in stock, but they're selling fast. Complete your purchase now and use code..."
-                ]
-            }
-        };
+    <p id="arrival-note" aria-live="polite"></p>
 
-        // DOM elements
-        const emailList = document.getElementById("email-list");
-        const newEmailsBtn = document.getElementById("new-emails-btn");
-        const restartBtn = document.getElementById("restart-btn");
-        const sortedCountEl = document.getElementById("sorted-count");
-        const totalCountEl = document.getElementById("total-count");
-        const successOverlay = document.getElementById("success-overlay");
-        const folderElements = document.querySelectorAll(".folder");
-        const folderCountElements = {
-            work: document.getElementById("work-count"),
-            updates: document.getElementById("updates-count"),
-            promotions: document.getElementById("promotions-count"),
-            trash: document.getElementById("trash-count")
-        };
+    <div id="stack"></div>
 
-        // State
-        let emails = [];
-        let sortedCount = 0;
-        let totalCount = 0;
-        let folderCounts = {
-            work: 0,
-            updates: 0,
-            promotions: 0,
-            trash: 0
-        };
-        let draggedEmail = null;
+    <div id="interlude">
+      <div class="breath-circle" aria-hidden="true"></div>
+      <p class="breath-text" id="breath-text">breathe in&hellip;</p>
+      <p class="quiet-line">the inbox is quiet.</p>
+    </div>
+  </div>
 
-        // Helper function - get random item from array
-        function getRandomItem(array) {
-            return array[Math.floor(Math.random() * array.length)];
+  <p id="whisper" aria-live="polite"></p>
+
+  <nav id="dock" aria-label="folders">
+    <button class="folder" data-folder="dreams">
+      <span class="f-icon">&#127769;</span><span class="f-name">dreams</span><span class="f-count">&nbsp;</span>
+    </button>
+    <button class="folder" data-folder="meadow">
+      <span class="f-icon">&#127807;</span><span class="f-name">meadow</span><span class="f-count">&nbsp;</span>
+    </button>
+    <button class="folder" data-folder="hearth">
+      <span class="f-icon">&#9749;</span><span class="f-name">hearth</span><span class="f-count">&nbsp;</span>
+    </button>
+    <button class="folder" data-folder="letgo">
+      <span class="f-icon">&#128330;</span><span class="f-name">let go</span><span class="f-count">&nbsp;</span>
+    </button>
+  </nav>
+
+  <div id="goodnight" role="dialog" aria-label="goodnight">
+    <p class="gn-small">the inbox can wait.</p>
+    <h2>goodnight, twyla</h2>
+    <div class="breath-circle" aria-hidden="true"></div>
+    <p id="gn-breath-text">breathe in&hellip;</p>
+    <p id="gn-stats"></p>
+    <p id="gn-note">you can close this now. the real inbox will still be there tomorrow, and it will keep. sleep well. &#127769;</p>
+    <button class="soft-btn" id="gn-return">sort a little longer</button>
+  </div>
+
+<script>
+(function () {
+  "use strict";
+
+  /* ================= letters ================= */
+
+  var MAIL = {
+    dreams: [
+      { from: "The Sandman", subject: "Tonight’s forecast: flying dreams, light drizzle of libraries", body: "Expect gentle gliding over rooftops between two and four. No action required. Just show up asleep." },
+      { from: "Department of Dreams", subject: "Your recurring dream has been renewed for another season", body: "The one with the house that has extra rooms is back. Critics are calling it “cozy, mysterious, strangely familiar.”" },
+      { from: "The Moon", subject: "Just checking in", body: "I’ll be outside your window all night, same as always. No need to reply. Rest well." },
+      { from: "Night Sky Bulletin", subject: "Three new stars installed above your street", body: "Crews worked quietly and cleaned up after themselves. You may notice extra twinkling. This is normal." },
+      { from: "Lucid Weekly", subject: "This week’s issue: how to find your hands", body: "Also inside: doors that open onto the ocean, and why dream staircases never quite end." },
+      { from: "Constellation Registry", subject: "Reminder: you are made of star stuff", body: "This is your quarterly reminder. No action is needed, ever. Carry on." },
+      { from: "Aurora Updates", subject: "Northern lights rescheduled to your dreams", body: "Due to cloud cover, tonight’s show will be held behind your eyelids. Doors open when they close." },
+      { from: "The Pillow Institute", subject: "Study confirms: the other side is cooler", body: "Researchers recommend flipping at your leisure. Results are immediate and repeatable." },
+      { from: "Night Train Timetable", subject: "The 11:52 to Sleep is boarding", body: "All cars are quiet cars. Window seats available. The conductor accepts yawns as tickets." },
+      { from: "Star Counting Services", subject: "We counted them so you don’t have to", body: "Final tally: lots. Every single one accounted for and twinkling within normal parameters." }
+    ],
+    meadow: [
+      { from: "Migratory Bird Union", subject: "The geese made it south", body: "They wanted you to know. It was a long trip. They are fine, and honking about it." },
+      { from: "The Old Oak", subject: "Leaf drop: forty percent complete, on schedule", body: "No action required from you. The tree has done this many times before and knows the way." },
+      { from: "Tide Charts Co.", subject: "The ocean will continue overnight", body: "In and out, all night long, whether anyone watches or not. It has this handled." },
+      { from: "Lavender Fields Newsletter", subject: "This month’s scent report: excellent", body: "The bees have filed a glowing review. The evening wind is distributing free samples now." },
+      { from: "Moss Society", subject: "Growth report: slow, exactly as planned", body: "The moss grew imperceptibly again today. Membership benefits include patience and a nice cushion." },
+      { from: "Rain Barrel Times", subject: "Light rain expected on the roof tonight", body: "Sound levels: pleasant. Recommended listening position: horizontal, eyes closed." },
+      { from: "Firefly Cooperative", subject: "This season’s blinking schedule, enclosed", body: "The evening shift begins at dusk. No two blinks will be alike. Attendance is optional." },
+      { from: "Mushroom Post", subject: "Everything underground is connected", body: "The trees have been talking about you. Only kind things. It’s a whole network down there." },
+      { from: "The River", subject: "Still going", body: "Past the willows, under the bridge, around the bend. It doesn’t need anything from you. It just wanted to say." },
+      { from: "Snail Mail (Actual)", subject: "Your letter will arrive when it arrives", body: "Current speed: perfect. There is no rush anywhere in this entire system, and never has been." }
+    ],
+    hearth: [
+      { from: "The Kettle", subject: "I’ll keep warm for tomorrow", body: "Chamomile is stocked. The honey is where you left it. Everything down here is handled." },
+      { from: "Blanket Fort HQ", subject: "Your fort has passed inspection", body: "Structural integrity: excellent. Coziness rating: ten out of ten. Cleared for immediate occupation." },
+      { from: "Sock Drawer Digest", subject: "Reunion update: the missing sock was found", body: "It was behind the dryer the whole time. The pair has been reunited. All is well again." },
+      { from: "The Library at Dusk", subject: "Your book will hold your place", body: "The bookmark is doing its job beautifully. Chapter twelve will wait as long as you need." },
+      { from: "Chamomile & Co.", subject: "Steeping instructions: none needed", body: "Simply exist near warm things. Side effects include heavy eyelids and general contentment." },
+      { from: "The Corner Bakery", subject: "Tomorrow’s bread is already rising", body: "It’s doing that quietly in the dark, the way good things often do. Fresh by morning." },
+      { from: "Cat Updates", subject: "The cat has chosen the foot of the bed", body: "This decision is final. Please arrange your feet accordingly. Purring begins shortly." },
+      { from: "House Sounds Monthly", subject: "Tonight’s program: soft creaks, distant hum", body: "The radiator will contribute a gentle tick around midnight. The fridge sends its regards." },
+      { from: "Slipper Logistics", subject: "Both slippers located and aligned", body: "They are pointing the correct direction beside the bed, ready for morning. Nothing to do until then." },
+      { from: "The Lamp", subject: "Happy to be the last one on", body: "I’ll hold the room steady while you settle. Switch me off whenever. I don’t mind the dark." }
+    ],
+    letgo: [
+      { from: "Yesterday’s Worries", subject: "Requesting permission to leave", body: "We’ve been circling all day and honestly we’re tired too. Sort us here and we’ll see ourselves out." },
+      { from: "The To-Do List", subject: "Everything on me can wait until morning", body: "Signed, notarized, official. Nothing on this list is going anywhere overnight. Neither should you." },
+      { from: "That Thing You Said in 2014", subject: "Nobody remembers this but you", body: "We checked with everyone. They were all busy thinking about their own thing. You’re free to go." },
+      { from: "Tomorrow’s Meetings", subject: "We haven’t even happened yet", body: "Please stop attending us in advance. We’ll see you tomorrow — once, and in person." },
+      { from: "Unread Notifications", subject: "We’re mostly nothing, honestly", body: "A newsletter, two likes, and an app you forgot installing. Nothing in here needs you tonight." },
+      { from: "The Group Chat", subject: "We’ll still be here tomorrow", body: "The conversation has reached a natural pause. Anything sent now would just be “lol” anyway." },
+      { from: "Open Browser Tabs", subject: "All forty-seven of us surrender", body: "We know you were going to read us eventually. It’s okay. Deep down, we always knew." },
+      { from: "The News", subject: "Nothing you can do about any of it tonight", body: "The world will keep spinning without supervision. It’s been doing this for quite a while." },
+      { from: "That Email You Owe Someone", subject: "Two more sentences won’t write themselves at midnight", body: "And they shouldn’t. Morning-you writes much better sentences anyway. Everyone agrees." },
+      { from: "General Sense of Forgetting Something", subject: "You didn’t forget anything", body: "We ran the numbers. The stove is off, the door is locked, and you are allowed to rest." }
+    ]
+  };
+
+  var STAMPS = [
+    "carried in by moths", "postmarked at dusk", "arrived on the night breeze",
+    "delivered by owl, eventually", "slipped beneath the door", "folded into a paper boat",
+    "smells faintly of lavender", "written by candlelight", "sealed with a yawn",
+    "found tucked in a book"
+  ];
+
+  var ARRIVALS = [
+    "a few letters drift in on the night breeze…",
+    "the moths deliver tonight’s mail…",
+    "some small envelopes settle like falling leaves…",
+    "the night post arrives, unhurried as always…",
+    "a soft rustle at the window — letters…",
+    "the owl drops off a modest bundle…"
+  ];
+
+  var WHISPERS = [
+    "one less thing.",
+    "the pile grows lighter.",
+    "nicely tucked away.",
+    "shhh. gone.",
+    "the inbox sighs, contentedly.",
+    "that one won’t be back.",
+    "filed under “not tonight.”",
+    "softly done."
+  ];
+
+  var FOLDERS = ["dreams", "meadow", "hearth", "letgo"];
+
+  /* ================= state ================= */
+
+  var state = {
+    round: 0,
+    sortedTonight: 0,
+    starsTonight: 0,
+    held: null,
+    dealing: false,
+    remaining: 0,
+    used: { dreams: [], meadow: [], hearth: [], letgo: [] },
+    folderCounts: { dreams: 0, meadow: 0, hearth: 0, letgo: 0 }
+  };
+
+  var soundOn = localStorage.getItem("sns_sound") !== "off";
+  var lifetimeStars = parseInt(localStorage.getItem("sns_stars_total") || "0", 10) || 0;
+  var reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* ================= dom ================= */
+
+  var sky = document.getElementById("sky");
+  var moon = document.getElementById("moon");
+  var dimmer = document.getElementById("dimmer");
+  var stack = document.getElementById("stack");
+  var interlude = document.getElementById("interlude");
+  var breathText = document.getElementById("breath-text");
+  var arrivalNote = document.getElementById("arrival-note");
+  var starTally = document.getElementById("star-tally");
+  var whisper = document.getElementById("whisper");
+  var dock = document.getElementById("dock");
+  var folderEls = {};
+  Array.prototype.forEach.call(document.querySelectorAll(".folder"), function (f) {
+    folderEls[f.dataset.folder] = f;
+  });
+  var goodnight = document.getElementById("goodnight");
+  var gnStats = document.getElementById("gn-stats");
+  var gnBreathText = document.getElementById("gn-breath-text");
+  var soundToggle = document.getElementById("sound-toggle");
+
+  /* ================= sound ================= */
+
+  var actx = null;
+  function audio() {
+    if (!actx) {
+      var AC = window.AudioContext || window.webkitAudioContext;
+      if (!AC) return null;
+      actx = new AC();
+    }
+    if (actx.state === "suspended") actx.resume();
+    return actx;
+  }
+
+  // soft pentatonic plucks that sink lower as the night deepens
+  var SCALE = [261.63, 293.66, 329.63, 392.0, 440.0]; // C major pentatonic
+  function pluck(freq, gain, dur) {
+    if (!soundOn) return;
+    var ctx = audio();
+    if (!ctx) return;
+    var t = ctx.currentTime;
+    var osc = ctx.createOscillator();
+    var g = ctx.createGain();
+    osc.type = "sine";
+    osc.frequency.value = freq;
+    g.gain.setValueAtTime(0.0001, t);
+    g.gain.exponentialRampToValueAtTime(gain, t + 0.02);
+    g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
+    osc.connect(g).connect(ctx.destination);
+    osc.start(t);
+    osc.stop(t + dur + 0.1);
+  }
+  function sortNote(golden) {
+    var base = SCALE[Math.floor(Math.random() * SCALE.length)];
+    var sink = Math.pow(0.96, state.round); // each round, a touch lower
+    pluck(base * sink, 0.07, 1.6);
+    if (golden) {
+      setTimeout(function () { pluck(base * sink * 1.5, 0.045, 2.0); }, 140);
+    }
+  }
+  function roundChime() {
+    pluck(196.0, 0.05, 3.2);                       // G3
+    setTimeout(function () { pluck(293.66, 0.035, 3.4); }, 500); // D4
+  }
+
+  soundToggle.addEventListener("click", function () {
+    soundOn = !soundOn;
+    localStorage.setItem("sns_sound", soundOn ? "on" : "off");
+    renderSoundToggle();
+    if (soundOn) pluck(392, 0.05, 1.0);
+  });
+  function renderSoundToggle() {
+    soundToggle.innerHTML = soundOn ? "&#128276; sound on" : "&#128277; sound off";
+  }
+
+  /* ================= sky ================= */
+
+  function rand(a, b) { return a + Math.random() * (b - a); }
+  function pick(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
+
+  function makeStar(cls) {
+    var s = document.createElement("div");
+    s.className = "star" + (cls ? " " + cls : "");
+    s.style.left = rand(2, 98) + "%";
+    s.style.top = rand(2, 62) + "%";
+    s.style.setProperty("--tw", rand(4, 11).toFixed(1) + "s");
+    s.style.setProperty("--td", rand(0, 8).toFixed(1) + "s");
+    s.style.setProperty("--lo", rand(0.05, 0.25).toFixed(2));
+    s.style.setProperty("--hi", rand(0.5, 0.95).toFixed(2));
+    sky.appendChild(s);
+    return s;
+  }
+
+  for (var i = 0; i < 70; i++) makeStar();
+
+  function lightStar(golden) {
+    var s = makeStar(golden ? "golden" : "earned");
+    if (!reducedMotion) s.classList.add("arriving");
+    state.starsTonight++;
+    lifetimeStars++;
+    localStorage.setItem("sns_stars_total", String(lifetimeStars));
+    starTally.innerHTML = "&#10024; " + state.starsTonight +
+      (state.starsTonight === 1 ? " star tonight" : " stars tonight");
+  }
+
+  /* ================= letters ================= */
+
+  function drawLetter() {
+    // even-ish category mix, no repeats until a category pool is exhausted
+    var type = pick(FOLDERS);
+    var pool = MAIL[type];
+    var used = state.used[type];
+    if (used.length >= pool.length) state.used[type] = used = [];
+    var idx;
+    do { idx = Math.floor(Math.random() * pool.length); } while (used.indexOf(idx) !== -1);
+    used.push(idx);
+    var m = pool[idx];
+    return { type: type, from: m.from, subject: m.subject, body: m.body, stamp: pick(STAMPS) };
+  }
+
+  function makeLetterEl(data, delayMs) {
+    var el = document.createElement("div");
+    el.className = "letter";
+    el.dataset.type = data.type;
+    el.setAttribute("tabindex", "0");
+    el.setAttribute("role", "button");
+    el.setAttribute("aria-label", "letter from " + data.from + ": " + data.subject);
+
+    var top = document.createElement("div");
+    top.className = "letter-top";
+    var from = document.createElement("span");
+    from.className = "from";
+    from.textContent = data.from;
+    var stamp = document.createElement("span");
+    stamp.className = "stamp";
+    stamp.textContent = data.stamp;
+    top.appendChild(from);
+    top.appendChild(stamp);
+
+    var subj = document.createElement("div");
+    subj.className = "subject";
+    subj.textContent = data.subject;
+
+    var body = document.createElement("div");
+    body.className = "body";
+    body.textContent = data.body;
+
+    el.appendChild(top);
+    el.appendChild(subj);
+    el.appendChild(body);
+
+    setTimeout(function () { el.classList.add("landed"); }, delayMs);
+
+    el.addEventListener("click", function () { toggleHold(el); });
+    el.addEventListener("keydown", function (e) {
+      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggleHold(el); }
+    });
+
+    // gentle mouse drag (desktop); touch users tap-then-tap
+    el.addEventListener("pointerdown", function (e) {
+      if (e.pointerType !== "mouse" || e.button !== 0) return;
+      startDrag(el, e);
+    });
+
+    return el;
+  }
+
+  /* ---- hold / release ---- */
+
+  function toggleHold(el) {
+    if (el.classList.contains("flying")) return;
+    if (state.held === el) { release(); return; }
+    release();
+    state.held = el;
+    el.classList.add("held");
+    FOLDERS.forEach(function (f) { folderEls[f].classList.add("ready"); });
+  }
+
+  function release() {
+    if (state.held) state.held.classList.remove("held");
+    state.held = null;
+    FOLDERS.forEach(function (f) { folderEls[f].classList.remove("ready"); });
+  }
+
+  /* ---- mouse drag ---- */
+
+  function startDrag(el, downEvent) {
+    var startX = downEvent.clientX, startY = downEvent.clientY;
+    var dragging = false;
+    var lastFolder = null;
+
+    function onMove(e) {
+      var dx = e.clientX - startX, dy = e.clientY - startY;
+      if (!dragging && dx * dx + dy * dy > 64) {
+        dragging = true;
+        release();
+        el.classList.add("held");
+        el.style.transition = "none";
+        el.style.position = "relative";
+        el.style.zIndex = "15";
+      }
+      if (dragging) {
+        el.style.transform = "translate(" + dx + "px," + dy + "px) rotate(" + Math.max(-3, Math.min(3, dx / 40)) + "deg)";
+        var f = folderUnderPoint(e.clientX, e.clientY);
+        if (f !== lastFolder) {
+          if (lastFolder) lastFolder.classList.remove("dragover");
+          if (f) f.classList.add("dragover");
+          lastFolder = f;
         }
+      }
+    }
 
-        // Generate random emails
-        function generateEmails() {
-            // Reset state
-            emails = [];
-            sortedCount = 0;
-            totalCount = 0;
-            folderCounts = {
-                work: 0,
-                updates: 0,
-                promotions: 0,
-                trash: 0
-            };
-            
-            // Update UI
-            updateCounters();
-            emailList.innerHTML = "";
-            successOverlay.style.display = "none";
-            
-            // Generate 10-15 emails
-            const emailCount = Math.floor(Math.random() * 6) + 10;
-            totalCount = emailCount;
-            totalCountEl.textContent = emailCount;
-            
-            for (let i = 0; i < emailCount; i++) {
-                // Determine email type to ensure subject and excerpt match
-                const emailTypes = ["work", "updates", "promotions"];
-                const type = getRandomItem(emailTypes);
-                
-                // Create email data from the matching category
-                const sender = getRandomItem(emailData.senders[type]);
-                const subject = getRandomItem(emailData.subjects[type]);
-                const excerpt = getRandomItem(emailData.excerpts[type]);
-                
-                // Random time
-                const hours = Math.floor(Math.random() * 24);
-                const minutes = Math.floor(Math.random() * 60);
-                const timeStr = hours === 0 
-                    ? `${minutes}m ago` 
-                    : hours < 24 
-                        ? `${hours}h ${minutes}m ago` 
-                        : `${Math.floor(hours/24)}d ago`;
-                
-                // Create email object
-                const email = {
-                    id: `email-${i}`,
-                    sender: sender.name,
-                    email: sender.email,
-                    subject: subject,
-                    excerpt: excerpt,
-                    time: timeStr,
-                    type: type
-                };
-                
-                emails.push(email);
-                
-                // Create and add email element
-                createEmailElement(email);
-            }
-        }
+    function onUp(e) {
+      document.removeEventListener("pointermove", onMove);
+      document.removeEventListener("pointerup", onUp);
+      if (lastFolder) lastFolder.classList.remove("dragover");
+      if (!dragging) return; // plain click; click handler holds it
+      el.classList.remove("held");
+      var f = folderUnderPoint(e.clientX, e.clientY);
+      if (f) {
+        sortLetter(el, f.dataset.folder);
+      } else {
+        // drift gently home
+        el.style.transition = "transform 0.7s ease";
+        el.style.transform = "";
+        setTimeout(function () {
+          el.style.transition = ""; el.style.position = ""; el.style.zIndex = "";
+        }, 750);
+      }
+    }
 
-        // Create email element
-        function createEmailElement(email) {
-            const emailEl = document.createElement("div");
-            emailEl.classList.add("email");
-            emailEl.id = email.id;
-            emailEl.setAttribute("draggable", "true");
-            emailEl.dataset.type = email.type;
-            
-            emailEl.innerHTML = `
-                <div class="email-header">
-                    <div class="email-from">${email.sender}</div>
-                    <div class="email-time">${email.time}</div>
-                </div>
-                <div class="email-subject">${email.subject}</div>
-                <div class="email-excerpt">${email.excerpt}</div>
-            `;
-            
-            // Add drag events
-            emailEl.addEventListener("dragstart", handleDragStart);
-            emailEl.addEventListener("dragend", handleDragEnd);
-            
-            emailList.appendChild(emailEl);
-        }
+    document.addEventListener("pointermove", onMove);
+    document.addEventListener("pointerup", onUp);
+  }
 
-        // Drag and drop handlers
-        function handleDragStart(e) {
-            draggedEmail = this;
-            this.classList.add("dragging");
-            e.dataTransfer.setData("text/plain", this.id);
-            e.dataTransfer.effectAllowed = "move";
-        }
+  function folderUnderPoint(x, y) {
+    for (var k = 0; k < FOLDERS.length; k++) {
+      var r = folderEls[FOLDERS[k]].getBoundingClientRect();
+      if (x >= r.left && x <= r.right && y >= r.top && y <= r.bottom) return folderEls[FOLDERS[k]];
+    }
+    return null;
+  }
 
-        function handleDragEnd(e) {
-            this.classList.remove("dragging");
-            draggedEmail = null;
-            
-            // Remove dragover class from all folders
-            document.querySelectorAll(".folder").forEach(folder => {
-                folder.classList.remove("dragover");
-            });
-        }
+  /* ---- sorting ---- */
 
-        // Setup folder drop targets
-        folderElements.forEach(folder => {
-            folder.addEventListener("dragover", e => {
-                e.preventDefault();
-                folder.classList.add("dragover");
-            });
-            
-            folder.addEventListener("dragleave", e => {
-                folder.classList.remove("dragover");
-            });
-            
-            folder.addEventListener("drop", e => {
-                e.preventDefault();
-                folder.classList.remove("dragover");
-                
-                const emailId = e.dataTransfer.getData("text/plain");
-                const folderType = folder.dataset.folder;
-                
-                sortEmail(emailId, folderType);
-            });
-            
-            // Also allow clicking on folders to sort the currently dragged email
-            folder.addEventListener("click", e => {
-                if (draggedEmail) {
-                    const folderType = folder.dataset.folder;
-                    sortEmail(draggedEmail.id, folderType);
-                }
-            });
+  function topLetter() {
+    var list = stack.querySelectorAll(".letter:not(.flying)");
+    return list.length ? list[0] : null;
+  }
+
+  function sortLetter(el, folderKey) {
+    if (!el || el.classList.contains("flying")) return;
+    if (state.held === el) release();
+    el.classList.add("flying");
+
+    var golden = el.dataset.type === folderKey;
+    var fEl = folderEls[folderKey];
+    var cr = el.getBoundingClientRect();
+    var fr = fEl.getBoundingClientRect();
+    var dx = (fr.left + fr.width / 2) - (cr.left + cr.width / 2);
+    var dy = (fr.top + fr.height / 2) - (cr.top + cr.height / 2);
+
+    el.style.zIndex = "15";
+    el.style.position = "relative";
+    if (reducedMotion) {
+      finishSort(el, fEl, folderKey, golden, 50);
+    } else {
+      el.style.transition = "transform 0.75s cubic-bezier(0.45, 0.05, 0.6, 1), opacity 0.75s ease";
+      el.style.transform = "translate(" + dx + "px," + dy + "px) scale(0.06) rotate(5deg)";
+      el.style.opacity = "0";
+      finishSort(el, fEl, folderKey, golden, 760);
+    }
+  }
+
+  function finishSort(el, fEl, folderKey, golden, waitMs) {
+    sortNote(golden);
+    setTimeout(function () {
+      fEl.classList.add("received");
+      setTimeout(function () { fEl.classList.remove("received"); }, 700);
+
+      // let the space close gently
+      el.style.transition = "height 0.4s ease, margin 0.4s ease, padding 0.4s ease";
+      el.style.height = el.offsetHeight + "px";
+      requestAnimationFrame(function () {
+        requestAnimationFrame(function () {
+          el.style.height = "0px";
+          el.style.marginBottom = "0px";
+          el.style.paddingTop = "0px";
+          el.style.paddingBottom = "0px";
         });
+      });
+      setTimeout(function () { el.remove(); }, 420);
 
-        // Sort email function
-        function sortEmail(emailId, folder) {
-            // Remove email from list
-            const emailEl = document.getElementById(emailId);
-            if (emailEl) {
-                emailEl.remove();
-                
-                // Update counts
-                folderCounts[folder]++;
-                sortedCount++;
-                
-                // Update UI
-                updateCounters();
-                
-                // Check if all emails are sorted
-                if (sortedCount >= totalCount && totalCount > 0) {
-                    showSuccessMessage();
-                }
-            }
-        }
+      state.folderCounts[folderKey]++;
+      state.sortedTonight++;
+      state.remaining--;
+      fEl.querySelector(".f-count").textContent = state.folderCounts[folderKey];
+      lightStar(golden);
 
-        // Update counters in UI
-        function updateCounters() {
-            sortedCountEl.textContent = sortedCount;
-            
-            for (const folder in folderCounts) {
-                if (folderCountElements[folder]) {
-                    folderCountElements[folder].textContent = folderCounts[folder];
-                }
-            }
-        }
+      if (state.sortedTonight % 5 === 0) sayWhisper(pick(WHISPERS));
 
-        // Show success message
-        function showSuccessMessage() {
-            successOverlay.style.display = "flex";
-        }
+      if (state.remaining <= 0 && !state.dealing) {
+        setTimeout(roundDone, 900);
+      }
+    }, waitMs);
+  }
 
-        // Event listeners
-        newEmailsBtn.addEventListener("click", generateEmails);
-        restartBtn.addEventListener("click", generateEmails);
+  function sayWhisper(text) {
+    whisper.textContent = text;
+    whisper.classList.add("show");
+    setTimeout(function () { whisper.classList.remove("show"); }, 2600);
+  }
 
-        // Initialize on page load
-        window.onload = generateEmails;
-    </script>
+  /* ---- folder taps: sort held letter, or the top one ---- */
+
+  FOLDERS.forEach(function (key) {
+    folderEls[key].addEventListener("click", function () {
+      var target = state.held || topLetter();
+      if (target) sortLetter(target, key);
+    });
+  });
+
+  /* ---- keyboard: 1-4 sorts held/top letter ---- */
+
+  document.addEventListener("keydown", function (e) {
+    var n = parseInt(e.key, 10);
+    if (n >= 1 && n <= 4 && !goodnight.classList.contains("show")) {
+      var target = state.held || topLetter();
+      if (target) sortLetter(target, FOLDERS[n - 1]);
+    }
+    if (e.key === "Escape") release();
+  });
+
+  /* ================= rounds ================= */
+
+  function dealRound() {
+    state.dealing = true;
+    interlude.classList.remove("show");
+
+    var count = Math.max(3, 6 - state.round); // the night winds down
+    state.remaining = count;
+
+    arrivalNote.textContent = pick(ARRIVALS);
+    arrivalNote.classList.add("show");
+    setTimeout(function () { arrivalNote.classList.remove("show"); }, 5000);
+
+    for (var n = 0; n < count; n++) {
+      (function (n) {
+        setTimeout(function () {
+          stack.appendChild(makeLetterEl(drawLetter(), 30));
+          if (n === count - 1) state.dealing = false;
+        }, 500 + n * (reducedMotion ? 120 : 850));
+      })(n);
+    }
+  }
+
+  function roundDone() {
+    state.round++;
+    roundChime();
+    deepenNight();
+
+    // a quiet breath before more letters drift in
+    interlude.classList.add("show");
+    runBreathCycle(breathText, 1, function () {
+      interlude.classList.remove("show");
+      setTimeout(dealRound, 600);
+    });
+  }
+
+  function deepenNight() {
+    dimmer.style.opacity = Math.min(0.42, state.round * 0.055).toFixed(3);
+    moon.style.top = Math.max(3, 7 - state.round * 0.6) + "vh";
+  }
+
+  /* ---- breathing (10s cycle: 4 in, 1 hold, 5 out) ---- */
+
+  function runBreathCycle(textEl, cycles, done) {
+    var c = 0;
+    function one() {
+      textEl.textContent = "breathe in…";
+      setTimeout(function () { textEl.textContent = "hold…"; }, 4000);
+      setTimeout(function () { textEl.textContent = "and let it out…"; }, 5000);
+      setTimeout(function () {
+        c++;
+        if (c < cycles) one();
+        else if (done) done();
+      }, 10000);
+    }
+    one();
+  }
+
+  /* ================= goodnight ================= */
+
+  var gnBreathTimer = null;
+
+  document.getElementById("sleep-btn").addEventListener("click", showGoodnight);
+  document.getElementById("gn-return").addEventListener("click", hideGoodnight);
+
+  function showGoodnight() {
+    release();
+    var n = state.sortedTonight;
+    var s = state.starsTonight;
+    var line = n === 0
+      ? "you didn’t sort a single letter, and that’s fine too."
+      : "tonight you tucked in " + n + (n === 1 ? " letter" : " letters") +
+        " and lit " + s + (s === 1 ? " star" : " stars") + ".";
+    if (lifetimeStars > s) {
+      line += "<br>across all your nights: " + lifetimeStars + " stars.";
+    }
+    gnStats.innerHTML = line;
+
+    goodnight.classList.add("show");
+    requestAnimationFrame(function () {
+      requestAnimationFrame(function () { goodnight.classList.add("visible"); });
+    });
+
+    pluck(261.63, 0.045, 4.0);
+    setTimeout(function () { pluck(196.0, 0.04, 5.0); }, 900);
+
+    function loop() { runBreathCycle(gnBreathText, 1, loop); }
+    if (!gnBreathTimer) { gnBreathTimer = true; loop(); }
+  }
+
+  function hideGoodnight() {
+    goodnight.classList.remove("visible");
+    setTimeout(function () { goodnight.classList.remove("show"); }, 3000);
+  }
+
+  /* ================= begin ================= */
+
+  renderSoundToggle();
+  setTimeout(dealRound, 900);
+})();
+</script>
 </body>
 </html>
