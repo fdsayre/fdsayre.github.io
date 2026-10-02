@@ -9,8 +9,6 @@ main:
     url: /categories/weekNotes/
   - title: "Tags"
     url: /tags/
-  - title: "Portfolio"
-    url: /portfolio/
   - title: "Projects"
     url: /projects/
   - title: "Sabbatical"
