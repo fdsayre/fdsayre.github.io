@@ -11,8 +11,6 @@ main:
     url: /tags/
   - title: "Projects"
     url: /projects/
-  - title: "Sabbatical"
-    url: /sabbatical/
   
   # - title: "APAR 2024"
   #   url: /apar2024/
