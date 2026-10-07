@@ -23,7 +23,7 @@ minimal_mistakes_skin: dark
 search: true
 repository: "fdsayre/fdsayre.github.io"
 locale: "en-US"
-url: https://fdsayre.github.io/
+url: https://franklinsayre.com
 excerpt_separator: "<!--more-->"
 
 analytics:
@@ -77,13 +77,14 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jekyll-redirect-from
   - jemoji
   - jekyll-include-cache
 
 author:
   name   : "Franklin Sayre"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "I’m the Makerspace Librarian at Thompson Rivers University and also Co-Chair the Librarians’ Department. These days I am particularly interested in creating active learning spaces that foster belonging and encouraging sustainability and critical thinking about technology and information."
+  bio    : "I’m an academic librarian who builds learning spaces, programs and teams that help people learn with technology. At Thompson Rivers University, I run the Library Makerspace and co-chair the Librarians’ Department. Here I share projects, writing and ideas I’m still working through."
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
