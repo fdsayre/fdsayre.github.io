@@ -4,8 +4,6 @@ permalink: /cv/
 layout: single
 classes: wide
 author_profile: false
-toc: true
-toc_sticky: true
 ---
 
 **Franklin Sayre, MLIS**
@@ -15,6 +13,8 @@ Makerspace Librarian and Department Co-Chair<br>
 Librarians' Department, Thompson Rivers University<br>
 Kamloops, British Columbia<br>
 [TRU staff profile](https://www.tru.ca/library/about-us/contacts/franklin-sayre.html)
+
+**Jump to:** [Education](#education) · [Appointments](#academic-and-professional-appointments) · [Research](#research-and-scholarship) · [Publications](#publications) · [Presentations](#presentations) · [Grants and awards](#grants-awards-and-funded-initiatives) · [Teaching](#teaching-curriculum-and-program-development) · [Service](#university-and-departmental-service) · [Community](#community-engagement) · [Professional development](#select-professional-development)
 
 ## Professional profile
 

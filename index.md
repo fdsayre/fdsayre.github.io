@@ -1,10 +1,9 @@
 ---
 layout: home
+title: "hi there,"
 author_profile: true
 redirect_from: /about/
 ---
-
-hi there,
 
 I’m an academic librarian who builds learning spaces, programs and teams that help people learn with technology.
 
