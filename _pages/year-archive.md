@@ -7,6 +7,14 @@ author_profile: true
 
 Browse everything I've written here, or narrow the list by year, tag or type.
 
+<style>
+.post-filters__field select {
+  color: #f2f3f5;
+  background-color: #333741;
+  border-color: #727784;
+}
+</style>
+
 {% assign archive_posts = site.posts | where_exp: "item", "item.hidden != true" %}
 
 <div class="post-filters" data-post-filters hidden>
