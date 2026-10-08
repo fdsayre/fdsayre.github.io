@@ -14,3 +14,50 @@ search: false
     margin-right: 1em;
     width: 150px;
   }
+.post-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 0.75rem;
+  margin: 1.25rem 0 0.75rem;
+}
+
+.post-filters__field {
+  flex: 1 1 10rem;
+}
+
+.post-filters__field label {
+  display: block;
+  font-size: 0.8em;
+  font-weight: 700;
+}
+
+.post-filters__field select {
+  width: 100%;
+  min-height: 2.5rem;
+  margin-top: 0.25rem;
+}
+
+.post-filters__reset {
+  min-height: 2.5rem;
+}
+
+.post-filters__count {
+  margin: 0 0 1rem;
+  font-size: 0.9em;
+}
+
+.post-filters__clear-link {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.post-filters[hidden],
+.post-filters__item[hidden],
+#posts-empty[hidden] {
+  display: none !important;
+}
