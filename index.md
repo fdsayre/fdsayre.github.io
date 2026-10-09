@@ -5,13 +5,13 @@ author_profile: true
 redirect_from: /about/
 ---
 
-I’m an academic librarian who builds learning spaces, programs and teams that help people learn with technology.
+I’m an academic librarian interested in how we build programs and spaces that help students learn and have agency over technology and infromation. At Thompson Rivers University, I run the Library Makerspace and co-chair the Librarians’ Department. 
 
-At Thompson Rivers University, I run the Library Makerspace and co-chair the Librarians’ Department. This is where I share projects, writing and ideas I’m still working through.
+This is where I occationally share ideas I’m working through.
 
-## Makerspace
+## TRU Library Makerspace
 
-At the TRU Library Makerspace, people learn by making, experimenting and following their interests. What began as a pilot in one room in 2020 has grown into a seven-room space with workshops, equipment lending, and support from library technicians and student ambassadors. [Explore the Makerspace](https://makerspace.trubox.ca/).
+[TRU Library Makerspace](https://makerspace.trubox.ca/).
 
 ## Current research
 
